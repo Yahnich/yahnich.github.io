@@ -74,7 +74,7 @@ body{
 .UpdatesList{
     width: 100%;
     border-left: 2px solid #ffffff10;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.38) 3.07%, rgba(6, 37, 65, 0.3) 88.06%);
     box-shadow: 0px 0px 50px #000;
     min-height: 0;
@@ -118,6 +118,7 @@ body{
     flex-direction: row;
     align-items: center;
     padding: 0px 40px;
+	margin-top: 15px;
 }
 
 .UpdateEntityImage {
