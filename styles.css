@@ -324,29 +324,48 @@ a:hover{
 .ComplainContainer video{
     width:100%
 }
-.ComplainContainer li{
-    box-sizing:border-box;
-    margin-bottom:3rem;
-    background-color:rgba(0,0,0,.35);
-    border:1px solid rgba(0,0,0,.77);
-    border-top:none;
-    color:#939393;
-    padding:10px 15px;
-    width:100%;
-    font-size:20px;
-    line-height:30px
+
+.EntityContainer {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
-.ComplainContainer p{
+
+.EntityImage {
+	width: 72px;
+    height: 52px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 20px #000;
+    margin-right: 16px;
+    margin-bottom: 10px;
+}
+
+.EntityImageRight {
+	flex-grow: 1;
+	min-height: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.EntityImageName {
+	font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Radiance-Bold";
+}
+
+.FormattedText{
     box-sizing:border-box;
-    margin-bottom:3rem;
-    background-color:rgba(0,0,0,.35);
-    border:1px solid rgba(0,0,0,.77);
-    border-top:none;
     color:#939393;
-    padding:10px 15px;
+    padding:0px 9px;
     width:100%;
     font-size:20px;
-    line-height:30px
+    line-height:30px;
+    font-family: 'Radiance';
 }
  .ContactsContainer{
     background:linear-gradient(180deg,transparent 70%,#000 96%),#141517 50% no-repeat url(/images/background_contacts.jpg);
