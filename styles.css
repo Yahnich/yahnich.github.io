@@ -80,7 +80,7 @@ body{
     box-shadow: 0px 0px 50px #000;
     min-height: 0;
     display: flex;
-    padding: 20px 0px;
+    padding: 5px 0px 40px;
     flex-direction: column;
 }
 .UpdatesList ul{
@@ -90,6 +90,7 @@ body{
 	flex-direction: column;
 	padding: 0px 18px;
 	margin-bottom: 0px;
+	margin-left: 2rem;
 }
 
 .UpdatesList li{
