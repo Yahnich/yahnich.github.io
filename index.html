@@ -27,7 +27,7 @@
 							<li>Changed how Agility increases armor. The first 100 agility gives 16.7 armor (vanilla scaling), but every point afterwards has diminishing returns. Armor doubles every time your agility is increased ten fold. (100 Agility = 16.7 armor and 1000 Agility = 33.4 Armor )</li>
 							<li>MMR loss and gain is no longer based on personal MMR, instead it's based on group MMR. When a player abandons, this adjusts the MMR gain/loss for everyone as well.</li>
 							<li>Abandons are now a fixed -120 MMR (maximum penalty).</li>
-							<li>When bosses are ignored, they get pretty upset. 1 minute after spawning, boss damage scales up every 30 seconds, if they have not taken at least 2.4% of their maximum health in damage over that period. Every 30 seconds where this is true, their movement speed, attack speed and all damage they deal increases by 30%.</li>
+							<li>When bosses are ignored, they get pretty upset. 1.5 minutes after spawning, boss damage scales up every 30 seconds, if they have not taken at least 2.4% of their maximum health in damage over that period. Every 30 seconds where this is true, their movement speed, attack speed and all damage they deal increases by 30%. You can remove stacks by dealing 4.8% of their maximum health over the 30 second period, removing 1 stack for every 4.8% maximum health they lost.</li>
 							<li>Neutrals spawn when a round starts.</li>
 							<li>Neutral gold no longer scales with time, instead scales with round.</li>
 							<li>After clearing a neutral camp, the next neutral camp will spawn with Ancestor's Vengeance. Ancestor's Vengeance reduces the damage taken by the creeps and increases all damage they deal. Upon entering a new round, Ancestor's Vengeance is cleared from existing creeps and the strength is reset to 0. Only works for the neutral team, upon taking over a creep buffed with Ancestor's Vengeance, the buff is lost.</li>
@@ -206,10 +206,10 @@
 				</div>
 				<div class="UpdatesSection">
 					<div class="UpdatesHeader">Round Updates</div>
-					<ul>
-						<li>Reduced health on bosses across the line.</li>
-					</ul>
 					<div class="UpdatesList">
+						<ul>
+							<li>Reduced health on bosses across the line.</li>
+						</ul>
 						<a class="UpdateEntityHeader">
 							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slardar.png);"></div>
 							<div class="UpdateEntityRightSection">
@@ -217,10 +217,53 @@
 							</div>
 						</a>
 						<ul>
+							<li>Increased Slardar Queen's Sprint Water HP Regeneration from 1000 to 400</li>
 							<li>Increased Slardar Queen's Slithereen Crush cooldown from 8 to 16</li>
-							<li>Increased Slardar Queen's Slithereen Crush base damage on Normal from 2000 to 4000</li>
-							<li>Increased Slardar Queen's Slithereen Crush base damage on Hard from 2500 to 5000</li>
-							<li>Increased Slardar Queen's Slithereen Crush base damage on Challenger and Nightmare from 3000 to 6000</li>
+							<li>Increased Slardar Queen's Slithereen Crush base damage on Normal from 2000/2500/3000 to 4000/5000/6000 (Normal/Hard/Challenger+Nightmare)</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/leshrac.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Round 10</div>
+							</div>
+						</a>
+						<ul>
+							<li>Increased Split Earth cooldown from 12 to 16.</li>
+							<li>Increased Split Earth damage from 8000/9500/11000 to 11000/13000/15000 (Normal/Hard/Challenger+Nightmare)</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/troll_warlord.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Round 12</div>
+							</div>
+						</a>
+						<ul>
+							<li>Reduced Ogre Smash radius from 600 to 450</li>
+							<li>Reduced Ogre Smash stun duration from 3.0 to 1.0</li>
+							<li>Troll Champion Fervor attack speed per stack from 10/15/20 to 5/7/9 (Normal/Hard/Challenger+Nightmare)</li>
+							<li>Troll Champion Fervor max stacks from 12 to 25</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/troll_warlord.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Round 12</div>
+							</div>
+						</a>
+						<ul>
+							<li>Treant Overgrowth cooldown from 60/50/40 to 60</li>
+							<li>Treant Overgrowth duration from 3/4/5 to 2/2.5/3</li>
+							<li>Troll Champion Fervor attack speed per stack from 10/15/20 to 5/7/9 (Normal/Hard/Challenger+Nightmare)</li>
+							<li>Troll Champion Fervor max stacks from 12 to 25</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/skeleton_king.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Round 12</div>
+							</div>
+						</a>
+						<ul>
+							<li>Skeleton Archer mana burn per hit from 250 to 50</li>
+							<li>Skeleton Archer damage per maan burned from 200% to 1000%</li>
 						</ul>
 					</div>	
 				</div>
