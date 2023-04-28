@@ -28,7 +28,7 @@
 							<li>Changed how Intelligence increases magic resistance. The first 100 intelligence gives 10% (vanilla scaling), but every point afterwards has diminishing returns. Magic resistance doubles every time your intelligence is increased ten fold. (100 Intelligence = 10% Magic Resistance and 1000 Intelligence = 20% Magic Resistance )</li>
 							<li>MMR loss and gain is no longer based on personal MMR, instead it's based on group MMR. When a player abandons, this adjusts the MMR gain/loss for everyone as well.</li>
 							<li>Abandons are now a fixed -120 MMR (maximum penalty).</li>
-							<li>When bosses are ignored, they get pretty upset. 1.5 minutes after spawning, boss damage scales up every 30 seconds, if they have not taken at least 2.4% of their maximum health in damage over that period. Every 30 seconds where this is true, their movement speed, attack speed and all damage they deal increases by 30%. You can remove stacks by dealing 4.8% of their maximum health over the 30 second period, removing 1 stack for every 4.8% maximum health they lost.</li>
+							<li>When bosses are ignored, they get pretty upset. 90 seconds after spawning, boss damage scales up every 30 seconds, if they have not taken at least 2.4% of their maximum health in damage over that period. Every 30 seconds where this is true, their movement speed, attack speed and all damage they deal increases by 30%. You can remove stacks by either dealing 4.8% of their maximum health, removing 1 stack for every 4.8% maximum health they lost, or when a hero dies. A hero dying resets the Enrage timer to 90 seconds.</li>
 							<li>Neutrals spawn when a round starts.</li>
 							<li>Neutral gold no longer scales with time, instead scales with round.</li>
 							<li>After clearing a neutral camp, the next neutral camp will spawn with Ancestor's Vengeance. Ancestor's Vengeance reduces the damage taken by the creeps and increases all damage they deal. Upon entering a new round, Ancestor's Vengeance is cleared from existing creeps and the strength is reset to 0. Only works for the neutral team, upon taking over a creep buffed with Ancestor's Vengeance, the buff is lost.</li>
@@ -51,6 +51,7 @@
 							<li>Cloak of the Protector now uses Pavise instead of Crimson Guard in its recipe. Stats adjusted accordingly.</li>
 							<li>Added Voodoo Mask as a purchasable item, builds into Bloodstone and Eternal Shroud.</li>
 							<li>Reduced armor on various items.</li>
+							<li>Reduced mana on various neutral items.</li>
 						</ul>
 						<a class="UpdateEntityHeader">
 							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/items/aether_lens.png);"></div>
@@ -161,23 +162,27 @@
 					<div class="UpdatesHeader">Hero Updates</div>	
 					<div class="UpdatesList">
 						<a class="UpdateEntityHeader">
-							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/kunkka.png);"></div>
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/dazzle.png);"></div>
 							<div class="UpdateEntityRightSection">
 								<div class="UpdateEntityName">Kunkka</div>
 							</div>
 						</a>
 						<ul>
-							<li>Normalized Tidal Wave damage.</li>
+							<li>Shallow Grave cooldown from 36/30/24/18/18/18/18 to 50/42/38/30/26/22/18</li>
+							<li>Bad Juju cooldown from 3 to 4.5.</li>
+							<li>Bad Juju cooldown reduction values halved.</li>
 						</ul>
 						<a class="UpdateEntityHeader">
-							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/morphling.png);"></div>
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/life_stealer.png);"></div>
 							<div class="UpdateEntityRightSection">
-								<div class="UpdateEntityName">Morphling</div>
+								<div class="UpdateEntityName">Lifestealer</div>
 							</div>
 						</a>
 						<ul>
-							<li>Attribute Shift bonus stats reduced from 25/50/100/200/400/800/1200 to 25/50/100/200/400/600/800</li>
-							<li>Added +1000 All Stats talent at level 25.</li>
+							<li>Feast reworked, no longer is based on the enemy's maximum health. Now gives Lifestealer bonus damage and heals him for every hit. This healing is considered lifesteal for amplification purposes.</li>
+							<li>Feast heal per hit is 180/310/670/1380/2400/3800/6400</li>
+							<li>Feast bonus damage is 90/240/630/1400/3000/5000/7500</li>
+							<li>+0.1% Feast Heal talent to +1100 Feast Heal</li>
 						</ul>
 						<a class="UpdateEntityHeader">
 							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/necrolyte.png);"></div>
@@ -200,8 +205,12 @@
 							</div>
 						</a>
 						<ul>
-							<li>Arcane Orb damage from 20%/30%/45%/75%/125%/180% to 100%</li>
+							<li>Arcane Orb damage from 20%/30%/45%/75%/125%/180% to 125%/125%/125%/125%/130%/135%/140%</li>
 							<li>Arcane Orb current mana cost from 15% to 15%/15%/15%/15%/13%/11%/9%</li>
+							<li>+25% Arcane Orb Damage talent to +35% Arcane Orb Damage</li>
+							<li>Astral Imprisonment now properly gives mana, not only max mana.</li>
+							<li>Sanity Eclipse mana cost from 200/450/700/950/1200/1450 to 200/325/450/575/700/825</li>
+							<li>Sanity Eclipse base damage from 1000/2200/4850/11000/23500/52000 to 2000/6500/20000/55000/65000/75000</li>
 						</ul>
 					</div>	
 				</div>
@@ -209,7 +218,7 @@
 					<div class="UpdatesHeader">Round Updates</div>
 					<div class="UpdatesList">
 						<ul>
-							<li>Reduced health on bosses across the line.</li>
+							<li>Reduced health and damage on bosses across the line. Reduced more lategame than earlygame.</li>
 						</ul>
 						<a class="UpdateEntityHeader">
 							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slardar.png);"></div>
