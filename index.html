@@ -6,27 +6,20 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=9">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link href="/styles.css" rel="stylesheet" type="text/css">
-		<title>EBF 1.00 - 12/06/2023</title>
+		<title>EBF 1.00a - 26/06/2023</title>
 	</head>
 	<body>
 		<div class="MainBody" id="PatchNotesRoot" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/backgrounds/featured.jpg);">
 			<div class="PatchNotesHeader">
 				<div class="PatchNotesLabel">Gameplay Update</div>
-				<div class="PatchNotesNotes">1.00</div>
+				<div class="PatchNotesNotes">1.00a</div>
 			</div>
 			<div class="PatchNotesBody">
 				<div class="UpdatesSection">
 					<div class="UpdatesHeader">General Updates</div>	
 					<div class="UpdatesList">
 						<ul>
-							<li>In Nightmare Difficulty, you no longer get to pick from all heroes. Instead, 20 heroes are randomly made available. This change allows you to pick duplicate heroes.</li>
-							<li>Rescaled level gain from rounds. Overall level gain is less spikey (ex. Round 12). More levels earlygame.</li>
-							<li>Rescaled attack speed from Agility: Rescaled vanilla scaling from 1 attack speed per Agility to 0.75 attack speed per agility. After 100 Agility you need 5x (down from 10x) Agility to double attack speed. Previous values were 100/200/400 attack speed for 100/1000/10000 total Agility, new values are 75/150/300 attack speed for 100/500/2500 Agility OR alternatively 75/200/545 attack speed for 100/1000/10000 total Agility</li>
-							<li>Rescaled armor from Agility: Reduced vanilla scaling from 1.66 armor per 10 Agility to 0.65 armor per 10 Agility (6.5 at 100 Agility), after 100 Agility you need 5x (down from 10x) Agility to double armor. Previous values were 16.6/33.3/66.6 armor for 100/1000/10000 total Agility, new values are 6.5/13/26 armor for 100/500/2500 Agility OR alternatively 6.5/17.6/47.5 armor for 100/1000/10000 total Agility</li>
-							<li>Rescaled magic resistance from intelligence: Reduced vanilla scaling from 1% per 10 Intelligence to 0.4% per 10 Intelligence (4% at 100 Intelligence), after 100 Intelligence you need 5x (down from 10x) Intelligence to double the magic resistance. Previous values were 10%/20%/40% magic resistance for 100/1000/10000 total Intelligence, new values are 4%/8%/16% magic resistance for 100/500/2500 Intelligence OR alternatively 6%/10.8%/29% for 100/1000/10000 total Intelligence.</li>
-							<li>Intelligence no longer provides Spell Amplification. Instead, the hero's Primary Attribute gives 1.5% spell amplification per 100 Primary Attributes. Universal heroes recieve 0.7% Spell Amp per 100 of Any Attribute (2.1% from +100 all stats).</li>
-							<li>Reduced bonus base damage per level from 2 x HeroLevel^2 to 1.5 x HeroLevel^2 (25% reduction at all levels)</li>
-							<li>Neutral creeps now have 7 levels for their skills and their skills are leveled every 3 rounds (lv2 at round 4, lv3 at round 7 and so on until lv7 is reached at round 19)</li>
+
 						</ul>
 					</div>	
 				</div>
@@ -34,39 +27,198 @@
 					<div class="UpdatesHeader">Item Updates</div>	
 					<div class="UpdatesList">
 						<ul>
-							<li>All changes applied to hero abilities have also been applied to items.</li>
-							<li>Nerfed some T1 Neutrals strength to be more in line with T1 Shop Items, buffed others.</li>
-							<li>Nerfed all T2 Neutrals strength to be more in line with T2 Shop Items, mostly to their stats, some passive effects were buffed.</li>
-							<li>Nerfed some T3 Neutrals strength to be more in line with T3 Shop Items, buffed others.</li>
-							<li>Gungnir items no longer are amped by spell amp in line with Monkey King Bar.</li>
-							<li>Removed attack speed upgraders, items built out of attack speed upgraders reduced in price slightly.</li>
-							<li>Removed crit upgraders and their recipes. Total price of Desolator and Silver Edge unchanged.</li>
-							<li>Rescaled Desolator critical damage scaling to be more linear (prior to patch, certain tier ups had a disproportionate damage jump). Desolator receives Critical Damage scaling starting from Desolator 2, instead of 3</li>
-							<li>Desolator debuff doesn't stack with different tiers, highest armor reduction takes priority.</li>
-							<li>Rescaled Silver Edge critical damage scaling to be more linear (prior to patch, certain tier ups had a disproportionate damage jump).</li>
-							<li>Battle Fury Cleave standardized to function like DOTA's Cleave (Cone instead of circle).</li>
-							<li>Fused Spear of Justice and Battle Fury lines into one.</li>
-							<li>Added following active to Butterfly: Untouchable. While active, Butterfly's evasion is doubled.</li>
-							<li>Windhose (Butterfly 2) now includes Yasha in the recipe. Windhose passively provides movement speed and when attacking the same target, you gain stacks of Zephyr, which increase your movement and attack speed.</li>
-							<li>Blooddrinker (Butterfly 3) adds Morbid Mask to the recipe and gives its owner Lifesteal. Zephyr's passive improved the Crimson Zephyr, which increases Blooddrinker's lifesteal for each stack.</li>
-							<li>Divine Butterfly Untouchable now includes the bonuses from prior upgrades, magic resistance gain is now based on the evasion after multiplier.</li>
-							<li>Bahamut's Fang now does the following: Upon reaching maximum stacks of Zephyr, you gain +50% Agility.</li>
-							<li>Asura Rapier has all of the effects, just more stats.</li>
+
 						</ul>
 					</div>	
 				</div>
 				<div class="UpdatesSection">
 					<div class="UpdatesHeader">Hero Updates</div>	
 					<div class="UpdatesList">
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/arc_warden.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Arc Warden</div>
+							</div>
+						</a>
 						<ul>
-							<li>Increased base damage for all heroes by another 30 (from +30 to +60) and base health by another 500 (from 1500 to 2000).</li>
-							<li>Reduced attribute growth from 50% to 25% to account for all the bonuses heroes get as a baseline now.</li>
-							<li>Drastically adjusted spell damage numbers on all abilities for all heroes to align them with the new increased spell amplification numbers. Damage floors of abilities has been increased, damage ceiling reduced.</li>
-							<li>Damage of area of effect spells has been scaled down to 75%/60% damage for spells that are likely to hit 2/3 hero units.</li>
-							<li>Cooldowns of damage abilities have all been normalized to their 4th level for basic abilities and 3rd level for ultimate abilities. This significantly lowers cooldowns for all damaging abilities on early levels (no more abilities with 42s cooldown at lv1 which scale up to normal cooldowns).</li>
-							<li>All abilities now only benefit from one source of scaling. Abilities that scale off of maximum health (Ex. Fire Storm), attack damage (Ex. Multishot), damage dealt (Ex. Disseminate) and so on do not benefit from spell amplification. If an ability has a base damage component and a scaling damage componenent, the base damage still benefits from spell amplification (Ex. Doom's Infernal Blade).</li>
-							<li>All abilities that scaled off of primary attribute (like Centaur's Double Edge) no longer have bonus damage based off of that attribute. Abilities that scaled off of primary attribute had their base damage adjusted so the damage output is similar before and after the patch.</li>
-							<li>Doom: Devour no longer applies a damage multiplier to creep skills, instead creep skills are set to the level of Devour.</li>
+							<li>Added</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/chen.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Chen</div>
+							</div>
+						</a>
+						<ul>
+							<li>Penitence cooldown from 14.0/13.0/12.0/11.0/10.2/9.4/8.6 to 11</li>
+							<li>Penitence duration from 5/6/7/8/9/10/11 to 8</li>
+							<li>Divine Favor armor bonus from 3/6/9/12/15/18/21 to 1/2/3/4/5/6/7</li>
+							<li>Divine Favor health regeneration bonus from 15/45/100/250/750/1500/4500 to 15/35/75/200/600/1000/1500</li>
+						</ul>
+						
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/rattletrap.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Clockwerk</div>
+							</div>
+						</a>
+						<ul>
+							<li>Battery Assault bonus damage talent from +30% to +100%</li>
+							<li>Power Cogs duration from 5/6/7/8/8/8/8 to 8</li>
+							<li>Power Cogs barrier from 556/1111/2500/5278/11111/25000/55556 to 2500/5000/10000/25000/60000/125000/250000</li>
+							<li>Rocket Flare damage from 895/1220/1615/2690/4915/7800/12050 to 900/1250/1800/3000/6000/11000/21000</li>
+							<li>Rocket Flare bonus damage talent from +100% to +50%</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/disruptor.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Disruptor</div>
+							</div>
+						</a>
+						<ul>
+							<li>Glimpse cooldown from 18 to 10</li>
+							<li>Glimpse backtrack time from 4 to 2</li>
+							<li>Static Storm cooldown from 70 to 60</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earth_spirit.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Earth Spirit</div>
+							</div>
+						</a>
+						<ul>
+							<li>Rolling Boulder cooldown from 16/12/8/4/3/2/1 to 6</li>
+							<li>Rolling Boulder damage from 425/570/690/880/1250/1865/2400 to 750/1400/2550/3950/6575/12075/21750</li>
+							<li>Rolling Boulder can now be cancelled with a Stop order.</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/earthshaker.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Earthshaker</div>
+							</div>
+						</a>
+						<ul>
+							<li>Fissure damage from 1230/1665/2180/3580/6450/10165/15610 to 1165/2300/4375/6800/11175/20250/36000</li>
+							<li>Fissure bonus damage talent from +100% to +50%</li>
+							<li>Enchant Totem rescaled from 125/250/375/500/625/750/875 to 200/300/400/500/600/700/800</li>
+							<li>Aftershock damage from 780/1055/1375/2235/4000/6275/9600 to 800 1250/1750/2800/5500/11000/22000</li>
+							<li>Aftershock bonus damage talent from +100% to +50%</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/grimstroke.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Grimstroke</div>
+							</div>
+						</a>
+						<ul>
+							<li>Ink Swell maximum damage from 1000/1500/2200/4100/8275/13850/22200 to 1000/1750/2500/4800/9000/16000/30000</li>
+							<li>Ink Swell damage per second from 280/390/525/900/1690/2725/4245 to 400/600/800/1400/2100/3250/5000</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/grimstroke.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Hoodwink</div>
+							</div>
+						</a>
+						<ul>
+							<li>Acorn Shot attack damage bonus from 560/780/1050/1800/3375/5440/8500 to 425/805/1475/2255/3650/6500/11500</li>
+							<li>Bushwack damage from 1270/2050/2985/4830/9400/18500/27500 to 955/1900/3700/5750/9600/17500/31000</li>
+							<li>Scurry tree search radius from 275 to 875</li>
+							<li>Scurry charge restore time from 30/24/18/12/9.3/6.5/3.8 to 18/16/14/12/12/12/12</li>
+							<li>Scurry charges 2 to 2/2/2/2/3/4/5</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/naga_siren.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Naga Siren</div>
+							</div>
+						</a>
+						<ul>
+							<li>Riptide armor reduction from 2/4/6/8/10/12/14 to 2/4/6/8/8/8/8</li>
+							<li>Riptide hits to activate from 6 to 8/8/8/8/7/6/5</li>
+							<li>Riptide damage from 6 to 380/495/610/1480/1550/4575 to 290/485/780/1280/1800/2600/3600</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/mirana.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Mirana</div>
+							</div>
+						</a>
+						<ul>
+							<li>Leap charge restore time from 45/42.5/40/37.5/35/32.5/30 to 30/25/20/15/15/15/15</li>
+							<li>Leap charges from 3 to 3/3/3/3/4/5/6</li>
+							<li>Moonlight Shadow now provides 15%/20%/25%/30%/35%/40% evasion</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/pudge.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Pudge</div>
+							</div>
+						</a>
+						<ul>
+							<li>Dismember damage no longer scales directly with Strength, normalized to other abilities</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/shadow_demon.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Shadow Demon</div>
+							</div>
+						</a>
+						<ul>
+							<li>Shadow Poison cooldown from 2.5 to 1.5</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/slardar.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Slardar</div>
+							</div>
+						</a>
+						<ul>
+							<li>Bash of the Deep no longer pierces Debuff Immunity</li>
+							<li>Corrosive Haze armor reduction from 10/15/20/25/30/35 to 8/10/12/14/16/18</li>
+							<li>Corrosive Haze bonus armor reduction talent from +8 to +4</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/spectre.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Spectre</div>
+							</div>
+						</a>
+						<ul>
+							<li>Dispersion damage reflection from 8%/12%/16%/20%/22%/24%/26% to 11%/12.5%/14%/15.5%/17%/18.5%/20%</li>
+							<li>Trauma armor reduction from 0.3/0.4/0.5/0.6/0.7/0.8 to 0.25/0.3/0.35/0.4/0.45/0.5</li>
+							<li>Trauma debuff duration from 8 to 5/6/7/8/9/10</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/spirit_breaker.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Spirit Breaker</div>
+							</div>
+						</a>
+						<ul>
+							<li>Bulldoze movement speed to armor from 2%/3%/4%/5%/6%/7%/8% to 2%/2.5%/3%/3.5%/4%/4.5%/5%</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/storm_spirit.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Storm Spirit</div>
+							</div>
+						</a>
+						<ul>
+							<li>Electric Vortex now affects all units in radius by default</li>
+							<li>Aghanim's Scepter now increases Electric Vortex's radius and causes all attacks against units affected to trigger Overload.</li>
+							<li>Ball Lightning initial mana cost from 7.5% to 5%.</li>
+							<li>Ball Lightning percent mana cost per second from 0.65% to 0.55%.</li>
+							<li>Ball Lightning base mana cost per second from 10 to 5.</li>
+						</ul>
+						<a class="UpdateEntityHeader">
+							<div class="UpdateEntityImage" style="background-image: url(https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/tinker.png);"></div>
+							<div class="UpdateEntityRightSection">
+								<div class="UpdateEntityName">Tinker</div>
+							</div>
+						</a>
+						<ul>
+							<li>Added</li>
 						</ul>
 					</div>
 				</div>
@@ -74,18 +226,7 @@
 					<div class="UpdatesHeader">Round Updates</div>
 					<div class="UpdatesList">
 						<ul>
-							<li>Rescaled almost all boss' health, armor, magic resistance and damage.</li>
-							<li>Changed spawn logic of some rounds that had multiple 'waves' of enemies in Nightmare.</li>
-							<li>Round 7: Clockwerk Mecha no longer has flying movement.</li>
-							<li>Round 7: Clockwerk Droid can no longer auto-attack. Will now wander randomly while shooting flares at the highest number of targets it can hit.</li>
-							<li>Round 15: Death Prophet now has Crypt Swarm, Spirit Siphon and Exorcism, only has one of the 3 stun abilities left, which takes Silence's slot.</li>
-							<li>Round 16: Ancient Dragon now has Fireball.</li>
-							<li>Round 16: Ancient Drake now has Magic Amplification Aura.</li>
-							<li>Round 17: All units have Mortal Strike.</li>
-							<li>Round 17: Skeleton Archers now have Tar Bomb instead of Mana Break.</li>
-							<li>Round 17: Wraith King boss only summons Tiny Skeletons.</li>
-							<li>Round 17: Wraith King boss only summons Tiny Skeletons.</li>
-							<li>Round 17: Wraith King now has Wraithfire Blast and a Brilliant Radiance. Wraithfire Blast causes all Tiny Skeletons to focus that target.</li>
+							
 						</ul>
 					</div>	
 				</div>
