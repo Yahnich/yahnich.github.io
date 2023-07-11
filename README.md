@@ -17,6 +17,7 @@
 *   Aphotic Shield's barrier is now amplified by spell amplification. The burst damage is equal to the barrier and this is not multiplied by spell amplification.
 *   Aphotic Shield no longer deals damage based on the total amount of barrier, instead it is based on how much barrier was missing when it is refreshed or destroyed.
 *   Curse of Avernus no longer Silences enemies while Cursed. Instead it disables all forms of healing and increases ability cooldowns by the movement speed slow.
+*   Curse of Avernus curse movement slow from 30%/40%/50%/60%/65%/70%/75% to 60%
 *   Borrowed Time now always deals damage to Abaddon and all enemies within the radius without requiring a talent. Damage dealt to Abaddon is not amplified by spell amplification.
 *   Borrowed Time Immolation DPS is 1000/2250/5050/6250/6750/7250
 *   Borrowed Time's cooldown now starts after the buff ends.
