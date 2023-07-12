@@ -167,14 +167,22 @@
 * Soul Bind cooldown from 70/60/50/45.2/40.5/35.7 to 50/45/40/35/30/25
 
 ## Hoodwink
-* Acorn Shot cooldown from 10 to 12
+* Acorn Shot bonus damage from 425/805/1475/2255/3650/6500/11500 to 600/1100/2100/4000/7500/14000/25000
 * Acorn Shot bonus bounces talent from +2 to +12
+* Bushwack damage from 955/1900/3700/5750/9600/17500/31000 to 1450/2850/5550/8625/14400/26250/46500
+* Hunter's Boomerang damage from 6675/13350/25000/39000/41780/44160 to 7500/21000/55000/90000/100000/110000
+* Scurry ability charge restore time from 18/16/14/12/12/12/12 to 18/16/14/12/11/10/9
+* Scurry now always has an active evasion componenent. Active evasion is 10/15/20/25/30/35/40
+* Sharpshooter maximum damage from 18350/58350/162500/280000/312500/345000 to 21350/7350/192500/340000/402500/465000
 
 ## Invoker
 * Chaos Meteor area of effect from 275 to 475
 * Chaos Meteor meteor damage from 750/1200/2400/4500/8000/12000/20000/30000/45000/60000 to 850/1615/2995/4520/7165/12500/18000/22000/28000/34000
 * Chaos Meteor burn damage from 150/250/500/1000/1750/3250/5000/7500/10000/15000 to 160/310/575/885/1445/2605/3200/4600/6400/7200
 * Alacrity bonus damage from 250/500/1100/2450/4000/6000/9000/11500/16000/26000 to 265/540/915/1390/2330/4250/6500/8750/11000/13250
+
+## Jakiro
+* 
 
 ## Kunkka
 * Tidebringer damage bonus from 335/500/720/1365/2755/5540/11115 to 750/1500/2750/4500/8500/13500/20000
