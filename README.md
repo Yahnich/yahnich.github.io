@@ -1,4 +1,4 @@
-> EBF 1.32 - 11/07/2023
+> EBF 1.32.4 - 11/07/2023
 <style>
   body {
   background-color: #151618;
