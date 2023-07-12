@@ -1,10 +1,20 @@
-> EBF 1.31 - 11/07/2023
+> EBF 1.32 - 11/07/2023
 <style>
   body {
   background-color: #151618;
   color: rgba(187,187,187,.9333333333);
   }
 </style>
+
+
+<div align="center">
+  <h1>General</h1>
+</div>
+
+## UI
+* In-game patchnotes system added
+* In-game menu behaviour changed 
+
 
 <div align="center">
   <h1>Heroes</h1>
