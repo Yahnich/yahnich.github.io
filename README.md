@@ -16,8 +16,6 @@
 * In-game menu behaviour changed 
 
 
-
-
 <div align="center">
   <h1>Heroes</h1>
 </div>
