@@ -6,6 +6,15 @@
   }
 </style>
 
+
+<div align="center">
+  <h1>General</h1>
+</div>
+
+## UI
+* In-game patchnotes system added
++ In-game menu behaviour changed 
+
 <div align="center">
   <h1>Heroes</h1>
 </div>
