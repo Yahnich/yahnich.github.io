@@ -13,7 +13,10 @@
 
 ## UI
 * In-game patchnotes system added
-+ In-game menu behaviour changed 
+* In-game menu behaviour changed 
+
+
+
 
 <div align="center">
   <h1>Heroes</h1>
