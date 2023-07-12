@@ -190,6 +190,10 @@
 
 ## Kunkka
 * Tidebringer damage bonus from 335/500/720/1365/2755/5540/11115 to 750/1500/2750/4500/8500/13500/20000
+* Tidal Wave is now Kunkka's third ability. X Marks The Spot is now an innate ability with 1 Level.
+* Aghanim's Shard upgrade from 'Grants Tidal Wave' to '-2 Tidebringer damage and cleave distance, start width and end width doubled.'
+* Ghost Ship damage from 8670/18125/38125/70800/84200/98400 to/16500/38000/70000/120000/140000/160000
+* Replaced Lvl 10 X Marks The Spot Move Speed talent with +60% Tidal Wave Damage.
 
 ## Legion Commander
 * Duel damage rescaled from 100/175/250/325/400/475 to 200/350/500/650/800/1000
