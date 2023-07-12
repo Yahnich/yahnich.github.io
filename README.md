@@ -263,6 +263,10 @@
 * Leap bonus distance talent from +125 to +250
 * Leap charge restore time reduced from 30/25/20/15/15/15 to 30/25/20/15/13/11/8
 
+## Necrophos
+* Reaper's Scythe bonus Death Pulse damage from 250/400/600/850/1250/2000 to 220/350/500/750/1000/1250
+* Reaper's Scythe bonus Death Pulse healing from 125/200/300/425/625/1000 to 110/175/250/375/500/625
+
 ## Night Stalker
 * Void move slow from -50% to -100%
 * Void attack slow from -50 to -200
@@ -282,6 +286,14 @@
 * Mana Burn max mana burn from 25% to 20%
 * Mana Burn mana burn to damage multiplier from 2.5/5/10/20/40/60/80 to 5/10/20/40/60/80/160
 
+## Ogre Magi
+* Fireblast and Unrefined Fireblast damage from 1315/2530/4115/6070/11880/23500/46500 to/1350/2600/5000/9500/18000/35000/65000
+* Ignite DPS from 285/430/590/900/1640/3085/6625 to 450/800/1300/2500/4500/7500/12000
+* Fixed Ignite's duration not stacking with itself.
+* Bloodlust bonus allied attack speed from 30 40 50 60 70 80 90 to 30 50 70 90 110 130 150
+* Bloodlust bonus self attack speed from 30 50 70 90 110 130 150 to 30 60 90 120 150 180 210
+* Bloodlust Bonus Attack Speed from +40 to +50%
+* Dumb Luck gives Ogre Magi 0.04% bonus spell amplification per Strength (Ogre Magi receives 0.12% instead of 0.08% Spell Amplification per Strength)
 
 ## Omniknight
 * Purification cooldown from 12 to 20/19/18/17/16/15/14
