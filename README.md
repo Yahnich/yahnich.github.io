@@ -94,13 +94,22 @@
 * Spawn Spiderlings spiderling bonus damage from 150/180/210/240/270/300/330 to 400/1000/2500/5000/9500/10500/11500
 
 ## Chaos Knight
+* Chaos Bolt maximum damage from 2250/3940/5940/8285/15050/28175/53875 to 2250/4500/8500/14500/24500/44500/74500
 * Chaos Bolt cooldown reduction talent from -3 to -6
+* Reality Rift cooldown from 18/14/10/6/4.75/3.5/2.25 to 6
+* Reality Rift duration from 6 to 3/4/5/6/9/12/15
+* Reality Rift armor reduction from 4/6/8/10/12/14/16 to 4/5/6/7/8/9/10
+* Chaos Strike minimum critical damage from 120% to 125%
+* Chaos Strike maximum critical damage from 140%/175%/210%/245%/255%/265%/275 to 140%/175%/210%/245%/265%/285%/305%
 * Phantasm cooldown from 75 to 60
 * Phantasm total illusions from 2/3/4/4/5/6 to 2/2/2/3/3/3
 * Phantasm damage taken from 225/225/200/200/175/150 to 240/215/190/190/165/140
 
 ## Clinkz
 * Death Pact damage to attack damage from 15% to 10%
+
+## Doom
+* Devour armor gain reduced from 8/12/16/20/24/28/32 to 9
 
 ## Earthshaker
 * Fissure damage from 1165/2300/4375/6800/11175/20250/36000 to 1750/3450/6565/10200/16750/30375/54000.
@@ -112,6 +121,20 @@
 * Echo Slam initial damage from 1850/3825/8000/14760/17510/20160 to 5550/11475/24000/44280/52530/60480
 * Echo Slam bonus damage talent from +50% to +75%
 
+## Earth Spirit
+* Rolling Boulder damage from 750/1400/2550/3950/6575/12075/21750 to 1400/2550/4650/8950/16500/28500/48500
+* Geomagnetic Grip damage from 710/1200/1810/3040/6120/12310/18500 to 1200/2000/3600/7000/13500/21000/35000
+* Magnetize damage per second from 870/2380/6380/13850/17200/20650 to 1250/5000/12500/18000/20000/220000
+
+## Ember Spirit
+* Searing Chains unit count from 5 to 4/6/8/10/12/14/16
+* Searing Chains damage per second from 710/1045/1415/2090/3695/6790/9800 to 710/1250/2250/3800/6350/10500/19000
+* Sleight of Fist bonus hero damage from 500/720/1000/1810/3525/5790/9170 to 540/1020/1650/2600/4100/6800/11700
+* Sleight of Fist Bonus Damage talent from +80% to +100%
+* Flame Guard damage per second from 279/375/485/780/1385/2155/3285 to 500/750/1000/1400/2500/4500/8500
+* Fixed Fire Remnant's LV1 damage being 333 instead of 3330.
+* Fire Remnant Aghanim's Upgrade damage per second from 975/1825/3325/5425/6175/6825 to 1250/3500/8000/15000/16000/17000 
+
 ## Enchantress
 * Sproink cooldown from 5 to 4/4/4/3/3/2.
 * Little Friends attack speed bonus from 100 to 100/150/200/250/300/350/400.
@@ -120,6 +143,18 @@
 ## Enigma
 * Black Hole mana cost from 50/140/230/320/410/500/590 to 50/140/420/820/1110/1400/2190.
 * Black Hole scepter max health damage no longer scales with Spell Amplification.
+
+
+## Grimstroke
+* Stroke of Fate damage from 1410/2190/3085/4810/9010/17255/25395 to 1410/2110/3100/4850/9100/18000/38000
+* Stroke of Fate bonus damage per unit hit from 280/430/590/900/1640/3085/4500 to 300/500/950/1850/3650/5850/9000
+* Stroke of Fate Bonus Damage talent from +50% to +100%
+* Phantom's Embrace spirit damage per second from 190/375/325/940/1875/3750/7500 to 600/900/1500/2850/5500/10500/20500
+* Phantom's Embrace spirit rend damage from 2250/4125/6460/9275/17525/33775/65925 to 2750/5250/9500/18000/35000/72500/150000
+* Ink Swell damage per second from 400/600/800/1400/2100/3250/5000 to 400/800/1400/2500/4500/8000/15000
+* Ink Swell burst damage from 1000/1750/2500/4800/9000/16000/30000 to 1400/2500/4250/8000/15000/25000/45000
+* Ink Swell Bonus Max Damage talent now Ink Swell Bonus Damage, affects damage per second in addition to the max damage.
+* Soul Bind cooldown from 70/60/50/45.2/40.5/35.7 to 50/45/40/35/30/25
 
 ## Hoodwink
 * Acorn Shot cooldown from 10 to 12
