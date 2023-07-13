@@ -303,19 +303,33 @@
 * Purification bonus heal/damage talent from +75% to +200%
 
 ## Pangolier
-* Lucky Shot chance from 15% to 25%
+* Swashbuckle damage per hit from 355/575/835/1360/2655/5235/11650 to 650/1200/2500/5000/7500/12500/25000
+* Shield Crash damage from 990/1675/2525/4250/8575/17230/38910 to 1500/2500/5500/9500/17500/30000/50000
+* Shield Crash damage reduction per hero from 20%/25%/30%/35%/40%/45%/50% to 40%
+* Shield Crash damage reduction per creep from 3%/4%/5%/6%/7%/8%/9% to 4%/5%/6%/7%/8%/9%/10%
+* Shield Crash Bonus Hero Damage Reduction from +5% to +20%
+* Lucky Shot chance from 15% to 15%/15%/15%/15%/18%/21%/24%
 * Lucky Shot duration from 4 to 6
-* Lucky Shot armor reduction from 2/4/6/8/10/12/14 to 4/8/12/16/20/24/28
+* Lucky Shot armor reduction from 2/4/6/8/10/12/14 to 2/4/6/8/8/8/8
 * Rolling Thunder cooldown from 70 to 50
 * Rolling Thunder transformation time from 1.2 to 1.8
 * Rolling Thunder mana cost from 100/150/200/250/300/350 to 200/300/400/500/600/700
 * Rolling Thunder damage from 4800/11750/27600/51120/56675/61200 to 9600/23500/55200/102240/113350/122400
 
 ## Puck
+* Illusory Orb damage from 1060/1790/2705/4550/9180/18460/41700 to 1250/2250/4000/7500/14000/25000/55000
+* Illusory Orb Bonus Damage talent from +75% to +100%
+* Waning Rift damage from 670/1000/1440/2730/5510/11100/22300 to 1200/2000/3500/6500/11000/21000/41000
 * Waning Rift bonus damage talent from 50% to 200%
 * Waning Rift cooldown from 13 to 15
+* Puck Phase Shift channel time from 1/1.75/2.5/3.25/3.5/3.75/4.0 to 3.25
+* Puck Phase Shift cooldown from 8/7.5/7/6.5/6.1/5.7/5.3 to 8/7.5/7/6.5/6.0/5.5/5.0
+* Puck Phase Shift Shard Magical Attack Damage from 225/280/330/435/620/930/1460 to 250/400/750/1250/2400/4000/7500
 * Dream Coil duration increased from 6 to 7
-* Dream Coil stun duration from 0.5 to 1
+* Dream Coil initial damage from 3250/7600/18000/36150/43975/51825 to 5000/12500/30000/75000/100000/125000
+* Dream Coil break damage from 4350 10000 23500 46750 56750 66750 to 5000/12500/30000/75000/100000/125000
+* Dream Coil stun duration from 0.5 to 2.5/3.0/3.5/4.0/4.5/5.0
+* Dream Coil radius from 375 to 375/400/425/450/475/500
 
 ## Queen of Pain
 * Sonic Wave cooldown talent from -40 to -65
@@ -328,7 +342,7 @@
 * Tricks of the Trade bonus agility from 55%/70%/85%/100%/105%/110%/115% to 50%/65%/85%/110%/140%/175%/215%
 
 ## Shadow Demon
-* Disseminate bonus damage talent from +5% to +50%
+* Disseminate bonus damage talent from +5% to +15%
 * Shadow Poison cooldown from 1.5 to 2
 * Shadow Poison cast range from 1500 to 1000
 * Shadow Poison mana cost from 45 to 45/55/75/95/125/180/250
@@ -338,6 +352,11 @@
 * Shadow Poison radius from 200 to 475
 * Shadow Poison bonus damage talent from +15% to +200%
 * Shadow Poison cooldown talent from -1.25 to 1.55
+
+## Shadow Fiend
+* Presence of the Dark Lord armor reduction from 4/5/6/7/8/9/10 to 4/5/6/7/7/7/7
+* Presence of the Dark Lord hero bonus armor reduction duration from 20/25/30/35/40/45/50 to 10/10/10/10/15/20/25
+* Presence of the Dark Lord creep bonus armor reduction duration from 5/6/7/8/9/10/11 to 5/5/5/5/6/7/8
 
 ## Snapfire
 * Scatterblast width from 225 to 450
@@ -351,6 +370,18 @@
 * Mortimer Kisses duration from 5.5 to 4.5
 * Mortimer Kisses turn rate from 75 to 100
 * Mortimer Kisses minim range from 600 to 350
+
+## Spectre
+* Reworked Desolate. Now always deals some Pure damage to the enemy attacked. If there are no allies within 325 units of the attack target, the damage is tripled.
+* Reworked Trauma into Splinter. No longer a stacking, armor reducing debuff. Spectre empowers herself, while Splinter is active, Desolate always deals triple damage, Spectre attacks all living, enemy heroes on the map every time she attacks an enemy. This means if her primary attack target is a hero, that hero is attacked twice, once by Spectre and once by the Splinter attack. For the duration, all of Spectre's attacks apply an armor-reducing debuff.
+* Splinter cooldown is 120/110/100/90/80/70
+* Splinter duration is 5/6/7/8/9/10
+* Splinter armor reduction is -4/-5/-6/-7/-8/-9/-10
+* Splinter armor reduction duration is 5 seconds.
+* Added Scepter Ability: Shadow Step. Shadow Step allows Spectre to target a unit and instantly teleport in front of them. She throws a Spectral Dagger towards the unit and for 5 seconds afterwards, she benefits from Splinter.
+* Shadow Step cooldown is 40
+* Shadow Step mana cost is 180
+
 
 ## Sven
 * Great Cleave bonus strength from 40/80/150/300/500/800/1200 to 60/120/190/450/700/1300/2200
