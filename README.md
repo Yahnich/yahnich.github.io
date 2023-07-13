@@ -400,6 +400,7 @@
 ## Tinker
 * Rearm channel time from 5/4/3/2.6/2.2/1.8 to 3.75/3.25/2.75/2.25/1.75/1.25
 * Rearm now applies a stacking -15% debuff and buff duration reduction debuff.
+* Rearm mana cost from 150/250/350/490/815/1140 to 150/325/530/780/1100/1550
 
 ## Tiny
 * Avalanche damage from 820/1875/3215/5770/12100/25000/38415 to 1200/2000/3750/7000/13500/25000/45000
@@ -411,7 +412,14 @@
 * Grow armor from 15/45/100 to 10/17/24/31/38/45
 * Grow base attack damage bonus from 1000/8000/16000 to 1500/5500/15500/35000/40000/45000
 * Grow now affects both Avalance and Toss, bonus damage from 1600/20000/44000 to 25%/50%/75%/100%/125%/150%
-* Grow now increases Toss and Avalanche's cast ranges and radiuses by 25%/50%/75%/100%/125%/150%. This affects both grab and damage radius for Toss
+* Grow now increases Toss and Avalanche's cast ranges and radiuses by 25%/40%/55%/70%/85%/100%. This affects both grab and damage radius for Toss
+
+## Venomancer
+* Venomous Gale cooldown from 18 to 12. Talent reduced from -5s Venomous Gale CD to -3s.
+* Venomous Gale strike damage from 710/1070/1480/2250/4100/7710/11250 to 1200/2000/3500/6500/11000/20000/38000
+* Venomous Gale damage per second from 215/430/740/1390/3050/6450/9900 to 400/650/1000/1800/3500/6500/11500
+* Poison Sting damage per second from 140/290/385/730/1470/2955/5230 to 250/450/850/1500/2500/4500/9500
+* Noxious Plague impact damage from 4000/12575/34800/59800/66700/73600 to 7500/20000/60000/100000/120000/140000
 
 ## Viper
 * Nethertoxin mana cost from 85/125/170/215/255/300/340 to 170/250/340/430/510/600/680
@@ -434,4 +442,21 @@
 * Aether Remnant cooldown from 11 to 7
 * Resonant Pulse cooldown from 18 to 8
 * Resonant Pulse scepter silence duration from 2 to 5
+
+## Weaver
+* The Swarm damage per attack from 200/255/310/440/680/970/1670 to 500/1050/1850/2850/5000/8000/15000
+* The Swarm attack rate from 1.15 1.07 1.0 0.92 0.85 0.77 0.7 to 0.7
+* The Swarm armor reduction from 1 to 0.2/0.3/0.4/0.5/0.6/0.7/0.8
+* Geminate Attack cooldown from 9/7/5/3/2.33/1.66/1.00 to 2.5
+* The Swarm Bonus Armor Reduction talent from +0.5 to +0.25
+* Shukuchi Bonus Damage talent from +100% to +200%
+* Aghanim's Shard upgrade now also reduces Geminate Attack's cooldown.
+
+## Winter Wyvern
+* Arctic Burn damage per second from 1.5%/1.75%/2.0%/2.25%/2.5%/2.75%/3.0% to 0.85%/1.0%/1.15%/1.3%/1.45%/1.6%/1.75%
+* Arctic Burn mana cost from 100/150/200/250/300/350/400 to 125/250/500/750/1000/1250/1750
+* Arctic Burn scepter mana cost per second from 25/50/75/100/125/150/175 to 25/50/100/150/200/250/350
+
+## Witch Doctor
+* Voodoo Restoration mana cost per second from 8/16/24/32/48/80/128 to 10/20/40/80/120/160/240
 
