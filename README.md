@@ -373,15 +373,16 @@
 
 ## Spectre
 * Reworked Desolate. Now always deals some Pure damage to the enemy attacked. If there are no allies within 325 units of the attack target, the damage is tripled.
-* Reworked Trauma into Splinter. No longer a stacking, armor reducing debuff. Spectre empowers herself, while Splinter is active, Desolate always deals triple damage, Spectre attacks all living, enemy heroes on the map every time she attacks an enemy. This means if her primary attack target is a hero, that hero is attacked twice, once by Spectre and once by the Splinter attack. For the duration, all of Spectre's attacks apply an armor-reducing debuff.
-* Splinter cooldown is 120/110/100/90/80/70
-* Splinter duration is 5/6/7/8/9/10
-* Splinter armor reduction is -4/-5/-6/-7/-8/-9/-10
-* Splinter armor reduction duration is 5 seconds.
-* Added Scepter Ability: Shadow Step. Shadow Step allows Spectre to target a unit and instantly teleport in front of them. She throws a Spectral Dagger towards the unit and for 5 seconds afterwards, she benefits from Splinter.
+* Reworked Trauma into Haunt. No longer a stacking, armor reducing debuff. Spectre empowers herself, while Haunt is active, Desolate always deals triple damage, Spectre attacks all living, enemy heroes on the map every time she attacks an enemy. This means if her primary attack target is a hero, that hero is attacked twice, once by Spectre and once by the Haunt attack. For the duration, all of Spectre's attacks apply an armor-reducing debuff.
+* Haunt cooldown is 120/110/100/90/80/70
+* Haunt duration is 5/6/7/8/9/10
+* Haunt armor reduction is -4/-5/-6/-7/-8/-9
+* Haunt armor reduction duration is 5 seconds.
+* While Haunt is active, Reality becomes castable. Reality can be used to teleport to any hero. If the unit is an enemy, they will become your attack target.
+* Added Scepter Ability: Shadow Step. Shadow Step allows Spectre to target a unit and instantly teleport in front of them. She throws a Spectral Dagger towards the unit and for 5 seconds afterwards, she benefits from Haunt.
 * Shadow Step cooldown is 40
 * Shadow Step mana cost is 180
-
+* Lv10 Talent +50 All Stats to +200 All Stats.
 
 ## Sven
 * Great Cleave bonus strength from 40/80/150/300/500/800/1200 to 60/120/190/450/700/1300/2200
@@ -399,6 +400,18 @@
 ## Tinker
 * Rearm channel time from 5/4/3/2.6/2.2/1.8 to 3.75/3.25/2.75/2.25/1.75/1.25
 * Rearm now applies a stacking -15% debuff and buff duration reduction debuff.
+
+## Tiny
+* Avalanche damage from 820/1875/3215/5770/12100/25000/38415 to 1200/2000/3750/7000/13500/25000/45000
+* Avalanche radius from 325/340/355/370/385/400/415 to 370
+* Avalanche Bonus Damage talent from +35% to +75%
+* Toss can no longer throw allies with help disabled and doesn't require a target any more. If no unit can be found to toss to the location, Tiny tosses a boulder instead.
+* Toss Requires No Target talent changed to Toss Throws Tiny. Can be toggled off with Auto-Cast
+* Grow rescaled from 3 to 6 levels.
+* Grow armor from 15/45/100 to 10/17/24/31/38/45
+* Grow base attack damage bonus from 1000/8000/16000 to 1500/5500/15500/35000/40000/45000
+* Grow now affects both Avalance and Toss, bonus damage from 1600/20000/44000 to 25%/50%/75%/100%/125%/150%
+* Grow now increases Toss and Avalanche's radiuses by 25%/50%/75%/100%/125%/150%. This affects both grab and damage radius for Toss
 
 ## Viper
 * Nethertoxin mana cost from 85/125/170/215/255/300/340 to 170/250/340/430/510/600/680
