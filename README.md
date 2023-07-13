@@ -1,4 +1,4 @@
-> EBF 1.32.6 - 13/07/2023
+> EBF 1.32.7 - 13/07/2023
 <style>
   body {
   background-color: #151618;
@@ -14,6 +14,8 @@
 ## UI
 * In-game patchnotes system added
 * In-game menu behaviour changed 
+* Added health and mana bar indicators for each top-hud player
+* Resized the UI 
 
 
 <div align="center">
