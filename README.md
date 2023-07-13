@@ -411,7 +411,7 @@
 * Grow armor from 15/45/100 to 10/17/24/31/38/45
 * Grow base attack damage bonus from 1000/8000/16000 to 1500/5500/15500/35000/40000/45000
 * Grow now affects both Avalance and Toss, bonus damage from 1600/20000/44000 to 25%/50%/75%/100%/125%/150%
-* Grow now increases Toss and Avalanche's radiuses by 25%/50%/75%/100%/125%/150%. This affects both grab and damage radius for Toss
+* Grow now increases Toss and Avalanche's cast ranges and radiuses by 25%/50%/75%/100%/125%/150%. This affects both grab and damage radius for Toss
 
 ## Viper
 * Nethertoxin mana cost from 85/125/170/215/255/300/340 to 170/250/340/430/510/600/680
