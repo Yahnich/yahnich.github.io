@@ -1,4 +1,4 @@
-> EBF 1.32.7 - 13/07/2023
+> EBF 1.32.8 - 15/07/2023
 <style>
   body {
   background-color: #151618;
@@ -16,6 +16,7 @@
 * In-game menu behaviour changed 
 * Added health and mana bar indicators for each top-hud player
 * Resized the UI 
+* Options, Profile, Leaderboards and Patch-notes panels now share the same mechanic as the flyout-scoreboard (auto-hide if clicked anywhere)
 
 
 <div align="center">
