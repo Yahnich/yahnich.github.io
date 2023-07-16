@@ -32,13 +32,6 @@
 * Primary Attributes now gives +110 bonus health per 10 Strength.
 * Removed the bonus base health gained per level.
 * The following changes have this effect:
-** Primary Attributes now provide the hero with 11 health, 0.8% spell amplification and 1.5 base damage. Uses to be 0 bonus health, 0.8% spell amplification and 2 base damage.
-** Every attribute now provide Universal Heroes with 4 health, 0.3% spell amplification and 1.0 base damage. Used to be 0 health, 0.3% spell amplification and 1.4 base damage.
-** Strength heroes now gain the following from +1 Strength: 33 health, 0.8% spell amplification and 1.5 base damage. Used to be 22 health, 0.8% spell amplification and 2 base damage.
-** Agility heroes now gain the following from +1 Agility: 11 health, 0.8% spell amplification and 3 base damage. Used to be 0 health, 0.8% spell amplification and 3 base damage.
-** Intelligene heroes now gain the following from +1 Intelligence: 11 health, 1.2% spell amplification and 1.5 base damage. Used to be 0 health, 0.8% spell amplification and 2 base damage.
-** Universal heroes now gain the following from +1 All Stats: 34 health, 1.3% spell amplification and 4.5 base damage. Used to be 22 health, 0.9% spell amplification and 5.7 base damage.
-
    * Primary Attributes now provide the hero with 11 health, 0.8% spell amplification and 1.5 base damage. Uses to be 0 bonus health, 0.8% spell amplification and 2 base damage.
    * Every attribute now provide Universal Heroes with 4 health, 0.3% spell amplification and 1.0 base damage. Used to be 0 health, 0.3% spell amplification and 1.4 base damage.
    * Strength heroes now gain the following from +1 Strength: 33 health, 0.8% spell amplification and 1.5 base damage. Used to be 22 health, 0.8% spell amplification and 2 base damage.
