@@ -20,6 +20,14 @@
 
 
 <div align="center">
+  <h1>Items</h1>
+</div>
+
+## Aeon Disk
+- Cooldown is now shared between all tiers
+
+
+<div align="center">
   <h1>Heroes</h1>
 </div>
 
