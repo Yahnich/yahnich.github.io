@@ -38,6 +38,10 @@
    - Agility heroes now gain the following from +1 Agility: 11 health, 0.8% spell amplification and 3 base damage. Used to be 0 health, 0.8% spell amplification and 3 base damage.
    - Intelligene heroes now gain the following from +1 Intelligence: 11 health, 1.2% spell amplification and 1.5 base damage. Used to be 0 health, 0.8% spell amplification and 2 base damage.
    - Universal heroes now gain the following from +1 All Stats: 34 health, 1.3% spell amplification and 4.5 base damage. Used to be 22 health, 0.9% spell amplification and 5.7 base damage.
+* Increased melee hero block chance from 60% to 80%
+* Reduced melee block strength against heroes from 50% of attack damage received to 35% (overall damage reduction from 30% to 28%)
+* Reduced melee block strength against creeps from 70% of attack damage received to 50% (overall damage reduction from 42% to 40%)
+* Melee heroes now also always block at least 15% of creep damage.
 
 ## Abaddon
 * Mist Coil self damage multiplier from 50%/45%/40%/35%/30%/25%/20% to 15% unless Abaddon is affected by Borrowed Time.
