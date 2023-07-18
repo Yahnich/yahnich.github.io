@@ -17,7 +17,7 @@
 * Added health and mana bar indicators for each top-hud player
 * Resized the UI 
 * Options, Profile, Leaderboards and Patch-notes panels now share the same mechanic as the flyout-scoreboard (auto-hide if clicked anywhere)
-
+* Added a checkbox to Options, that would move the Top UI Button to the right side of the screen for players with inverted layout
 
 <div align="center">
   <h1>Items</h1>
