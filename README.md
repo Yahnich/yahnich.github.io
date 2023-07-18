@@ -1,4 +1,4 @@
-> EBF 1.32.8 - 15/07/2023
+> EBF 1.32.9 - 18/07/2023
 <style>
   body {
   background-color: #151618;
@@ -17,6 +17,14 @@
 * Added health and mana bar indicators for each top-hud player
 * Resized the UI 
 * Options, Profile, Leaderboards and Patch-notes panels now share the same mechanic as the flyout-scoreboard (auto-hide if clicked anywhere)
+
+
+<div align="center">
+  <h1>Items</h1>
+</div>
+
+## Aeon Disk
+- Cooldown is now shared between all tiers
 
 
 <div align="center">
@@ -338,6 +346,19 @@
 * Rolling Thunder transformation time from 1.2 to 1.8
 * Rolling Thunder mana cost from 100/150/200/250/300/350 to 200/300/400/500/600/700
 * Rolling Thunder damage from 4800/11750/27600/51120/56675/61200 to 9600/23500/55200/102240/113350/122400
+
+## Phantom Assasin
+* Fan of Knives cooldown reduced from 40/36/32/28/24/20 to 30/26/22/18/14/10
+* Fan of Knives damage changed from 8% to 1% 
+* Phantom Strike mana cost increased from 35/65/95/125/155/185/215 to 135/165/195/225/295/385/515
+* Phantom Strike attack speed bonus increased from 80/120/160/200/240/280/320 to 80 120/180/240/320/380/460
+* Phantom Strike duration changed a bit
+* Phantom Strike lifesteal decreased from 25% to 15%
+* Blur duration decreased from 5s to 2s
+* Coup de Grace chance increased from 15% to 25%
+* Coup de Grace talent change increased from 3.5% to 15%
+* Coup de Grace critical damage increased from 300/425/550/675/800/925 to 400/600/800/1000/1200/1600
+
 
 ## Puck
 * Illusory Orb damage from 1060/1790/2705/4550/9180/18460/41700 to 1250/2250/4000/7500/14000/25000/55000
