@@ -23,6 +23,9 @@
   <h1>Items</h1>
 </div>
 
+## MMR
+- Abandons are no longer counted towards the lobby MMR. Still applies the missing-player multiplier. Example: The MMR for winning and for losing was +40/-10 thanks to a low MMR player being in the lobby. The player abandons and the MMR change is recalculated. The new MMR change is now +30/-15 as a base, because the lobby's average MMR has increased. The game then applies a 8% MMR multiplier to both numbers, making them +32/-13
+
 ## Aeon Disk
 - Cooldown is now shared between all tiers
 
@@ -163,20 +166,20 @@
 - Echo Slam bonus damage talent from +50% to +75%
 
 ## Earth Spirit
-- Rolling Boulder damage from 750/1400/2550/3950/6575/12075/21750 to 1400/2550/4650/8950/16500/28500/48500
-- Geomagnetic Grip damage from 710/1200/1810/3040/6120/12310/18500 to 1200/2000/3600/7000/13500/21000/35000
-- Magnetize damage per second from 870/2380/6380/13850/17200/20650 to 1250/5000/12500/18000/20000/22000
 - Boulder Smash: Pushed enemies now deal the area of effect damage to their nearby allies. 
 - Boulder Smash: Using a Stone Remnant increases the debuff duration and damage on top of increasing range.
 - Boulder Smash: Creep damage multiplier from 1.25 to 2.5
+- Rolling Boulder damage from 750/1400/2550/3950/6575/12075/21750 to 1400/2550/4650/8950/16500/28500/48500
 - Rolling Boulder: No longer ends on hitting a creep-hero and affects all units hit, only way to stop the roll is pressing Stop or Hold.
 - Rolling Boulder: Removed delay before rolling.
 - Rolling Boulder: Every Remnant destroyed by it past the first increases the damage dealt by +100%
 - Rolling Boulder: Now also has a 2.5x creep damage multiplier.
+- Geomagnetic Grip damage from 710/1200/1810/3040/6120/12310/18500 to 1200/2000/3600/7000/13500/21000/35000
 - Geomagnetic Grip: Can now be cast on allies and enemies as a baseline.
 - Geomagnetic Grip: Silences and damages the enemy while pulling them. Nearby allies of the pulled unit are also silenced and damaged.
 - Geomagnetic Grip: Using a Stone Remnant increases the silence duration and doubles the damage
 - Geomagnetic Grip: Now also has a 2.5x creep damage multiplier.
+- Magnetize damage per second from 870/2380/6380/13850/17200/20650 to 1250/5000/12500/18000/20000/22000
 - Aghanim's Shard from 'Geomagnetic Grip can be cast on allies' to 'Units affected by Magnetize suffer the effects Boulder Smash, Rolling Boulder and Geomagnetic Grip even when not targeted. They do not take the effect twice."
 - Aghanim's Scepter from *Grants Earth Spirit the Petrify ability* to *Stone Remnants being destroyed applies a 2 second Magnetize to enemies in range. The duration stacks with, rather than refreshes, existing Magnetize debuffs*.
 
