@@ -13,6 +13,7 @@
 
 ## Round Scaling
 - Boss Damage and Health no longer scales linearly with player count, more/less units are spawned at certain breakpoints. Health and Damage still scales up if a breakpoint isn't reached.
+- Tuned up baseline Health scaling from +75% diminishing to +100% diminishing.
 
 ## Enrage
 - Enrage now gives units unobstructed movement after 5 stacks.
@@ -57,6 +58,32 @@
   <h1>Heroes</h1>
 </div> 
 
+## Abaddon
+- Aphotic Shield Barrier from 800/1600/3200/6400/15000/30000/60000 to 800/1200/2000/3000/4500/8000/15000 (still scales with Spell Amplification)
+- Aphotic Shield Barrier to Damage from 100% to 400%
+- +50% Aphotic Shield Barrier to Damage to +200%
+
+## Omniknight
+- Purification Heal from 1500/2870/6440/12960/24790/59695/112000 to 1500/2500/4500/8500/18000/27500/50000
+- Purification Damage from 2420/3690/5080/7730/14100/25860/53350 to 1200/2100/3500/6500/11000/18000/30000
+- Repel cooldown from 26/22/18/14/11.85/9.7/7.55 to 14
+- Repel Base Strength from 40/110/250/500/750/1000/1500 to 50/100/150/250/400/600/800
+- Repel Bonus Strength per Debuff from 25/45/75/150/350/650/1350 to 20/40/60/100/160/250/350
+- Repel Health Regen from 80/180/405/915/2100/4650/10500 to 100/200/350/650/1250/2000/3500
+- Repel Duration from 10 to 5/6/7/8/9/10/11
+- +200% Purification damage/healing talent to +100%
+- +1150 Strength Per Debuff talent to +75%
+
+## Io
+- Tether Heal Amplification from 60/80/100/120/140/160/180% to 60%
+- Shard Overcharge Spell Lifesteal from 10% to 4%
+- Shard Overcharge Spell Amplification from 10% to 25/40/55/70/85/100/115%
+- Sacrifice cooldown from 90/75/60/53.3/46.7/40.0 to 120/110/100/90/80/70
+
+## Witch Doctor
+- Voodoo Restoration healing from 175/375/655/1010/2085/4250/8600 to 35/85/150/275/500/950/1750
+- Voodoo Restoration healing to enemy damage from 50% to 300% (from 87/187/327/505/1042/2125/4300 to 105/255/450/825/1500/2850/5250)
+- Voodoo Restoration mana cost per second from 10/20/40/80/120/160/240 to 15/20/30/45/65/90/120
 
 <div align="center">
   <h1>Bosses</h1>
