@@ -59,6 +59,11 @@
 - No longer has Heart of Tarrasque as a component, price unchanged (recipe cost adjusted). (Still provides max hp regeneration)
 - Boots of Bearing no longer provides restoration amplification while active.
 
+## Bottle
+- Is no longer disabled by taking damage.
+- Bottle total health restoration from 1100 + 33% health to 1000 + 500 x Level + 25% maximum health
+- Bottle total mana restoration 400 + 33% mana to 100 + 25 x Level + 25% maximum mana.
+
 ## Cape of the Magus
 - Added to the game, builds out of Kaya, Cloak and Voodoo Mask. Has an aura that grants spell amplification, magic resistance and spell lifesteal to all allies.
 
