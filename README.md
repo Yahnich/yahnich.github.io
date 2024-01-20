@@ -11,114 +11,94 @@
   <h1>General</h1>
 </div>
 
-## Regeneration
-- Not dealing damage, spending mana, casting spells or taking damage for 5 seconds gives you Regeneration, restoring 5% of your Maximum HP and MP per second.
+## Player Scaling
+- Smoothed out unit count scaling per player, instead of only increasing in unit count until the 3x Unit Count multiplier is hit and then increasing stats, both stats and unit count increase together (unit count multiplier is still capped at 3x).
 
 <div align="center">
   <h1>Items</h1>
 </div>
 
-## Armlet of Mordiggian
-- Builds out of Helm of Iron Will, Demon's Edge and Hyperstone
-- Now upgrades into Tier 5, replaces Berserker's Helm; Upgrades into Tier 2 using Mask of Madness and Relic.
-- Upgrades using Attack Upgraders and recipe.
-- Costs 475/3405/6805/16705/xxx gold.
-- Gives 50/275/880/2680/ damage
-- Gives 40/50/60/70/80 attack speed
-- Gives 3/9/10/11/12 armor
-- Gives 8/35/75/225/550 health regeneration
-- Gives 0%/6.5%/6.5%/6.5%/6.5% attack lifesteal
-- Active reworked into: "When active, Unholy Strength triples this item's attack damage, up to 25 + 10% of your Strength as bonus Strength over 0.6 seconds, 35/40/45/50/60% slow resistance, 110 attack speed and 30 movement speed, but you lose 4 armor, are silenced, and lose 1 health every second per Strength provided by this item. This health drain cannot kill you."
-- Strength bonus is calculated on toggle and does not refresh.
-
-## Attack Upgraders
-- Added a Tier 1 Equivalent for Attack Damage Upgraders. Added Demon's Edge to the upgraders. Demon's Edge upgrades into Sacred Relic
-
-## Berserker's Helm
-- Removed.
-
-## Blade Mail
-- Blade Mail line reworked. Now builds into Martyr's Bulwark and Splint of the Conqueror.
-- Blade Mail no longer reflects damage equal to a percentage of the damage taken.
-- Blade Mail now triggers on both attack and spell damage. Has an internal cooldown of 0.1s.
-- Increased flat thorns damage from x to y.
-- Active reworked: Wall of Spikes: Doubles the Thorn damage.
-
-## Bloodstone
-- No longer restores mana (Dota 2 parity)
-
-## Blood Booster
-- Removed Blood Booster items.
+## Armlet
+- No longer silences you if you are below 50% of your maximum health.
+- No longer triples in attack damage while toggled on. Instead double the attack damage while above 50% of your maximum health, which increases to triple when below 50%.
 
 ## Blood Gem
-- Now builds out of Morbid Mask and Voodoo Mask. Gives 7.5% attack lifesteal and 4% spell lifesteal.
-- Can be activated, lifestealing off of any attack or spell cast by any allied unit for 8 seconds.
-- Blood Gem overheals turn into a barrier. Barrier has a maximum of 20%/40%/60%/80%/100% of your maximum health.
+- Rescaled the max barrier from 20/40/60/80/100% to 10/15/30/60/100%.
 
-## Boots of Bearing
-- No longer has Heart of Tarrasque as a component, price unchanged (recipe cost adjusted). (Still provides max hp regeneration)
-- Boots of Bearing no longer provides restoration amplification while active.
+## Ethereal Blade
+- Fixed Ethereal Blade breaking abilities that go from single-target to AOE.
 
-## Bottle
-- Is no longer disabled by taking damage.
-- Bottle total health restoration from 1100 + 33% health to 1000 + 500 x Level + 25% maximum health
-- Bottle total mana restoration 400 + 33% mana to 100 + 25 x Level + 25% maximum mana.
-
-## Cape of the Magus
-- Added to the game, builds out of Kaya, Cloak and Voodoo Mask. Has an aura that grants spell amplification, magic resistance and spell lifesteal to all allies.
-
-## Heart of Tarrasque
-- Heart of Tarrasque now gives 3/5/7/9/11 Bonus Health per Strength
-- Heart of Tarrasque from 1.6/1.8/2.0/2.2/2.4% Max Health Regeneration to +0.3/0.5/0.7/0.9/1.1 Bonus Health Regeneration per Strength.
-- Reworked Heart of Tarrasque active: Monstrous Vitality - Doubles the Bonus Health and Health Regeneration per Strength for 12 seconds. Increases current and maximum health values equally.
-
-## Kaya and Sange
-- No longer uses Life Booster as an upgrade component, upgrade cost reduced by 7350g. No longer provides bonus health per strength, bonus health or bonus mana.
-- Spell Lifesteal from 0/4/5/6/8% to 0/4/5/7/9%
-- Spell Amplification from 16/25/36/50/90% to 16/25/36/75/140%
-- Mana spent to Barrier from 0/0/20/40/80 to 0/0/25/60/120
+## Fallen Sky
+- Fixed not properly providing passive stats besides Strength.
 
 ## Lotus Orb
-- Added to the game
-- Active reworked to: "You apply an Echo on the targeted unit. The next time you target that unit with a spell, the spell is cast one more time on a random target of the same team within 700 radius. The Echo is then removed. A creature can be affected by multiple Echoes."
-- Recipe is Platemail, Ultimate Orb and Perseverance. Upgrades with Ultimate Orb Upgraders.
+- Now prioritizes hero units.
 
-## Martyr's Bulwark
-- Builds from Blade Mail, Mjollnir and Gleipnir.
-- Thorns damage is magical.
-- Grants your attacks a chance to Pierce, dealing the Thorns damage to your attack target, bouncing to up to 3/4/5/6/7 different additional targets.
-- Has an active ability, Martyr's Call: You cast a net of thunder, rooting all enemy units within 750 range of you. You become enveloped in lightning. Martyr's Bulwark's thorn damage is doubled and strikes up to 3/4/5/6/7 additional targets within a 750 radius. Units hit by your net immediately take the thorn damage and then take it again every second afterwards.
+## Signet of Destiny
+- Fixed health amp values.
 
-## Meteor Hammer
-- Added to the game.
-- Combines with Overwhelming Blink into Fallen Sky.
-- Upgrades with Reaver Upgraders.
-- Fallen Sky active turns you into a meteor that slams into the enemies, dealing 1000/2500/7500/21000/35000 + 15/25/40/60/100x your Strength as damage to all enemies within 650 units, they then take 400/800/1600/3000/5000 damage every second for 2.5 seconds. You then teleport to the targeted position
-
-## Sange and Yasha
-- No longer uses Life Booster as an upgrade component, upgrade cost reduced by 7350g. No longer provides bonus health per strength, bonus health or bonus mana.
-- Evasion from 10/10/10/10/20% to 10/10/10/20%/30%
-- Maximum stacks of Patience & Vengeance from 0/15/20/25/50 to 0/15/20/35/60
-
-## Satanic
-- Recipe reworked. Downgraded Attack Upgrades by 1 Tier. Price reduced by 22950 gold.
-- Bonus Attack Damage from 456/1600/5020/16420 to 135/350/1000/3200
-- Active reworked: "Increases lifesteal bonus to 100/125/150/175/200%, gives you 50/60/70/80/90% status resistance and immunity to slows and roots." 
-
-## Splint of the Conqueror
-- Builds from Blade Mail, Crystalys and Helm of Iron will
-- Critical Passive slightly modified: "Increases your critical hit chance to 30/40/50/60% against creatures attacking you."
-- Has an active ability, Undeniable: "Enemy units must attack you for x seconds, this does not stop them from casting spells elsewhere."
-
-## Yasha and Kaya
-- Removed mana vampirism from Yasha and Kaya.
-- Berserk attack speed bonus increases with tiers, from 110 to 110/160/210
-
+## Monkey King Bar - Gungnir
+- Now uses Eaglesong instead of Hyperstone in the build-up to Monkey King Bar
+- Gungnir and up now grant Agility instead of Attack Speed and use Eaglesong upgraders
+- Soulslayer now provides its benefits in a 350 AoE.
 
 <div align="center">
   <h1>Heroes</h1>
-</div> 
+</div>
+
+## Bristleback
+- Quill Spray mana cost from 35/55/70/90/105/125/140 to 60/65/70/75/80/85/90
+- Quill Spray base damage from 280/405/560/1020/2000/3280/5210 to 280/405/550/1050/200/3250/4500
+- Quill Spray stack damage from 315/395/475/660/990/1385/1915 to 175/225/475/675/900/1200/1600
+- Quill Spray max damage from 2000/4000/6500/10000/15000/22500/32500 to 850/1600/2400/4500/8500/16000/30000
+- Bristleback's Quill Spray is no longer a cone when activated through Bristleback.
+- Aghanim's Scepter returned to vanilla
+
+## Hoodwink
+- Acorn Shot's planted tree is placed further away from its source.
+
+## Riki
+- Smoke Screen cooldown from 20/17/14/11/9.35/7.7/6.05 to 20/18.5/17/15.5/14/12.5/11
+- Smoke Screen miss rate from 30/37.5/45/52.5/60/67.5/75% to 60%
+- Creatures affected by Smoke Screen always trigger Cloak and Dagger's Backstab.
+- Blink Strike now stuns instead of slows creatures in Smoke Screen
+- Cloak and Dagger is now a basic ability instead of an ult.
+- Agility bonus damage reduced from 1.4/1.8/2.2/3.0/4.0/5.5x to 0.8/1.0/1.2/1.4/1.6/1.8/2.0x bonus damage.
+- Fade time from 4/3/2/1.75/1.5/1.25 to 4/3.5/3/2.5/2/1.5/1
+- Tricks of the Trade is now an ultimate ability. Tricks of the Trade hits all units in its radius. Tricks of the Trade always Backstabs.
+- Tricks of the Trade cooldown from 8 to 16.
+- Tricks of the Trade bonus agility percentage from 70/75/80/85/90/95/100% to 80/100/120/140/160/180%
+- Aghanim's Scepter now allows Tricks of the Trade to apply Blink Strike's effects, and last 1 more second.
+- 8% Cloak and Dagger Movement speed to +25%.
+- Tricks of the Trade Applies a Basic Dispel talent to Tricks of the Trade Cast While Stunned and Hard Dispels
+- -3s Tricks of the Trade Cooldown to 37.5% Faster Tricks of the Trade (Cooldown and attack speed increased)
+
+## Windranger
+- Shackleshot no longer searches in a cone behind it. Now targets a random unit within range to bounce to.
+- Shackleshot can bounce 3/4/5/6/7/8/9 times.
+- Shackleshot stun duration from 3.8 to 1.9.
+- Stun duration against creeps is doubled.
+- Attacks made by Windranger against Shackled targets always deal 120/140/160/180/200/220/240% critical damage
+- Powershot damage is no longer reduced by creeps.
+- Windrun's cooldown now starts when Windrun ends.
+- Windrun duration from 3/3.2/3.4/3.6/3.8/4.0/4.2 to 3/4/5/6/7/8/9.
+- Windrun no longer gives Windranger evasion. Instead gives all allies within 325 units of Windranger evasion (including Windranger). This applies to Aghanim's Scepter's physical damage reduction.
+- Focus Fire cooldown from 70/50/30/25.71/21.43/17.14 to 15
+- Focus Fire duration from 20 to 10/12/14/16/18/20
+- Focus Fire damage reduction from 30/30/30/30/23/16% to 30%
+- -5% Powershot Damage Reduction talent to "50% Faster Powershot - Powershot's channel is reduced and arrow speed is increased"
 
 <div align="center">
   <h1>Bosses</h1>
 </div>
+
+## Ogre Wave
+- Troll Minion Cripple DPS from 1500 to 500.
+
+## Axe Wave
+- Returned Counterhelix
+
+## Treant Wave
+- Lesser Treants are no longer created by creeps, only by heroes
+- Greater and Lesser Treants health and attack swapped (melee Lesser Treants now have more health and damage than the Greater Treants)
+- Returned Nature's Grasp
