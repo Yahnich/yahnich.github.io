@@ -70,12 +70,6 @@
 - Moonlight Shadow now provides 15/20/25/30/35/40% magic resistance.
 - +Evasion talent replaced with Moonlight Shadow provides a spell amplification bonus equal to 3x the evasion bonus.
 
-## Lycan
-- Summon Wolves' Wolves stats adjusted to the new scaling system.
-- Aghanim's Shard replaced with "Howl is now a passive aura. Whenever Lycan deals critical damage, Howl fears all units."
-- Shapeshift duration from 25 to 25/30/35/40/45/50
-- Shapeshift cooldown from 125/110/95/89/83.5/78 to 95
-
 ## Invoker
 - Cataclysm now works, targeting all Hero Units with two Sunstrikes.
 - Forged Spirits Melting Strike now works on creeps.
