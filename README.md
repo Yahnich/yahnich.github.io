@@ -1,4 +1,4 @@
-> EBF 1.4.1 - 17/11/2023
+> EBF 1.4.1a - 17/04/2024
 <style>
   body {
   background-color: #151618;
@@ -18,6 +18,7 @@
 - Stats Increase talent from +25%/lvl to +35%/lvl (250% to 350% max)
 - Starting a new round resets all cooldowns and ability charges.
 - Normalized mana costs across heroes, no more heroes that randomly have 300-400+ mana cost basic abilities
+- **Cast Speed reduces cast point by more per point.**
 
 <div align="center">
   <h1>Items</h1>
@@ -29,14 +30,22 @@
 - Increased ranged bash cooldown from 2.3 to 9/9/8/7/6/5
 - Bash proc damage increased from 500/800/1100/1400/1700/2100 to 500/835/1670/2920/4580/6670
 - Bash strength damage increased from 0/80/90/100/110/120% to 0/140/150/165/185/210%
-## Heart
-- Active is no longer purgable once it makes you magic immune
+## Blink Treads
+- **Arcane Stance provides bonus Blink Range.**
 ## Butterfly
+- Active is no longer purgable once it makes you magic immune
+## Heart
 - Active is no longer purgable once it makes you magic immune
 
 <div align="center">
   <h1>Heroes</h1>
 </div>
+
+## Broodmother
+- **Bonus damage from 100/135/170/205/240/275/310% to 40/50/60/70/80/90/100%**
+- **Duration from 8/9/10/11/12/13/14 to 14**
+- **Shard Bonus Damage Per Second from 10% to 4%**
+- **Insatiable Hunger Bonus Damage talent from +35% to +15%**
 
 ## Sniper
 - Headshot no longer knocks enemies back, roots them for the duration instead.
@@ -58,6 +67,9 @@
 - Supernova attacks to kill is now 30 at all levels. Hero units deal 3 damage to the Supernova.
 - Supernova cooldown from 180 to 180/170/160/150/140/130
 - Reworked Shard from: "" to "Phoenix can cast spells during Supernova and gains 50% spell amplification during Supernova."
+
+## Enchantress
+- **Distance to Damage from 200/200/200/200/300/350% to 50/50/50/50/100/150/200%**
 
 ## Mirana
 - Starstorm base radius is equal to Mirana's attack range + 150.
@@ -110,6 +122,28 @@
   <h1>Bosses</h1>
 </div>
 
+## General
+- **Increased bonus boss health per player from +80% to +125% (maximum from +320% in Nightmare to +500%).**
+
+## Kobolds
+- **Slightly increased health and damage of Kobold Serfs**
+- **Removed Kobold Warrior Disarm and replaced it with Packleader's Aura (moved from Kobold Overlord)**
+- **Kobold Overlord now has Howl.**
+## Gnolls
+- **Slightly increased the damage of Gnoll Assassins**
+- **Gnoll Berserkers now seek out the weakest unit in their search radius, rather than the closest unit. Gnoll Berserkers now have Berserker's Blood.**
+## Zombie
+- **Increased the rate Nethertoxin ramps and increased its maximum damage.**
+- **Increased Zombie Lord's health.**
+## Slark
+- **Reduced the radius of Blood Rite, but reduced its cooldown.**
+- **Bloodseeker's now has Bloodrage and casts it on the nearest ally without Bloodrage off cooldown.**
+## Slithereen
+- **Increased the health of the Tidehunter Ravagers, Slithereen Illusionists and Slithereen Queens.**
+## Leshrac
+- **Now has Nihilism **
+- **Prioritizes casting Split Earth on units affected by Lightning Storm.**
+- **Increased the damage of Lightning Storm and Pulse Nova**
 ## Harbingers
 - Reduced spread damage from 16/18/20/22% to 8/9/10/11%
 - The unit that dealt the damage takes twice the damage (16/18/20/22% for original damage dealer)
