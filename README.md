@@ -1,4 +1,4 @@
-> EBF 1.4.1a - 17/04/2024
+> EBF 1.4.1b - 24/04/2024
 <style>
   body {
   background-color: #151618;
@@ -18,7 +18,9 @@
 - Stats Increase talent from +25%/lvl to +35%/lvl (250% to 350% max)
 - Starting a new round resets all cooldowns and ability charges.
 - Normalized mana costs across heroes, no more heroes that randomly have 300-400+ mana cost basic abilities
-- Cast Speed reduces cast point by more per point.
+- **Cast Speed reduces cast point by more per point.**
+- **Enemy base status resist reduced from 10/20/30/40% to 10/15/20/25%**
+- **Abilities and items are now only refreshed on round end, no longer refreshed on round start.**
 
 <div align="center">
   <h1>Items</h1>
@@ -34,14 +36,33 @@
 ## Blink Treads
 - Arcane Stance provides bonus Blink Range.
 
+## Bloodstone
+- Active is no longer purgable once it makes you magic immune
+- **Dispels on use when providing Debuff Immunity.**
+
 ## Butterfly
 - Active is no longer purgable once it makes you magic immune
+- **Dispels on use when providing Debuff Immunity.**
 
 ## Heart
 - Active is no longer purgable once it makes you magic immune
+- **Dispels on use when providing Debuff Immunity.**
 
 ## Wind Waker
 - Added to the game. Upgrades using Mystic Staff upgraders, increases tornado movement speed.
+
+## Kaya and Sange
+- **Removed Barrier granted on Mana Spent**
+- **When you cast a spell, increases the status resistance and health restoration amplification provided by this item by 50/75/125/200% for 3 seconds (starting from T2).**
+- **Rescaled status resistance from 20/22/24/26/28/30% to 12/14/16/19/23/28%**
+- **Increases status resistance to 24/33.25/51.75/84%**
+- **Increases restoration amplification to 21/28/40.5/60%**
+
+## Sange and Yasha
+- **Rescaled status resistance from 20/22/24/26/28/30% to 12/14/16/19/23/28%**
+
+## Yasha and Kaya
+- **Stacks do not decrease while casting (mostly affects abilities like Requiem of Souls, Assassinate etc)**
 
 <div align="center">
   <h1>Heroes</h1>
@@ -123,6 +144,11 @@
 - +50s Essence Shift Duration to +10s
 - Effectively, this changes maximum agility gained at lv19 (assuming maximum attack speed) from 6000 to 10615
 
+## Terrorblade
+- **Conjure Image illusions incoming damage changed from 300% to 400%**
+- **Metamorphosis transformation time increased from 0.35 to 0.45**
+- **Metamorphosis base attack time decreased to 1.30**
+- **Metamorphosis damage scaled from 600/800/1000/1200/1400/1600/1800 to 600/1000/1500/1900/2400/2800/3300**
 
 <div align="center">
   <h1>Bosses</h1>
@@ -133,12 +159,14 @@
 
 ## Kobolds
 - Slightly increased health and damage of Kobold Serfs
-- Removed Kobold Warrior Disarm and replaced it with Packleader's Aura (moved from Kobold Overlord)
-- Kobold Overlord now has Howl.
+- Gave Kobold Serfs the Rally ability, adding 5/6/7/8 damage to all other units per Kobold Serf
+- **Removed Kobold Warrior Disarm and replaced it with Howl**
 
 ## Gnolls
 - Slightly increased the damage of Gnoll Assassins
 - Gnoll Berserkers now seek out the weakest unit in their search radius, rather than the closest unit. Gnoll Berserkers now have Berserker's Blood.
+- Gnoll Assassins now have Coup de Grace
+- Gnoll Berserkers now have Maim instead of Break, slowing movement speed and attack speed
 
 ## Zombie
 - Increased the rate Nethertoxin ramps and increased its maximum damage.
@@ -152,11 +180,9 @@
 - Increased the health of the Tidehunter Ravagers, Slithereen Illusionists and Slithereen Queens.
 
 ## Leshrac
-- Now has Nihilism 
-- **Nihilism cooldown is 21**
-- **Nihilism duration is 5/6/7/8**
+- Now has Nihilism.
 - Prioritizes casting Split Earth on units affected by Lightning Storm.
-- Increased the damage of Lightning Storm and Pulse Nova
+- Increased the damage of Lightning Storm
 
 ## Harbingers
 - Reduced spread damage from 16/18/20/22% to 8/9/10/11%
@@ -165,5 +191,11 @@
 
 ## Psionic Scarab
 - Reflecting Carapace now strong dispels.
-- Reflecting Carapace now starts at 0% reflection and scales up to its maximum over the duration.
-- Reflecting Carapace max reflection damage from 15/18/21/24 to 20/30/40/50%
+- Reflecting Carapace now starts at 0% reflection and scales up to its maximum over **2 seconds.**
+- Reflecting Carapace max reflection damage from 15/18/21/24 to **20/25/30/35%**
+- **Increased max health threshold from 10% to 12%.**
+
+## Warlock Round
+- **Reduced Fatal Bonds shared damage from 18/24/30/36% to 5/6/7/8%**
+- **Increased Fatal Bonds duration from 25 to 120**
+- **Reduced Fatal Bonds cooldown from 18 to 12**
