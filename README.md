@@ -61,10 +61,15 @@
   <h1>Bosses</h1>
 </div>
 
-## Infernal Duelist
-- New Round 21, between Nyx Assassin and Warlock rounds
-- Spawns one Infernal Duelist hero. Has Duel, Overwhelming Odds, Moment of Courage, Arena of Blood, God's Rebuke and Spear of Mars.
-- Spawns Fallen Angel creeps. Fallen Angels have Mystic Flare.
+## Gnolls
+- **Reduced Maim damage per second from 180/200/220/240 to 75/100/125/150**
+- **Reduced Maim attack speed reduction from 60 to 8/10/12/14**
+- **Reduced Maim duration from 4.0 seconds to 2.5 seconds**
+
+## Clockwork Mechas
+- **Clockwork Droid Rocket Flare damage from 625 to 725**
+- **Clockwork Mech Hookshot damage from 3250/3500/3750/4000 to 7500/7000/8000/8500**
+- **Clockwork Mech Battery Assault damage from 180/240/300/360 to 650/700/750/800**
 
 ## Glacial Spirits
 - New Round 12, between Ogres and Treants to break up the horde waves
@@ -72,7 +77,35 @@
 - Spawns Subzero creeps, who casts Ice Vortex and Ice Blast with infinite range, does not attack or come closer to heroes unless attacked.
 - Spawns Winter Wyvern hero, who has Arctic Burn, Splinter Blast and Cold Embrace. Cold Embrace works on enemies, stunning them and dealing damage to them instead of healing.
 
+## Treants
+- **Forest Guardian Nature's Grasp damage per second from 700/800/1000/1000 to 3500/4000/4500/5000**
+- **Forest Guardian Leech Seed damage per second from 2750/3000/3500 to 6000/6500/7000/7500**
+
+## Axes
+- **Crimson Reaver Battle Hunger base damage per second from 1400/1500/1800 to 1750/2000/2250/2500**
+- **Crimson Reaver damage from 2250/2750/3000 to 4000/4500/5000/5500**
+- **Crimson Reaver Culling Blade damage from 16000/18000/20000/20000 to 40000/45000/50000/55000**
+- **Crimson Gremlin Culling Blade damage from 3000/4000/4500/4500 to 5000/6000/7000/8000**
+- **Made Crimson Reaver more patient.**
+
+## Skeleton King
+- **Skeletal Minion base health from 136000 to 256000**
+
 ## Trickster Dragon
 - New Round 18, between Skeletons and Ursas
-- Spawns Puck Bosses. Pucks have Illusory Orb, Waning Rift, Phase Shift and Ethereal Jaunt. Whenever Puck casts on of their abilities, an Illusory Puck minion is spawned that is a copy of Puck, but cannot cast
+- Spawns Puck Bosses. Pucks have Illusory Orb, Waning Rift, Phase Shift and Dream Coil. Whenever Puck casts on of their abilities, an Illusory Puck minion is spawned that is a copy of Puck, but cannot cast
 - Puck has Aghanim's Shard and Scepter
+- **1.5.0a: Base health reduced from 35000000 to 25000000**
+- **1.5.0a: Waning Rift damage reduced from 6000/7000/8000/9000 to 3500/4000/4500/5000**
+- **1.5.0a: Waning Rift duration from 2.0/2.5/3.0/3.5 to 3.0**
+- **1.5.0a: Ethereal Duplicate damage dealt from 60% to 40%**
+
+## Ursine Warriors
+- **Ursine Shaman Primal Roar damage from 6000/6500/7000/7500 to 24000/26000/28000/30000**
+- **Ursine Shaman Drums of Slom damage from 3500 to 5000/6000/7000/8000**
+- **Ursine Shaman Drums of Slom radius from 600 to 750**
+
+## Infernal Duelist
+- New Round 21, between Nyx Assassin and Warlock rounds
+- Spawns one Infernal Duelist hero. Has Duel, Overwhelming Odds, Moment of Courage, Arena of Blood, God's Rebuke and Spear of Mars.
+- Spawns Fallen Angel creeps. Fallen Angels have Mystic Flare.
