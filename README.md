@@ -1,4 +1,4 @@
-> EBF 1.5.2 - 17/08/2024
+> EBF 1.5.2a - 17/08/2024
 <style>
   body {
   background-color: #151618;
@@ -16,7 +16,7 @@
 - Reworked attribute gain scaling. Attribute gain from level no longer increases by 80% each level, instead the total gained attributes are affected by ability power retroactively. This includes the base attribute.
 - Ex. Bane total strength: From +2.5/7/32.5/115/430/945/1660 total bonus strength at lv2/5/10/20/30/40 to 10.15/49.6/145.35/449.35/903.75/1507.35
 - Attack speed from Agility from 0.75 to 0.25 to accomodate for the increase in stat gains at early levels. Reduced attack speed diminishing returns from 2x attack speed for every 5x Agility increase to x2 attack speed for every 3.5x Agility increase.
-- Spell amplification from abilities no longer scales with ability power.## General
+- Spell amplification from abilities no longer scales with ability power.
 - Increased all hero's base attack speed to account for their starting agility after the attack speed from agility reduction.
 
 <div align="center">
