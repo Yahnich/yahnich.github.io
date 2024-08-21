@@ -1,4 +1,4 @@
-> EBF 1.5.1 - 07/06/2024
+> EBF 1.5.2 - 17/08/2024
 <style>
   body {
   background-color: #151618;
@@ -16,7 +16,8 @@
 - Reworked attribute gain scaling. Attribute gain from level no longer increases by 80% each level, instead the total gained attributes are affected by ability power retroactively. This includes the base attribute.
 - Ex. Bane total strength: From +2.5/7/32.5/115/430/945/1660 total bonus strength at lv2/5/10/20/30/40 to 10.15/49.6/145.35/449.35/903.75/1507.35
 - Attack speed from Agility from 0.75 to 0.25 to accomodate for the increase in stat gains at early levels. Reduced attack speed diminishing returns from 2x attack speed for every 5x Agility increase to x2 attack speed for every 3.5x Agility increase.
-- Spell amplification from abilities no longer scales with ability power.
+- Spell amplification from abilities no longer scales with ability power.## General
+- Increased all hero's base attack speed to account for their starting agility after the attack speed from agility reduction.
 
 <div align="center">
   <h1>Items</h1>
@@ -43,7 +44,7 @@
 - Equalize bonus Strength and Agility from 50/100/150/200/250/300 to 30/60/90/120/150/180
 
 ## Morphling: Flow
-- Morphling's abilities are modified as follows when using this facet:
+- Morphling Base Attack Time reduced from 1.5 to 1.4 and movement speed increased to 315
 - Morphling's Primary Attribute is Agility
 - Accumulation: Increases Agility gained to +4 and increases by +4 every level.
 - Waveform: Applies an auto-attack dealing 200% damage to units hit.
@@ -52,16 +53,16 @@
 - Equalize: Bonus Agility from 30/60/90/120/150/180 to 50/100/150/200/250/300
 
 ## Morphling: Ebb
-- Morphling's abilities are modified as follows when using this facet:
+- Morphling becomes a Melee hero with 200 range.
 - Morphling's Primary Attribute is Strength
 - Accumulation: Increases Strength gained to +4 and increases by +4 every level.
 - Waveform: Now slows the attack speed of enemies hit by 40/50/60/70/80/90/100.
-- Adaptive Strike (Strength): Stun duration increased and slows movement speed by 80% for 2.5/3.5/4.5/5.5/6.5/7.5/8.5 seconds afterwards (on max Strength).
-- Morph: Morph costs no mana and can be used while stunned.
+- Adaptive Strike (Both): Targets up to 3 additional units, prioritizing Heroes.
+- Morph: Morphing Agility no longer reduces Morph's current health and can be used while stunned.
 - Equalize: Bonus Strength from 30/60/90/120/150/180 to 50/100/150/200/250/300
 
 ## Morphling: Still
-- Morphling's abilities are modified as follows when using this facet:
+- Morphling attack and cast ranges are increased by 150.
 - Morphling's Primary Attribute is Universal
 - Accumulation: Grants +2 Intelligence and increases by +2 every level.
 - Waveform: Cooldown reduced by 4.
@@ -85,7 +86,7 @@
 
 ## Shadow Fiend - The Psyche
 - Increases Shadow Fiend's base movement speed to 350.
-- Necromastery: Grants 0.25/0.75/1.0/1.25/1.5/1.75/2.0% spell amplification per stack.
+- Necromastery: Grants 0.2/0.6/0.8/1.0/1.2/1.4/1.6% spell amplification per stack.
 - Shadowraze: Applies a stack to units hit that increases the damage they take from Shadow Fiend's spells by 25%.
 - Feast of Souls: Grants 40/50/60/70/80/90/100 AoE bonus and on activation reduces all cooldowns by 9 seconds.
 - Presence of the Dark Lord: Reduces magic resistance by 14/14/14/14/18/22/26% in an area of effect. Hero kills increase this reduction by 2%, Creeps increase it by 0.5%.
@@ -111,6 +112,7 @@
 - Agility gained per attack from 3 to 2
 - Agility gained per hero kill from 1/3/5/7/9/11/13 to 1
 - The permanent agility gained now retroactively benefits from ability power scaling, rather than only at kill time.
+- Leeching Leash facet from 1/2/3/4/5/6/7 Essence Shift stacks on successfully Pouncing a hero to 4 (and also it works now)
 
 ## Primal Beast
 - Uproar bonus armor per stack from 5/10/15/20/25/30/35 to 2/3/4/5/6/7/8
@@ -133,6 +135,7 @@
 ## Witch Doctor
 - Voodoo Restoration no longer deals damage by default. Voodoo Festeration allows Voodoo Restoration to deal 100% of its healing as damage, but prevents allied healing and only heals Witch Doctor (vanilla parity)
 - +2%/0.5% Voodoo Restoration Max HP Heal/Damage to +0.5% Voodoo Restoration Max HP Heal.
+- Voodoo Restoration mana per second from 8/12/16/20/24/28/32 to 15/21/27/33/39/45/51
 
 ## Bristleback
 - Quill cooldown from 3 to 2
@@ -154,8 +157,22 @@
   <h1>Bosses</h1>
 </div>
 
-## Granite Golem Round
+## Treasure
+- Reduced attack damage slightly to account for lower hero health pools.
+
+## Zombies
+- Increased maximum damage of Zombie Bile from 1000/1500/2000/3000
+- Increased duration of Zombie Bile from 6 to 8
+- Increased duration to maximum damage of Zombie Bile from 4 to 5.
+- Increased base attack damage of Walking Zombie from 115-140 to 140-180
+- Reduced base attack speed of Walking Zombie from 200 to 240
+
+## Granite Titans
 - Uses Tiny's model now.
 - Reworked Split, no longer triggers on death, instead, once a Granite Golem higher than Lv. 1 reaches 50% health, they are stunned for 1.5 seconds and gain 90% damage resistance. They then explode into 2 golems with 100%/110%/120%/130%  of the original golem's remaining health. Reduces the level of all their abilities by 1.
 - Reworked Rock Toss. Now tosses 2/3/5/6 Mud Golems evenly in a 300/450/600/750 radius, scales upwards with additional players. Upon impact, the golems stun for 2 seconds and deal 20,000 damage to enemies in a 200 unit radius. No longer a tracking projectile. If an allied Golem is within 150/200/250/300 radius, they are tossed too, increasing the damage by 5000/10000/15000/20000 and the impact radius by 50/100/150/200. Lv3 and 4 Golems now have Tree Grab and cleave for 50/75%.
 - Granite Golem now also has Avalanche. Deals 5000/7500/10000/12500 damage in a 300/450/600/750 unit cone.
+- Reduced Granite Titan's base attack damage from 8000-9500 to 6500-7500
+- Reduced Mud Golem base health from 12000 to 10000
+- Reduced Mud Golem's base armor from 10 to 5
+- Reduced Mud Golem's base magic resistance from 25% to 20%
