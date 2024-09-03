@@ -33,6 +33,48 @@
   <h1>Heroes</h1>
 </div>
 
+## Axe
+- Removed Aghanim's Scepter and Aghanim's Shard effects from Axe.
+- Removed vanilla facets.
+- Coat of Blood reworked: Axe gains +0.6 armor for 2 seconds each time he is damaged or he deals damage. Only gains 0.25 armor from creeps. Stacks are independent.
+- When you kill a non-summoned Hero-type unit with Culling Blade, or it dies within 3 seconds of Culling Blade, you gain a permanent stack of Coat of Blood.
+- Berserker's Call no longer taunts by default.
+- Berserker's Call armor from 14/16/18/20/22/24/26 to 10
+- Battle Hunger no longer adds armor to damage.
+- Battle Hunger now stacks independently by default, each stack deals its own damage instance.
+- Battle Hunger cooldown from 1 to 4.5/4.0/3.5/3.0/2.5/2.0/1.5
+- Culling Blade now gives provides Coat of Blood stacks with an increased duration.
+- Culling Blade no longer needs to succeed to apply its effects, now always applies to Axe by default.
+- Successfully killing a creature within 3 seconds of casting Culling Blade increases the duration of the buff on Axe by 3s and then spreads it to all allies within the radius with the same duration. 
+- Killing a unit with Culling Blade resets its cooldown and gives you maximum Rage.
+
+## Axe: Jofurr
+- Axe' abilities are modified as follows when using this facet:
+- Axe's Base Armor is increased by 2.
+- Coat of Blood: Increases armor gained per stack to 1.0 from Heroes and 0.4 from Creeps.
+- Berserker's Call: Coat of Blood provides double bonuses during Berserker's Call. Taunts units that come within range and grants 35 Rage instead of costing Rage.
+- Battle Hunger: Axe lifesteals 5% + 1% per stack of all damage dealt by Axe against units affected by Battle Hunger.
+- Counterhelix: Applies a stacking 3% total attack damage reduction that lasts for 6 seconds. Has a maximum of 20 stacks. Cooldown removed.
+- Culling Blade: Increased Coat of Blood stacks and turns you Debuff Immune for the duration.
+
+## Axe: Berserker
+- Axe' abilities are modified as follows when using this facet:
+- Axe' Base Attack Speed is increased by 30.
+- Coat of Blood: Increases total attack damage by 1% per stack.
+- Berserker's Call: Increases Axe's attack speed by 40/65/90/115/140/165/190.
+- Battle Hunger: Grants a 30% chance to deal 140% critical damage + 5% per stack.
+- Counterhelix: Attacking increases the counter following the same rules as being attacked. Counterhelix applies an auto-attack to all units hit. 
+- Culling Blade: Now applies a 175/200/225/250/275/300% critical attack with bonus damage. Battle Hunger increases this by its own critical damage bonus. This attack ignores armor.
+
+## Axe: Skald
+- Axe' abilities are modified as follows when using this facet:
+- Axe's Rage is increased by 50.
+- Coat of Blood: Grants 2% spell amplification by per stack.
+- Berserker's Call: Grants the bonus armor to allies within radius. Battle Hunger does not tick down in duration for enemies within radius.
+- Battle Hunger: Reduces enemy armor by 1 per stack
+- Counterhelix: Automatically gains a stack every 0.2 seconds. Does not trigger automatically unless an enemy unit is within range.
+- Culling Blade: Always grants allies the cast effect immediately, instead, killing the unit increases the remaining duration of the buff by 6 seconds. Cooldown reduced by 40 seconds.
+
 ## Morphling
 - Removed Aghanim's Scepter and Aghanim's Shard effects from Morphling.
 - Added third facet.
@@ -107,6 +149,14 @@
 - Feast of Souls: Heals Shadow Fiend for 800/1400/2000/2600/3200/3800/4400 and provides 20/25/30/35/40/45/50% lifesteal from all sources.
 - Presence of the Dark Lord: Reduces all outgoing damage of enemies by 14/14/14/14/18/22/26%. Hero kills increase this reduction by 2%, Creeps increase it by 0.5%.
 - Requiem of Souls: You are Debuff Immune while casting Requiem of Souls, and enemies hit are Feared.
+
+## Shadow Fiend - The Psyche
+- Increases Shadow Fiend's base movement speed to 350.
+- Necromastery: Grants 0.2/0.6/0.8/1.0/1.2/1.4/1.6% spell amplification per stack.
+- Shadowraze: Applies a stack to units hit that increases the damage they take from Shadow Fiend's spells by 25%.
+- Feast of Souls: Grants 40/50/60/70/80/90/100 AoE bonus and on activation reduces all cooldowns by 9 seconds.
+- Presence of the Dark Lord: Reduces magic resistance by 14/14/14/14/18/22/26% in an area of effect. Hero kills increase this reduction by 2%, Creeps increase it by 0.5%.
+- Requiem of Souls: Requiem of Souls return to Shadow Fiend, dealing 40% of the damage on return. Cooldown reduced by 30s
 
 ## Slark
 - Agility gained per attack from 3 to 2
