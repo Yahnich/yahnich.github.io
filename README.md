@@ -1,4 +1,4 @@
-> EBF 1.5.2c - 18/09/2024
+> EBF 1.5.3 - 14/10/2024
 <style>
   body {
   background-color: #151618;
@@ -11,12 +11,6 @@
   <h1>General</h1>
 </div>
 
-## NG+ 
-- Removed
-
-## Rage
-- Reduced rage gain from damage taken from 150% to 100%
-
 <div align="center">
   <h1>Items</h1>
 </div>
@@ -25,67 +19,51 @@
   <h1>Heroes</h1>
 </div>
 
-
-## Axe
-- Coat of Blood Hero Armor from 0.6 to 0.4
-- Coat of Blood Creep Armor from 0.15 to 0.1
-- Coat of Blood Hero/Creep Armor talent from +0.4/0.15 to +0.2/0.1
-- Jofurr Hero/Creep Armor bonus from +0.4/0.15 to +0.2/0.1
-- Skald Hero/Creep Spell Amp from 2/0.8% to 1.2/0.4%
-- Battle Hunger rage cost from 15 to 25
-- Culling Blade rage cost from 80 to 85
-- Culling Blade no grants maximum Rage when killing creeps.
-
-## Zeus
-- Static Field spell bonus damage from 500/1000/1500/2000/2500/3000/3500 to 400/800/1200/1600/2000/2400/2800
-- Static Field attack bonus damage from 250/500/750/1000/1250/1500/1750 to 175/350/525/700/875/1050/1225
-- Epithet of Brontaios Static Field attack bonus damage from 500/1000/1500/2000/2500/3000/3500 to 400/800/1200/1600/2000/2400/2800
-- Epithet of Areios Static Field damage to barrier from 25/30/35/40/45/50/55 to 30%
-- Epiteth of Areios barrier creep penalty from 60% to 20%.
-- Epiteth of Areios's barrier cannot be more than 150% of Zeus' health.
-
-## Shadow Fiend
-- Psyche Necromastery from 0.2/0.6/0.8/1.0/1.2/1.4/1.6% to 0.4/0.5/0.6/0.7/0.8/0.9/1.0%
-- Shadowraze debuff stacks now have independent durations.
-- Psyche Shadowraze damage is no longer reduced.
-- Id Shadowraze Attack Speed Reduction from -50/-65/-80/-95/-110/-125/-140 to -60
-- Ego Shadowraze Armor Reduction from -1/2/3/4/5/6/7 to -3
-- Psyche Dark Lord's Presence magic resistance reduction from 14/14/14/14/18/22/26% to 10/10/10/10/13/16/19%
-- Psyche Dark Lord's Presence bonus magic resistance reduction from 0.5% to 0.2% per stack
-- Id Dark Lord's Presence damage reduction from 14/14/14/14/18/22/26% to 10/10/10/10/13/16/19%
-- Id Dark Lord's Presence bonus damage reduction from 0.5% to 0.2% per stack
-- Fixed Psyche Requiem interaction with Shadowraze.
-
-## Meepo
-- Deleted due to bugs
-
-## Warlock
+## Mirana
 - Removed Aghanim's Scepter and Aghanim's Shard upgrades.
-- Eldritch Summoning: Now summons an Imp any time one of his abilities expire for any reason on a Hero, rather than only on unit death.
-## Warlock - Pact of the Chain
-- Eldritch Summoning: Imps no longer instantly die upon reaching their target, auto-attacking until death instead; still deals explosion damage on death. Deal 20% of Golem damage.
-- Fatal Bonds: Additionally binds to all Imps, dealing the damage taken by them to the unit. If no Imps exist, one is summoned next to the primary target.
-- Shadow Word: Allies within the radius gain 3/5/7/9/11/13/15 armor.
-- Upheaval: Summons a Eldritch Summoning Imps from the center every 2 seconds.
-- Chaotic Offering: Summons 2 Golems instead.
-## Warlock - Pact of the Blade
-- Eldritch Summoning: Whenever an Imp dies, reduces all remaining cooldowns by 1 second.
-- Fatal Bonds: Attacking a unit with Fatal Bonds grants the attacker a 50/60/70/80/90/100/110 attack speed bonus.
-- Shadow Word: Damage per second increased by 100%
-- Upheaval: Upheaval instantly deals its maximum damage, slow still increases.
-- Chaotic Offering: Warlock becomes a Golem, gaining increased health and damage equal to the Golem's stats. Gains Permanent Immolation and Burning Fists.
-## Warlock - Pact of the Tome
-- Eldritch Summoning: Imp Explosions slow enemy attack speed and movement speed by 300 for 2 seconds and explosion radius doubled.
-- Fatal Bonds: Increased Fatal Bonds duration and targets by 50%.
-- Shadow Word: Cooldown reduced by 4 seconds.
-- Upheaval: Radius and slow increase doubled, maximum slow is 100% at all levels.
-- Chaotic Offering: Stun increased to 3.6 seconds and Golem's Permanent Immolation reduces all outgoing healing by 75%.
+- Selemene's Faithful: After using an ability, Mirana gains +10% Base Attributes for 10 seconds. Stacks independently
+
+## Mirana - New Moon
+- Selemene's Faithful: Grants the attributes gained by Mirana to all allied Heroes.
+- Starstorm: Each time a unit is affected by Starstorm, it takes 5% increased damage from all sources. Debuff lasts 8 seconds, stacks independently.
+- Sacred Arrow: Sacred Arrow releases a Starstorm along the travel path.
+- Leap: Upon landing, launches a projectile along Sagan's leap path, dealing damage and slowing units.
+- Moonlight Shadow: As before.
+
+## Mirana - Full Moon
+- Selemene's Faithful: Additionally increases base attack speed by 10%.
+- Starstorm: Units affected by Starstorm grant Mirana 12% lifesteal from all sources per stack of Starstorm. Debuff lasts 8 seconds, stacks independently.
+- Sacred Arrow: Sacred Arrow always deals its maximum damage, regardless of distance. After casting Sacred Arrow, Mirana's next attack has a guaranteed chance to deal 200/250/300/350/400/450/500% critical damage.
+- Leap: Gains one additional charge and attack speed buff duration increased to 8 seconds. Attack speed bonus increased by 25 at all levels.
+- Moonlight Shadow: Increases attack speed and base attack damage by 10/15/20/25/30/35% every second, reaching maximum power after 8s. Allies receive 50% of the bonus
+
+## Nature's Prophet
+- Removed Aghanim's Scepter and Aghanim's Shard upgrades.
+- Teleportation can be alt-cast, when alt-cast Treants teleport with Furion.
+- Nature's Call scales properly with Ability Power.
+
+## Nature's Prophet - Naturopath
+- Spirit of the Forest: Nature's Prophet gains 2% Outgoing Heal Amp for each tree in addition.
+- Sprout: Sprout heals allies in the radius for 100/200/300/400/500/600/700 health per second.
+- Teleportation: Upon teleporting, creates a flower that emits gas for 5 seconds where Nature's Prophet left. Flower deals 100/200/300/400/500/600/700 damage per second to enemies within 450 radius. Nature's Prophet grants the Barrier to all Heroes within 450 units around the teleportation position.
+- Nature's Call: Nature's Call Treants are Uncontrollable. They walk to the nearest ally not already targeted by another Treant and shoot healing pulses to that ally every 3 seconds. Each pulse heals for 300/600/900/1200/1500/1800/2100 health.
+- Wrath of Nature: Wrath of Nature entangles all units hit for 2 seconds, each additional bounce increases the duration by 10%.
+
+## Nature's Prophet - Arboriculturist
+- Spirit of the Forest: Adds a 1200 radius aura that deals 100 damage per tree or Treant within 300 radius of an enemy unit.
+- Sprout: Spawns two Treants instead of a Tree.
+- Teleportation: All Treants gain the Barrier.
+- Nature's Call: Treant base health is increased to 800/1050/1300/1550/1800/2050/2300 and base damage is increased to 160/240/320/400/480/560/640
+- Wrath of Nature: Each time Wrath of Nature strikes an enemy, Furion and all Treants gain a 5% damage increase.
+
+## Nature's Prophet - Phytomercenary
+- Spirit of the Forest: Nature's Prophet gains 1 armor for each tree in addition.
+- Sprout: Units within or near the trees have a 20/25/30/35/40/45/50% chance to miss.
+- Teleportation: Barrier gained increased.
+- Nature's Call: Nature's Prophet covers himself with Treants that each increase his health by 550 and damage by 85/135/185/235/285/335/385 for 50 seconds. Every 10% maximum health Nature's Prophet loses, a Treant dies.
+- Wrath of Nature: Cooldown reduced by 25 seconds and destroys all trees within 450 units of Nature's Prophet. Adds a bounce for destroyed tree on the map.
 
 
 <div align="center">
   <h1>Bosses</h1>
 </div>
-
-## Lord of Hell Round
-- Devour no longer steals passives, instead it deals 40% of current health. Still instakills creeps. No longer targets creeps, unless no heroes are in range.
-- Heal from Devour limited to 20% of Doom's maximum health.
