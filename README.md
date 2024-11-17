@@ -1,4 +1,4 @@
-> EBF 1.5.3b - 14/10/2024
+> EBF 1.5.3c - 14/10/2024
 <style>
   body {
   background-color: #151618;
@@ -11,9 +11,9 @@
   <h1>General</h1>
 </div>
 
-
 ## General
-- Treasure round removed, players now start with 6000 gold and start at level 1.
+- Players now start with 6000 gold and start at level 1.
+
 ## Event - Roguelite
 - Added Roguelite map. Heroes don't receive any gold (including starting gold), instead heroes receive 2 items of an appropriate tier every round.
 - Neutrals don't have a bounty.
@@ -34,18 +34,21 @@
 - **1.5.3.a:** Heroes start with Aghanim's Shard and Scepter upgrades
 
 ## Ability Scaling
-- Hero initial base damage now scales with hero power, mostly affects earlygame attack damage output.
-- Ability power renamed to Hero Power now that it affects more things
-- Ability power scaling from +30% per level to +20%.
-- +35% Base Attributes talent changed to +1% Hero Power/Level
-- You no longer get free skill points level 17, 18 and 19
-- Reworked ability levels. All abilities now have the standard vanilla amount of levels. Basic abilities have 4 levels, ultimate abilities have 3.
-- Cooldowns and durations are reverted to vanilla scaling
-- Removed spell amplification scaling from primary attributes. You still gain provides 0.2% spell amplification per 10 Intelligence.
-- Primary attribute now directly increases the base damage of your spells, similar to ability power. Only affects spell damage, all other values are unaffected. Spell damage increase is 0.2% per 10 Primary. Multiplicative with ability power.
-- Ex (Lv13 Lina, 520 Intelligence). Level 7 Dragon Slave: 18840 damage (360% ability power x 20.8% spell amplification) / Level 4 Dragon Slave: 7661 damage (240% ability power x 7.5% spell amplification x 7.5% base spell damage)
-- Ex (Lv30 Lina, 6245 Intelligence). Level 7 Dragon Slave: 115025 damage (870% ability power x 249.8% spell amplification) / Level 4 Dragon Slave: 146361 damage (870% ability power x 124.9% spell amplification x 124.9%)
-- Overall damage values are weaker earlygame (the example does not include stats from items), but can peak higher lategame. Spell amplification items have more impact.
+- **1.5.3b:** Hero initial base damage now scales with hero power, mostly affects earlygame attack damage output.
+- **1.5.3b:** Ability power renamed to Hero Power now that it affects more things
+- **1.5.3b:** Ability power scaling from +30% per level to +20%.
+- **1.5.3b:** +35% Base Attributes talent changed to +1% Hero Power/Level
+- **1.5.3b:** You no longer get free skill points level 17, 18 and 19
+- **1.5.3b:** Reworked ability levels. All abilities now have the standard vanilla amount of levels. Basic abilities have 4 levels, ultimate abilities have 3.
+- **1.5.3b:** Cooldowns and durations are reverted to vanilla scaling
+- **1.5.3b:** Removed spell amplification scaling from primary attributes. You still gain provides 0.2% spell amplification per 10 Intelligence.
+- **1.5.3b:** Primary attribute now directly increases the base damage of your spells, similar to ability power. Only affects spell damage, all other values are unaffected. Spell damage increase is 0.2% per 10 Primary. Multiplicative with ability power.
+- **1.5.3b:** Ex (Lv13 Lina, 520 Intelligence). Level 7 Dragon Slave: 18840 damage (360% ability power x 20.8% spell amplification) / Level 4 Dragon Slave: 7661 damage (240% ability power x 7.5% spell amplification x 7.5% base spell damage)
+- **1.5.3b:** Ex (Lv30 Lina, 6245 Intelligence). Level 7 Dragon Slave: 115025 damage (870% ability power x 249.8% spell amplification) / Level 4 Dragon Slave: 146361 damage (870% ability power x 124.9% spell amplification x 124.9%)
+- **1.5.3b:** Overall damage values are weaker earlygame (the example does not include stats from items), but can peak higher lategame. Spell amplification items have more impact.
+
+## Max HP Abilities
+- **1.5.3c:** Returned to DOTA2 values.
 
 <div align="center">
   <h1>Items</h1>
@@ -54,6 +57,25 @@
 <div align="center">
   <h1>Heroes</h1>
 </div>
+
+## Gyrocopter
+- Removed Aghanim's Scepter and Aghanim's Shard upgrades.
+- Flak Cannon is no longer a default ability.
+- Chop Shop innate replaced by Side Gunner: Every 1.8/1.6/1.4/1.2 seconds, Gyro auto-attacks a random unit in range. Scales with Call Down.
+
+## Gyrocopter - Heavy Ordnance
+- Side Gunner: The Side Gunner attack explodes, dealing 150/450/750/1050 magical damage to all units within 450 radius of the target, including the target.
+- Rocket Barrage: Rocket Barrage damage increased by 40 and radius increased by 200.
+- Homing Missile: Homing Missiles fire the current level of Rocket Barrage while moving.
+- Flight of the Valkyrie: Replaces Flak Cannon - Gyrocopter gains increased Flying Movement and cannot stop moving forward, turn speed decreased. While active, Gyrocopter gains 10/20/30/40% bonus spell amplification Rocket Barrage and Homing Missile target all units in radius and Call Down becomes a No-Target ability, instead launching the missiles 500 units behind Gyrocopter for as long as Flight of the Valkyrie is active. Lasts 8 seconds.
+- Call Down: Call Down creates delayed secondary explosions that deal 50% damage on Heroes hit.
+
+## Gyrocopter - Assault Copter
+- Side Gunner: Side Gunner's cooldown is reduced by 0.1 each time Gyrocopter attacks.
+- Rocket Barrage: No longer deals Magical damage. Instead performs 25% damage auto-attacks with bonus damage that proc can effects. Every rocket that hits increases Gyrocopter's movement speed by 1/2/3/4% for 4 seconds.
+- Homing Missile: Homing Missile no longer has a wind-up time and units hit by it have their armor reduced by 6 for 1.5/3/4.5/6 seconds.
+- Flak Cannon: Flak Cannon no longer has a maximum attack count. Instead lasts 8 seconds and affects all attacks, including Side Gunner.
+- Call Down: Base damage is increased by your attack damage.
 
 ## Kez
 - Added
@@ -124,3 +146,8 @@
 <div align="center">
   <h1>Bosses</h1>
 </div>
+
+## General
+- **1.5.3c:** Reduced base armor and base magic resistance values of all bosses, minions now have 0 base armor and 0% base magic resistance
+- **1.5.3c:** Minion is now a creature type like Reinforced. Represented by an ability. Whenever a spell deals damage to another unit, all minions gain 50% damage resistance to that spell for 0.5 seconds.
+- **1.5.3c:** Champion is now a creature type like Reinforced. Represented by an ability. Bosses take less damage from abilities that deal maximum health damage. The damage resistance formula is 100 x (1-1/Players), for a total of 0/50/66.6/75/80/83.3/85.7/87.5/88.8/90%
