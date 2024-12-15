@@ -13,9 +13,6 @@
 
 ## General
 - Players now start with 6000 gold and start at level 1.
-- **1.5.3d:** Smoke of Deceit removed.
-- **1.5.3d:** Glyph of Fortification: Now Hard Dispels all Radiant units and grants them 100% damage and status resistance for 10 seconds. 5 minute cooldown.
-- **1.5.3d:** Scan: Now Purges all Dire units in the scan radius and debuffs them for 10 seconds, causing them to take 25% increased damage. 2 minute cooldown.
 
 ## Event - Roguelite
 - Added Roguelite map. Heroes don't receive any gold (including starting gold), instead heroes receive 2 items of an appropriate tier every round.
