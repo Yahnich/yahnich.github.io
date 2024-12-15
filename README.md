@@ -1,4 +1,4 @@
-> EBF 1.5.3c - 14/10/2024
+> EBF 1.5.3d - 14/10/2024
 <style>
   body {
   background-color: #151618;
@@ -13,6 +13,9 @@
 
 ## General
 - Players now start with 6000 gold and start at level 1.
+- **1.5.3d:** Smoke of Deceit removed.
+- **1.5.3d:** Glyph of Fortification: Now Hard Dispels all Radiant units and grants them 100% damage and status resistance for 10 seconds. 5 minute cooldown.
+- **1.5.3d:** Scan: Now Purges all Dire units in the scan radius and debuffs them for 10 seconds, causing them to take 25% increased damage. 2 minute cooldown.
 
 ## Event - Roguelite
 - Added Roguelite map. Heroes don't receive any gold (including starting gold), instead heroes receive 2 items of an appropriate tier every round.
@@ -25,13 +28,13 @@
 - You can sell these items for half their shop value and buy items from the shop still.
 - Heroes are randomized for every player, like Single Draft. The same hero can be available multiple times.
 - There are only 25 rounds available. Bosses are split into pools. This means the order of bosses is random every game. The next 5 rounds are displayed on the UI.
-- **1.5.3.a:** Item drops are no longer limited by round, you can obtain a Tier 5 (Bahamut) item round 1.
-- **1.5.3.a:** This is weighted, the higher the round number, the higher the chances are of you obtaining a high-level item
-- **1.5.3.a:** Item chances are 80/10/5/3.5/1.5% for Tier 1/2/3/4/5 items at round 1. Every round reduces the Tier 1 item chance by 8%, granting 4.0/2/1.25/0.75% to the other tiers.
-- **1.5.3.a:** Tier 1 chance is 0% after round 10, after which the item chances are 0/50/25/16/9%. Each round after this reduces the Tier 2 chance by 5% and increases the chances of the other items by 2.5/1.5/1%; reaching a maximum after round 20 of 0/0/50/31/19%.
-- **1.5.3.a:** Added 1 additional Tier 4 round (pool consists of asura, doom, necrophos, etc), meaning there are now 25 instead of 24 rounds
-- **1.5.3.a:** Selling dropped items no longer grants gold. You can still sell items you bought yourself and dropped items you've upgraded as normal.
-- **1.5.3.a:** Heroes start with Aghanim's Shard and Scepter upgrades
+- **1.5.3a:** Item drops are no longer limited by round, you can obtain a Tier 5 (Bahamut) item round 1.
+- **1.5.3a:** This is weighted, the higher the round number, the higher the chances are of you obtaining a high-level item
+- **1.5.3a:** Item chances are 80/10/5/3.5/1.5% for Tier 1/2/3/4/5 items at round 1. Every round reduces the Tier 1 item chance by 8%, granting 4.0/2/1.25/0.75% to the other tiers.
+- **1.5.3a:** Tier 1 chance is 0% after round 10, after which the item chances are 0/50/25/16/9%. Each round after this reduces the Tier 2 chance by 5% and increases the chances of the other items by 2.5/1.5/1%; reaching a maximum after round 20 of 0/0/50/31/19%.
+- **1.5.3a:** Added 1 additional Tier 4 round (pool consists of asura, doom, necrophos, etc), meaning there are now 25 instead of 24 rounds
+- **1.5.3a:** Selling dropped items no longer grants gold. You can still sell items you bought yourself and dropped items you've upgraded as normal.
+- **1.5.3a:** Heroes start with Aghanim's Shard and Scepter upgrades
 
 ## Ability Scaling
 - **1.5.3b:** Hero initial base damage now scales with hero power, mostly affects earlygame attack damage output.
@@ -69,6 +72,8 @@
 - Homing Missile: Homing Missiles fire the current level of Rocket Barrage while moving.
 - Flight of the Valkyrie: Replaces Flak Cannon - Gyrocopter gains increased Flying Movement and cannot stop moving forward, turn speed decreased. While active, Gyrocopter gains 10/20/30/40% bonus spell amplification Rocket Barrage and Homing Missile target all units in radius and Call Down becomes a No-Target ability, instead launching the missiles 500 units behind Gyrocopter for as long as Flight of the Valkyrie is active. Lasts 8 seconds.
 - Call Down: Call Down creates delayed secondary explosions that deal 50% damage on Heroes hit.
+- **1.5.3d:** Call Down's strike count is no longer infinite during Flight of the Valkyrie, instead increased up to its duration. (+5 baseline, +8 with talent)
+- **1.5.3d:** Recasting Call Down during Flight of Valkyrie no longer creates a second, simultaneous Call Down, instead increases the current active effect's strike count accordingly.
 
 ## Gyrocopter - Assault Copter
 - Side Gunner: Side Gunner's cooldown is reduced by 0.1 each time Gyrocopter attacks.
@@ -124,6 +129,39 @@
 - Nature's Call: Nature's Prophet covers himself with Treants that each increase his health by 550 and damage by 85/135/185/235/285/335/385 for 50 seconds. Every 10% maximum health Nature's Prophet loses, a Treant dies.
 - Wrath of Nature: Cooldown reduced by 25 seconds and destroys all trees within 450 units of Nature's Prophet. Adds a bounce for destroyed tree on the map.
 
+## Nyx Assassin
+- Removed Aghanim's Shard and Aghanim's Scepter
+- Replaced vanilla facets.
+- Nyxth Sense: Nyx's vision lingers for 2 seconds, as well as giving him the invisibility detection.
+- Mana Burn replaced by Mind Flare. Deals 750/1000/1250/1500/1750/2000/2250 magical damage.
+- Spiked Carapace no longer gives armor.
+- No longer has a default Ultimate ability.
+- +80 Agility talent replaced with a talent buffing Nyx Assassin's Ultimate Ability.
+
+## Myrmeleomorph
+- Nyxth Sense: Enemies within Nyx's detection radius take 10% increased damage from his abilities.
+- Impale: Impale afflicts enemies with a debuff for 6 seconds that causes Nyx Asssassin to take 25% less damage from them.
+- Mind Flare: Damage dealt is increased by 25% of the damage taken before reductions by Nyx Assassin from the target.
+- Spiked Carapace: While Spiked Carapace is active, deals 20% of the Spiked Carapace damage to units within 250 units of Nyx Assassin every 0.5 seconds, without stunning them. Increases while Burrowed.
+- Burrow: As it exists currently, but provides 7/11/15/19/23/27 armor and doubles Nyxth Sense radius and Nyx Assassin's vision radius. Bonuses scale with level now.
+- Talents: Vendetta Damage talent becomes -0.75 Burrow Cast Time. Lv 25 talent is Burrow 2s Invisibility Delay.
+
+## Libellumorph
+- Nyxth Sense: Nyx Assassin gains 25% evasion and 25% magic resistance against units in the detection radius.
+- Impale: Impale afflicts enemies with a 6s debuff that causes them to take 200/300/400/500 bonus damage from Nyx Assassin's abilities and attacks.
+- Mind Flare: Damage dealt is increased by 25% of the damage taken before reductions by the target from Nyx Assassin.
+- Spiked Carapace: Spiked Carapace's duration increased by 0.5 seconds and the same target can be affected by Spiked Carapace any number of times.
+- Vendetta: As it currently exists, but Nyx gains flying movement.
+- Talents: Lv 25 talent is Vendetta Debuff Breaks and Silences
+
+## Aulacimorph
+- Nyxth Sense: Damage dealt by Nyx's abilities to units within the detection radius drains 3% of the target's current mana and grants it to Nyx Assassin.
+- Impale: Units hit by Impale are infested for 12s, taking 40/60/80/100/120/140/160 damage every second, stacking independently. If the unit dies, the swarm move towards a random enemy unit within 900 units. Reinfesting resets the scarab's lifetime.
+- Mind Flare: Base damage increased by 100% and resets the duration of all debuffs and stacks applied by Nyx Assassin.
+- Spiked Carapace: While Spiked Carapace is active, any time Nyx Assassin gains or loses mana, he gains Barrier equal to 2x the Mana Spent (scales with ability power).
+- Parasitize: Nyx Assassin burrows into the target unit for 8/10/12 seconds. The unit changes to Nyx's team for the duration. While Parasitizing, Nyx Assassin's abilities consume the affected unit's mana instead of Nyx Assassin, unless they have no mana remaining. Additionally, Nyx Assassin's abilities always affect the target as if they were a targeted enemy, or as if they had triggered an ability. 80/70/60s CD
+- Talents: Vendetta Damage talent becomes +2s Parasitize Duration, Lv 25 talent is Parasitize Grants Control of Unit
+
 ## Riki
 - Innate changed from Backstab to Cloak and Dagger, reworked as follows: Riki goes invisible after 4 seconds. The first attack made while invisible is a Backstab and deals double damage.
 - Backstab is still a basic ability.
@@ -142,6 +180,25 @@
 - Near radius increased to 450
 - Medium radius increased to 700
 - Far radius increasd to 950
+
+## Sniper
+- Removed Aghanim's Shard and Aghanim's Scepter
+- Replaced vanilla facets.
+- Take Aim no longer innately increases Headshot's proc chance.
+
+## Sniper: Gunslinger
+- Keen Scope: Attack range increase reduced, but reduces Sniper's base attack time when Assassinate is leveled.
+- Shrapnel replaced with Shrapnel Shot: Deals 1000/1800/2600/3400/4200/5000/5800 damage immediately in a 500 cone infront of Sniper. Knocks Sniper back 350 units. Affected units lose armor and are disarmed for 2.5 seconds. Has 3 charges.
+- Headshot: Headshot chance is increased based on how close you are, up to 80% chance. Maximum chance at 250 range, minimum at 800.
+- Take Aim: Sniper turns invisible for the duration and attacking does not reveal you.
+- Assassinate: Cast point reduced to 0.3 seconds and damage type becomes Physical, cast range reduced to 700.
+
+## Sniper: Deadeye
+- Keen Scope: Attack range unchanged
+- Shrapnel: Unchanged
+- Headshot: If Headshot triggers against a unit already Headshot, fires an Assassinate projectile that deals 25% of the damage. This also triggers if Headshot procs twice on the same attack, such as when Take Aim is active.
+- Take Aim: Increases Headshot Chance while active.
+- Assassinate: Assassinate's stun duration is increased. The cast point reduces while standing still, becoming 0 after 2 seconds.
 
 <div align="center">
   <h1>Bosses</h1>
