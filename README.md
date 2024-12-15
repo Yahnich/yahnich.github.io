@@ -11,8 +11,7 @@
   <h1>General</h1>
 </div>
 
-## General
-- Players now start with 6000 gold and start at level 1.
+
 
 ## Event - Roguelite
 - Added Roguelite map. Heroes don't receive any gold (including starting gold), instead heroes receive 2 items of an appropriate tier every round.
@@ -177,25 +176,6 @@
 - Near radius increased to 450
 - Medium radius increased to 700
 - Far radius increasd to 950
-
-## Sniper
-- Removed Aghanim's Shard and Aghanim's Scepter
-- Replaced vanilla facets.
-- Take Aim no longer innately increases Headshot's proc chance.
-
-## Sniper: Gunslinger
-- Keen Scope: Attack range increase reduced, but reduces Sniper's base attack time when Assassinate is leveled.
-- Shrapnel replaced with Shrapnel Shot: Deals 1000/1800/2600/3400/4200/5000/5800 damage immediately in a 500 cone infront of Sniper. Knocks Sniper back 350 units. Affected units lose armor and are disarmed for 2.5 seconds. Has 3 charges.
-- Headshot: Headshot chance is increased based on how close you are, up to 80% chance. Maximum chance at 250 range, minimum at 800.
-- Take Aim: Sniper turns invisible for the duration and attacking does not reveal you.
-- Assassinate: Cast point reduced to 0.3 seconds and damage type becomes Physical, cast range reduced to 700.
-
-## Sniper: Deadeye
-- Keen Scope: Attack range unchanged
-- Shrapnel: Unchanged
-- Headshot: If Headshot triggers against a unit already Headshot, fires an Assassinate projectile that deals 25% of the damage. This also triggers if Headshot procs twice on the same attack, such as when Take Aim is active.
-- Take Aim: Increases Headshot Chance while active.
-- Assassinate: Assassinate's stun duration is increased. The cast point reduces while standing still, becoming 0 after 2 seconds.
 
 <div align="center">
   <h1>Bosses</h1>
