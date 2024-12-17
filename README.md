@@ -1,4 +1,4 @@
-> EBF 1.5.3d - 14/10/2024
+> EBF 1.5.3e - 14/10/2024
 <style>
   body {
   background-color: #151618;
@@ -10,8 +10,6 @@
 <div align="center">
   <h1>General</h1>
 </div>
-
-
 
 ## Event - Roguelite
 - Added Roguelite map. Heroes don't receive any gold (including starting gold), instead heroes receive 2 items of an appropriate tier every round.
@@ -176,6 +174,26 @@
 - Near radius increased to 450
 - Medium radius increased to 700
 - Far radius increasd to 950
+
+## Sniper
+- Removed Aghanim's Shard and Aghanim's Scepter
+- Replaced vanilla facets.
+- Shrapnel is no longer the default first ability.
+- Take Aim no longer innately increases Headshot's proc chance, instead grants armor as vanilla.
+
+## Sniper: Gunslinger
+- Keen Scope: flat 50 attack range bonus, but reduces Sniper's base attack time when Assassinate is leveled.
+- Concussive Grenade: Damage increased and scales, other ability values scale. Sniper is knocked back only if he's within the area of effect.
+- Headshot: Headshot chance is increased based on how close you are, up to 80% chance. Maximum chance at 250 range, minimum at 800.
+- Take Aim: Sniper turns invisible for the duration and attacking does not reveal you. The movement speed slow becomes a movement speed bonus instead.
+- Assassinate: Cast point reduced to 0.3 seconds and cast range reduced to 700, hits all units in a 325 radius around the primary target.
+
+## Sniper: Deadeye
+- Keen Scope: Attack range unchanged
+- Shrapnel: Unchanged
+- Headshot: If Headshot triggers against a unit already Headshot, fires an Assassinate projectile that deals 10/15/20/25% of the damage and stun duration. This also triggers if Headshot procs twice on the same attack, such as when Take Aim is active.
+- Take Aim: Increases Headshot Chance while active. Headshot chance bonus is 110/115/120/125%
+- Assassinate: Assassinate's stun duration is increased from 0.5 to 2s and cooldown from 20/15/10 to 14/11/8.
 
 <div align="center">
   <h1>Bosses</h1>
