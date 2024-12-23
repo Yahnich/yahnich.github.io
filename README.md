@@ -76,7 +76,7 @@
 - Oracle: Prognosticate reworked, the last unit Oracle targets with his abilities has their future foretold. Allied units take 10% less damage while affected by Prognosticate, enemy units take 10% more damage. Prognosticate buff lasts until a new unit is targeted.
 - Primal Beast: Colossal reworked, Primal Beast has phased movement. While Primal Beast is colliding with an enemy unit, they take 100/200/300/400 Physical damage every second. This damage increases with his model size.
 - Spirit Breaker: Herd Mentality reworked, Spirit Breaker gains +4% bonus movement speed for each allied Hero within 900 units of him. Allied Heroes within 900 units of Spirit Breaker gain an equal amount of bonus movement speed.
-- Storm Spirit: Galvanized reworked, each time Storm Spirit's abilities deal damage to a unit, he gains a charge. Each charge reduces the mana costs of his abilities by 0.5/0.60.7/0.8% and spell damage they deal by 1.0/1.2/1.4/1.6%
+- Storm Spirit: Galvanized reworked, each time Storm Spirit's abilities deal damage to a unit, he gains a charge. Each charge reduces the mana costs of his abilities by 0.5/0.60.7/0.8% and spell damage they deal by 1.0/1.2/1.4/1.6% for 10 seconds.
 - Templar Assassin: Third Eye reworked, Templar Assassin has True-Strike and True-Sight.
 - Underlord: Invading Force reworked, allied units gain 4/6/8/10% damage reduction and 5/10/15/20% movement speed while moving. Teleporting grants them double the benefits for 5 seconds.
 
