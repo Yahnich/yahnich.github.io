@@ -1,4 +1,4 @@
-> EBF 1.5.3e - 14/10/2024
+> EBF 1.5.3f - 14/10/2024
 <style>
   body {
   background-color: #151618;
@@ -10,6 +10,11 @@
 <div align="center">
   <h1>General</h1>
 </div>
+
+## General
+- **1.5.3f:** Players now start with 6000 gold and start at level 1.
+- **1.5.3f:** Glyph of Fortification: Now Hard Dispels all Radiant units and grants them 100% damage and status resistance for 20 seconds. 2.5 minute cooldown.
+- **1.5.3f:** Scan: Now Purges all Dire units in the scan radius and debuffs them for 30 seconds, causing them to take 25% increased damage.
 
 ## Event - Roguelite
 - Added Roguelite map. Heroes don't receive any gold (including starting gold), instead heroes receive 2 items of an appropriate tier every round.
@@ -54,6 +59,26 @@
 <div align="center">
   <h1>Heroes</h1>
 </div>
+
+## Innates
+- Vengeful Spirit: Retribution reworked, Vengeful Spirit deals 10% bonus damage from all sources against her attacker for 5 seconds after getting damaged.
+- Bounty Hunter: Big Game Hunter reworked, Bounty Hunter deals +15% damage against Hero Units.
+- Dawnbreaker: Break of Dawn reworked, when the time of day changes to Daytime, Dawnbreaker gains +20% damage for 1 minute.
+- Doom: Lvl? Pain reworked, Doom deals 15% bonus damage to Creep units.
+- Earthshaker: Spirit Cairn reworked, when Earthshaker casts an ability or dies, he drops a 75 radius Fissure at his location that lasts for 8 seconds. Units within 500 radius of the Cairn gain 3/4/5/6 armor. Only one Cairn can exist at any given time.
+- Elder Titan: Tip the Scales reworked, allied units under the effects of Glyph of Fortification deal 50% more damage from all sources. Enemy units under the effects of Scan take 50% more damage, instead of 25%.
+- Enchantress: Rabble-Rouser reworked, Enchantress gives all allied units within 1200 units of her +8% attack damage.
+- Grimstroke: Ink Trail reworked, whenever a unit spawns or is attacked by Grimstroke, they are covered in ink for 4 seconds, revealing their position. While covered in Ink, they take 8% more damage from Grimstroke's spells.
+- Invoker: Mastermind reworked, whenever Invoker casts an Invoked spell, gains 5% spell amplification for 15 seconds.
+- Legion Commander: Outfight Them! reworked, when Legion Commander attacks a Hero unit, her HP regeneration, lifesteal and incoming heals are increased by 50%
+- Lion: To Hell And Back reworked, Lion gains 20% debuff duration and spell amplification for 90 seconds after respawning or for 20 seconds after an enemy Hero within 900 units of him dies.
+- Marci: Special Delivery reworked, any time Marci targets an allied unit with one of her spells, she gains 25% movement speed bonus and 25/50/75/100 attack speed for 8 seconds.
+- Oracle: Prognosticate reworked, the last unit Oracle targets with his abilities has their future foretold. Allied units take 10% less damage while affected by Prognosticate, enemy units take 10% more damage. Prognosticate buff lasts until a new unit is targeted.
+- Primal Beast: Colossal reworked, Primal Beast has phased movement. While Primal Beast is colliding with an enemy unit, they take 100/200/300/400 Physical damage every second. This damage increases with his model size.
+- Spirit Breaker: Herd Mentality reworked, Spirit Breaker gains +4% bonus movement speed for each allied Hero within 900 units of him. Allied Heroes within 900 units of Spirit Breaker gain an equal amount of bonus movement speed.
+- Storm Spirit: Galvanized reworked, each time Storm Spirit's abilities deal damage to a unit, he gains a charge. Each charge reduces the mana costs of his abilities by 0.5/0.60.7/0.8% and spell damage they deal by 1.0/1.2/1.4/1.6%
+- Templar Assassin: Third Eye reworked, Templar Assassin has True-Strike and True-Sight.
+- Underlord: Invading Force reworked, allied units gain 4/6/8/10% damage reduction and 5/10/15/20% movement speed while moving. Teleporting grants them double the benefits for 5 seconds.
 
 ## Gyrocopter
 - Removed Aghanim's Scepter and Aghanim's Shard upgrades.
