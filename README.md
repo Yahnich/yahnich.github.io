@@ -1,4 +1,4 @@
-> EBF 1.5.3f - 14/10/2024
+> EBF 1.5.3g - 14/10/2024
 <style>
   body {
   background-color: #151618;
@@ -181,6 +181,33 @@
 - Parasitize: Nyx Assassin burrows into the target unit for 8/10/12 seconds. The unit changes to Nyx's team for the duration. While Parasitizing, Nyx Assassin's abilities consume the affected unit's mana instead of Nyx Assassin, unless they have no mana remaining. Additionally, Nyx Assassin's abilities always affect the target as if they were a targeted enemy, or as if they had triggered an ability. 80/70/60s CD
 - Talents: Vendetta Damage talent becomes +2s Parasitize Duration, Lv 25 talent is Parasitize Grants Control of Unit
 
+## Phantom Assassin
+- Removed Aghanim's Shard and Aghanim's Scepter
+- Replaced vanilla facets.
+- Immaterial: Base evasion from 20% to 30%. No longer scales up by 1.5% each time Phantom Assassin levels up. Instead, the evasion increases by 10% every second Phantom Assassin isn't attacked, isn't attacking or isn't casting spells, reaching 100% after 7 seconds. Once Phantom Assassin is attacked, attacks or casts a spell, the evasion goes down by 10% every second, reaching 30% again after 7 seconds. This effect has a 1.5 second delay before the evasion starts increasing or decreasing.
+- Coup de Grace no longer has increased Coup de Grace chance after throwing a dagger by default.
+
+## Lanceuse
+- Immaterial: Casting spells no longer breaks the evasion, Immaterial's evasion is doubled against units with the Stifling Dagger debuff. 
+- Stifling Dagger: Becomes a 300 AoE targeted ability, throwing a dagger at all units in range. If only one unit is in range, throws another dagger with a 0.5s delay, this dagger deals 50% damage.
+- Phantom Strike: Becomes a point-targeted ability, moving Phantom Assassin to cast position. Phantom Strike refreshes Stifling Dagger if on cooldown and if off cooldown removes the cooldown for the next cast.
+- Blur: While Blur is active, Phantom Assassin gains +150/175/200/225 bonus AoE and +250/300/350/400 cast range.
+- Coup de Grace: Stifling Dagger Critical Chance increased to 40%. Critical hits Break the target for 3 seconds.
+
+## Dame Noire
+- Immaterial: Killing any unit refreshes all of Phantom Assassin's abilities. At 100% evasion, Phantom Assassin becomes invisible.
+- Stifling Dagger: Total attack damage is increased by 20% for each stack of Immaterial.
+- Phantom Strike: Grants +2/3/4/5 stacks of Immaterial and resets the delay.
+- Blur: Cooldown and fade delay reduced by 50%. Attacking creeps does not reveal Phantom Assassin.
+- Coup de Grace: Coup de Grace base chance from 17% to 20 and chance is increased by 1.5% for each stack of Immaterial. If Phantom Assassin is invisible, the chance to critically hit is doubled.
+
+## Femme Fatale
+- Immaterial: Grants attack lifesteal equal to 25% of Phantom Assassin's evasion.
+- Stifling Dagger: Stuns for 1 second, then roots for another second.
+- Phantom Strike: Phantom Strike becomes a no-target ability, each time Phantom Assassin is missed by an attack, she immediately counterattacks the unit with 200/250/300/350 bonus damage. No longer provides attack speed.
+- Blur: Blur no longer turns Phantom Assassin invisible, but gives her 60/65/70/75% evasion.
+- Coup de Grace: Critical hits deal 1% of the creature's current health as bonus pure attack damage.
+
 ## Riki
 - Innate changed from Backstab to Cloak and Dagger, reworked as follows: Riki goes invisible after 4 seconds. The first attack made while invisible is a Backstab and deals double damage.
 - Backstab is still a basic ability.
@@ -205,6 +232,10 @@
 - Replaced vanilla facets.
 - Shrapnel is no longer the default first ability.
 - Take Aim no longer innately increases Headshot's proc chance, instead grants armor as vanilla.
+- **1.5.3g:** Take Aim increases Headshot chance by default now. Take Aim Headshot chance is +30/45/60/75%
+- **1.5.3g:** Take Aim no longer provides armor by default.
+- **1.5.3g:** +15 Take Aim Armor talent replaced by +15% Take Aim Headshot Chance.
+
 
 ## Sniper: Gunslinger
 - Keen Scope: flat 50 attack range bonus, but reduces Sniper's base attack time when Assassinate is leveled.
@@ -212,6 +243,9 @@
 - Headshot: Headshot chance is increased based on how close you are, up to 80% chance. Maximum chance at 250 range, minimum at 800.
 - Take Aim: Sniper turns invisible for the duration and attacking does not reveal you. The movement speed slow becomes a movement speed bonus instead.
 - Assassinate: Cast point reduced to 0.3 seconds and cast range reduced to 700, hits all units in a 325 radius around the primary target.
+- **1.5.3g:** Take Aim now also increases in bonus Headshot chance based on Distance, up to an additional 30/45/60/75% (total +60/90/120/150%, total max Headshot chance at close distance is 140/170/200/230%)
+- **1.5.3g:** Assassinate's cooldown reduced from 20/15/10 to 18/12/6.
+- **1.5.3g:** Assassinate stun duration from 0.5s to 0.8/1/1.2s.
 
 ## Sniper: Deadeye
 - Keen Scope: Attack range unchanged
@@ -219,6 +253,12 @@
 - Headshot: If Headshot triggers against a unit already Headshot, fires an Assassinate projectile that deals 10/15/20/25% of the damage and stun duration. This also triggers if Headshot procs twice on the same attack, such as when Take Aim is active.
 - Take Aim: Increases Headshot Chance while active. Headshot chance bonus is 110/115/120/125%
 - Assassinate: Assassinate's stun duration is increased from 0.5 to 2s and cooldown from 20/15/10 to 14/11/8.
+- **1.5.3g:** New Headshot benefit: Rooted unit is blinded for 20%.
+- **1.5.3g:** Take Aim benefit from "Take Aim increases Headshot chance by +110/115/120/125%" to "Take Aim has True-Strike and active range scales from 200 to 200/250/300/350."
+- **1.5.3g:** Headshot benefit moved to Assassinate: "Assassinate is fired automatically at 15/20/25% power when Sniper Headshots a unit already affected by Headshot or triggers it twice."
+- **1.5.3g:** Assassinate cooldown and stun duration back to vanilla values.
+
+## Sniper
 
 <div align="center">
   <h1>Bosses</h1>
