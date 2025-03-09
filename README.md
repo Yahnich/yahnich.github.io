@@ -76,8 +76,21 @@
   <h1>Heroes</h1>
 </div>
 
-## Nyx Assassin - Aulacimorph
-- Parasitize makes the enemy hostile to both heroes and bosses, damage taken by unit reduced by 75%
+## Axe
+- **1.6.0b.** Coat of Blood: Berserker attack bonus per stack from 1% to 0.4% (0.1% for creeps)
+- **1.6.0b.** Coat of Blood: Skald spell amp per stack from 1.2% to 0.6% (0.15% for creeps)
+- **1.6.0b.** Battle Hunger: Cooldown from 5/4/3/2 to 5.
+- **1.6.0b.** Battle Hunger: Duration from 16 to 10/15/20/25.
+- **1.6.0b.** Battle Hunger: Skald now has 2 base armor reduction, reduction per stack from 1 to 0.5.
+- **1.6.0b.** Counterhelix: Skald seconds per stack from 0.2 to 0.25.
+- **1.6.0b.** Culling Blade: Skald cooldown reduction from -40 to -40% (60/45/30 to 60/48/42)
+- **1.6.0b.** Culling Blade: Coat of Blood stacks from 10/15/20 to 5/10/15 (25/35/45 to 15/25/35 for Jofurr)
+
+ ## Necrophos
+ - **1.6.0b.** Sadist: Health regeneration from 15 to 5
+ - **1.6.0b.** Sadist: Health regeneration from 1.5 to 0.5
+ - **1.6.0b.** Sadist: Hero death multiplier from 6 to 5.
+ - **1.6.0b.** Heartstopper Aura: Health regeneration to damage from 50% to 15%.
 
 ## Bloodseeker
 - **1.6.0b.** Sanguivore max health regeneration on spell damage from 0.3/0.4/0.6/0.8 to 0.1/0.2/0.3/0.4%
@@ -138,6 +151,9 @@
 - **1.6.0b.** Blink Strike: Stun/Slow duration increased to 1.2 seconds.
 - **1.6.0b.** Backstab: Backstab heals all allies within 450 units of the attack target for 25% of Backstab's bonus damage.
 - **1.6.0b.** Tricks of the Trade: Can be unit-targeted. If an allied hero is targeted, they gain the bonus Agility and Tricks of the Trade is centered on your ally.
+
+## Nyx Assassin - Aulacimorph
+- Parasitize makes the enemy hostile to both heroes and bosses, damage taken by unit reduced by 75%
 
 <div align="center">
   <h1>Bosses</h1>
