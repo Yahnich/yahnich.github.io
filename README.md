@@ -91,6 +91,7 @@
  - **1.6.0b.** Sadist: Health regeneration from 1.5 to 0.5
  - **1.6.0b.** Sadist: Hero death multiplier from 6 to 5.
  - **1.6.0b.** Heartstopper Aura: Health regeneration to damage from 50% to 15%.
+ - **1.6.0c.** Profane Potency Sadist AoE per stack  reduced from 40 to 4
 
 ## Bloodseeker
 - **1.6.0b.** Sanguivore max health regeneration on spell damage from 0.3/0.4/0.6/0.8 to 0.1/0.2/0.3/0.4%
@@ -104,6 +105,7 @@
 - **1.6.0b.** Blood Rite: Bloodseeker passively deals 25% more damage from all sources against Silenced units.
 - **1.6.0b.** Thirst: When Bloodseeker has an attack target or attacked a unit within the last 1.5 seconds, Thirst's scaling is inverted, granting him more movement speed the higher his health is. Additionally, at 80% strength, Bloodseeker gains flying movement.
 - **1.6.0b.** Rupture: Rupture deals double damage against units being attacked by Bloodseeker.
+- **1.6.0c.** Increased Cuauhatli pure damage per hit from 200/250/300/350 to 200/300/400/500
 
 ## Bloodseeker - Ocelotl
 - **1.6.0b.** Sanguivore: Bloodseeker gains a 400 radius aura that deals damage equal to 25% of his missing health to all enemies.
@@ -111,11 +113,17 @@
 - **1.6.0b.** Blood Rite: No longer point-targeted. Instead, the ritual follows Bloodseeker and has its radius doubled.
 - **1.6.0b.** Thirst: Bloodseeker gains up to 5/10/15/20 bonus armor based on his missing health.
 - **1.6.0b.** Rupture: The initial burst damage is dealt to all units within 400 units of the target. All units affected by the burst damage are affected by Rupture.
+- **1.6.0c.** Reduced Ocelotl missing health damage from 25% to 10/12/14/16%
+- **1.6.0c.** Ocelotl missing health to maximum barrier from 100/133/166/200% to 80/100/120/140%
+- **1.6.0c.** Ocelotl Bloodrage barrier now decays 1.5% of the current value every second.
 
 ## Pudge
 - **1.6.0b.** Removed Aghanim's Scepter and Shard upgrades.
 - **1.6.0b.** Removed vanilla facets.
--**1.6.0b.**  Meat Hook's remaining cooldown is halved if you did not hit an enemy unit with it.
+- **1.6.0b.**  Meat Hook's remaining cooldown is halved if you did not hit an enemy unit with it.
+- **1.6.0c.** Rot now always deals 70% self-damage to Pudge. Rotten Giant increases this damage reduction to 40%.
+- **1.6.0c.** Meat Shield damage negated from 80/140/200/260 to 40/70/100/130.
+- **1.6.0c.** Meat Hook no longer stuns Pudge, he can move freely and units are pulled to his current position, up to the Hook's maximum distance.
 
 ## Pudge - Rotten Giant
 - **1.6.0b.** Flesh Heap: Flesh Heap grants Pudge an additional 5/6/7/8 maximum health per stack.
@@ -123,6 +131,9 @@
 - **1.6.0b.** Rot: Rot damage increases by 30/60/90/120 every second. Pudge takes 60% of Rot's damage.
 - **1.6.0b.** Meat Shield: When activated, heals Pudge for 800/1400/2000/2600 and applies a Basic Dispel.
 - **1.6.0b.** Dismember: Cast range is increased to 400 and is now a 250 radius point-targeted ability. Pudge gains 20/40/60 Strength every second for each affected Hero.
+- **1.6.0c.** Rotten Giant Rot now increases in radius by 5 every second.
+- **1.6.0c.** Rotten Giant Rot damage now scales based on Pudge's self-damage, rather than scaling independently per unit.
+- **1.6.0c.** Rotten Giant Meat Hook now pierces units, ending early when hitting an ally. Does not pull allies if an enemy was pierced. Enemies affected are rooted until pulled back. Buff duration increased from 4 seconds to 8 seconds.
 
 ## Pudge - Flesh Carver
 - **1.6.0b.** Flesh Heap: Flesh Heap grants Pudge an additional 1/2/3/4 base damage per stack.
@@ -130,6 +141,7 @@
 - **1.6.0b.** Rot: While Rot is active, Pudge gains 4/8/12/16% bonus attack damage every second, up to 20/40/60/80% max bonus attack damage after 5s. Once Rot is deactivated, damage bonus rapidly decays over 1s.
 - **1.6.0b.** Meat Shield: While active, Pudge gains 10/15/20/25% bonus phased movement speed.
 - **1.6.0b.** Dismember: While Dismembering, Pudge gains 5/10/15% outgoing damage amplification every tick for 8 seconds. Duration is refreshed each time and stacks up to 15/30/45%.
+- **1.6.0c.** Flesh Carver now has an auto-cast for Meat Hook. While attacking with auto-cast active, Pudge will instantly hook the attacked unit when off cooldown.
 
 ## Riki
 - **1.6.0b.** Removed Aghanim's Scepter and Shard upgrades.
@@ -154,6 +166,7 @@
 
 ## Nyx Assassin - Aulacimorph
 - Parasitize makes the enemy hostile to both heroes and bosses, damage taken by unit reduced by 75%
+- **1.6.0c.** Parasitize now increases damage taken by the unit instead by 25%.
 
 <div align="center">
   <h1>Bosses</h1>
