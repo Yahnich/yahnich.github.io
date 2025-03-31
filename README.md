@@ -88,6 +88,34 @@
   <h1>Heroes</h1>
 </div>
 
+### Alchemist
+- Removed Aghanim's Shard and Aghanim's Scepter
+- Replaced vanilla facets.
+- Corrosive Weaponry: No longer a default ability.
+- Replaced Acid Spray gives Armor to allies talent with +5s Acid Spray (Linger) Duration
+- Replaced Greevil's Greed gives damage per stack with +5% Greevil's Greed Gold
+
+### Opus of Chrysopoeia
+- Greevil's Greed: Greevil's Greed becomes a global aura that provides 10% bonus gold to all allies.
+- Acid Spray: Lasts until cast again, instead of 15 seconds. When cast again, the previous Acid Spray lingers for 5 seconds.
+- Unstable Concoction: Unstable Concoction Hexes enemies for 150% of the stun duration.
+- Corrosive Weaponry: As vanilla
+- Chemical Rage: Alchemist gains 9/12/15 armor, 2000/3500/5000 bonus health, increases all outgoing debuff durations by 20/35/50% and all AoEs by 25/75/125.
+
+### Opus of Panacea
+- Greevil's Greed: Alchemist gains 1% spell amplification and 1% Healing Provided for every 1000 gold he has.
+- Acid Spray: Heals and gives armor to allies equal to damage and armor reduction values.
+- Unstable Concoction: No longer explodes on Alchemist, but fizzles instead. Allies within the explosion radius gain 750/1250/1750/2250 barrier.
+- Berserk Potion: As vanilla.
+- Chemical Rage: Unstable Concoction and Berserk Potion are refreshed upon casting Chemical Rage, are 30/40/50% more effective and cool down 30/40/50% faster.
+
+### Opus of Azoth
+- Greevil's Greed: Alchemist gains 1% bonus damage and 1 attack speed for every 1000 gold he has.
+- Acid Spray: Acid Spray slows enemies by 10% every second they stay in Acid Spray, up to 80%.
+- Unstable Concoction: Maximum charge time from 5 to 3, minimum stun increased to 1.2 seconds and always deals at least 50% of the maximum damage.
+- Midas Touch: Alchemist's attacks have a 15/20/25/30% chance of turning an enemy into gold for 1.2/1.4/1.6/1.8 seconds, increasing the damage they take by 6/10/14/18% and stunning them for the duration. Has a 2 second cooldown, which starts after the debuff ends.
+- Chemical Rage: Alchemist gains +2.5% bonus damage from base damage every second he remains in Chemical Rage and cannot be silenced.
+
 ## Batrider
 - Firefly Cooldown from 45/40/35/30 to 20
 - Flaming Lasso cooldown from 90/75/60 to 40/35/30
@@ -106,6 +134,33 @@
 - Holy Persuasion cast range from 600 to 2000
 - Holy Persuasion attack damage bonus from 20/70/110/150 to 100/150/200/250
 - Hand of God cooldown from 150/130/110 to 60
+
+### Doom
+- Removed Aghanim's Scepter and Aghanim's Shard upgrades.
+- Lvl ? Pain: Being targeted by Doom's abilities instantly kills Creeps, and Doom deals 15% increased damage from all sources against Creeps.
+- Devour now always deals 500/1000/1500/2000 pure damage.
+- +15% Devour Magic Resistance replaced with -10s Devour CD.
+
+### Doom - Pride and Envy
+- Lvl ? Pain reworked: A creep dying within 900 units of Doom restores 5% of his maximum health.
+- Devour: While Devouring, Doom gains 3/4/5/6 armor and 8/10/12/14% magic resistance.
+- Scorched Earth: Doom also gains increased incoming healing equal to the movement speed and damage increased to 300/500/700/900 DPS.
+- Infernal Blade: Max HP damage from 1/2/3/4% to 2/3/4/5%
+- Doom: Doom becomes a no-targeted spell. While active, Doom emits a 300 radius aura that inflicts Doom on all enemies in range. Lingers for 2 seconds.
+
+### Doom - Wrath and Greed
+- Lvl ? Pain: A creep dying within 900 units of Doom grants him 15% increased damage from all sources (30% total versus Creeps) for 6 seconds.
+- Devour: While Devouring, Doom gains 100/200/300/400 attack damage and cleaves for 50%.
+- Scorched Earth: Doom also gains 35/65/95/125 bonus attack speed during Scorched Earth
+- Infernal Blade: Infernal Blade affects all enemies in a 325 radius.
+- Doom: Units affected by Doom lose 6/8/10 armor and 10/20/30% magic resistance.
+
+### Doom - Gluttony and Sloth
+- Lvl ? Pain: Whenever Doom kills a creep, all his remaining cooldowns are reduced by 25% of their current value
+- Devour: While Devouring, Doom gains 3/6/9/12 bonus mana regeneration and 10/15/20/25 cast speed.
+- Scorched Earth: Enemies in Scorched Earth lose 40/50/60/70 attack speed and 10/15/20/25% movement speed.
+- Infernal Blade: Infernal Blade's debuff grants 6/7/8/9% universal lifesteal for units damaging the target.
+- Doom: +4s Doom duration
 
 ## Ember Spirit
 - Searing Chains unit count from 3 to 6.
