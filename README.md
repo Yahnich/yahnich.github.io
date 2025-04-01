@@ -162,6 +162,33 @@
 - Infernal Blade: Infernal Blade's debuff grants 6/7/8/9% universal lifesteal for units damaging the target.
 - Doom: +4s Doom duration
 
+### Dragon Knight
+- Removed Aghanim's Scepter and Aghanim's Shard upgrades.
+- Rescaled Dragon Blood innate. No longer scales every level. Instead grants 50/150/250/350 health regeneration and 5/10/15/20 armor. Scales with Dragon Form.
+- Breathe Fire no longer reduces attack damage by default.
+- Elder Dragon Form: Improves Breathe Fire while in Elder Dragon Form, turning Breathe Fire into Fireball, a point-targeted 350-radius area of effect. The fire deals 50% of Breathe Fire's damage per second, applies all of the same effects, and lingers on the floor for 8 seconds.
+
+### Dragon Knight - Crimson Blood
+- Dragon Blood: Dragon Knight gains 5/15/25/35% spell amplification.
+- Breathe Fire: Reduces enemy magic resistance by 15%/20%/25%/30% for 8 seconds.
+- Dragon Tail: Hits all enemies within 100 units of the target when cast.
+- Wyrm's Wrath: Dragon Knight's attack deals 100/200/300/400 bonus magical damage, and his AoE effects are increased by 50/80/110/140 radius.
+- Fireball: Now deals 75% of Breathe Fire's damage per second.
+
+### Dragon Knight - Caustic Blood
+- Dragon Blood: Dragon Knight gains 5/15/25/35% debuff amplification.
+- Breathe Fire: Enemies take 100/200/300/400 damage per second for 8 seconds.
+- Dragon Tail: Increases allied attack speed against the target by 25/50/75/100 for 5 seconds.
+- Wyrm's Wrath: Dragon Knight's attacks deal 50/100/150/200 damage per second and reduce enemy armor by 3/4/5/6 for 3 seconds. 
+- Fireball: Reduces enemy armor by 1 per second for the duration.
+
+### Dragon Knight - Cerulean Blood
+- Dragon Blood: Dragon Knight receives 5/15/25/35% bonus incoming healing.
+- Breathe Fire: Increases enemy base attack time by 30% for 8 seconds.
+- Dragon Tail: For 5 seconds after Dragon Tail ends, enemy attack damage is reduced by 30%.
+- Wyrm's Wrath: Dragon Knight's attacks slow enemy movement speed, attack speed and reduce incoming healing by 14/21/28/35%
+- Fireball: Enemies that stay within the radius for 3 seconds become frozen for 1.5 seconds.
+
 ## Ember Spirit
 - Searing Chains unit count from 3 to 6.
 
