@@ -1,4 +1,4 @@
-> EBF 2.0.0 - 01/06/2025
+> EBF 2.0.0a - 11/06/2025
 <style>
   body {
   background-color: #151618;
@@ -27,6 +27,14 @@
 - Attack speed no longer scales diminishingly (previously was 25 attack speed for 100 agility, afterwards required 3.5x agility to double the attack speed). Heroes now gain 1 attack speed every 10 agility. Values at 100, 1000, 10000 agility from 25/67/181 to 10/100/1000
 - Armor no longer scales diminishingly (previously was 0.6 armor every 10 agility, afterwards requiring 5x the agility to double the armor bonus). Heroes now gain 0.15 armor every 10 agility. Values at 100, 1000, 10000 agility from 6.5/17/47 to 1.5/15/150
 - Magic resistance scaling changed from 4% magic resistance for 100 intelligence, then requiring 5x the intelligence to 2x the bonus. Instead, heroes gain 0.2% diminishing magic resistance every 10 intelligence. Each instance is treated as a seperate source of magic resistance (1 - 0.998^Intelligence/10). Still effectively provides 0.2% EHP against magic damage every 10 Intelligence. Values at 100, 1000, 10000 intelligence from 4/10.7/29% to 2/18/86.5%
+
+## Restoration Amplification
+- *2.0.0a.* Reworked entirely because Valve broke this for custom games.
+-*2.0.0a.*  Removed 100% cap on Restoration Amp.
+-*2.0.0a.*  Positive restoration amp and negative restoration amp add additively with restoration amplification of the same type. Negative and positive restoration amp multiply each other. Ex., 25+50% Restore Amp and -25% + -15% will add up to +75% restoration amplification and -40% Restoration Amplification. This then multiplies as 1.75 x 0.6 = 1.05 => for a total of +5% restoration amplification.
+-*2.0.0a.*  More than -100% restoration amplification turns healing and restoration into health loss instead.
+-*2.0.0a.*  All items that previously granted spell lifesteal, lifesteal, incoming healing or health regeneration amplification now grant Restoration Amplification.
+-*2.0.0a.*  Strength now provides Restoration Amplification.
 
 ## Shop
 - Reworked categories. There are now 8 categories.
@@ -117,7 +125,10 @@
 ## Nexus of Vigor
 - New Vanguard item.
 - Grants 5/8.75/15.25/26.5/47% incoming healing amplification and 20/35/60/105/185 strength.
-- Passive effect: Vital Surge - When you are Overhealed, you deal 25/40/65/80/95% of the excess healing as damage to all enemies within 375 radius.
+- Passive effect: Vital Surge - When you are Overhealed, you deal 25/40/65/80/95% of the excess healing as damage to all enemies within 375 radius.## Nexus of Vigor
+- *2.0.0a.* Nexus of Vigor now deals Pure damage equal to the amount Healed (rather than Overhealed) equal to 60/70/80/90/100%
+- *2.0.0a.* Overhealing increases the damage dealt by 30/35/40/45/50% (total damage equal to 78/94.5/112/130.5/150%)
+- *2.0.0a.* Nexus of Vigor now uses Restoration Amplification instead of Incoming Healing Amplification (affects health regeneration, lifesteal and spell lifesteal as well, although these do not interact with its passive)
 
 ## Drum of Chorus
 - New Commander item
@@ -154,6 +165,11 @@
 ## Lucky Femur
 - New Evoker item
 - When you cast an ability, it has a 15/20/25/30/35% to be immediately refreshed, but you receive a debuff that increases its mana cost by 10% for each second of its cooldown. Debuff strength reduces linearly over time and stacks independently each time its triggered.
+- *2.0.0a.* Bonus mana from 450/785/1375/2405/4210 to 250/438/767/1340/2345
+- *2.0.0a.* Bonus intelligence replaced with bonus strength at the same values.
+- *2.0.0a.* Instant refresh chance from 20/25/30/35/40% to 15/24.5/38.3/56/74.5%
+- *2.0.0a.* Mana cost penalty changed from 10% per second of cooldown refreshed to 100% + 5% per second of cooldown refreshed. Still ticks down over time.
+- *2.0.0a.* Modifier is now a buff, meaning it no longer interacts with debuff immunity
 
 ## Wand of Brine
 - New Commander Item
@@ -215,6 +231,8 @@
 - Bristleback can now be activated by default. Has a 24 second cooldown.
 - Warpath can now be activated by default, has a 60/50/40 second cooldown and increases War Path's bonuses by 50% for 10 seconds.
 - War Path attack damage bonus from 150/200/250 to 150.
+- *2.0.0a.* War Path: Attack damage bonus increased from 150 to 150/200/250
+-*2.0.0a.* War Path: No longer gains stacks from Prickly passive casts (Mettlehead still gains a stack)
 
 ### Bristleback - Boogerman
 - Prickly: After taking enough damage, casts Viscous Nasal Goo.
@@ -222,6 +240,8 @@
 - Quill Spray: Applies an independently stacking debuff that lasts 14 seconds. Each stack increases the physical damage taken by that unit by 20/40/60/80. Damage dealt by Bristleback is increased by double the bonus.
 - Bristleback: When activated manually, sends out a spiky glob of snot to the targeted location and releases 2/3/4/5 Viscous Nasal Goos and 1/1/2/2 Quill Sprays.
 - War Path: Every stack of War Path causes Viscous Nasal Goo to deal 50/100/150 Physical spell damage. When activated, Bristleback gains 40/70/100 cast speed.
+-*2.0.0a.* War Path: War Path stacks Viscous Nasal Good damage per stack from 50/100/150 to 40/60/80.
+-*2.0.0a.* War Path: Activating War Path no longer grants cast speed. Instead grants 15/30/45% debuff duration increase.
 
 ### Bristleback - Prick
 - Prickly: After taking enough damage, casts Quill Spray.
@@ -229,6 +249,7 @@
 - Quill Spray: Base damage increased to 750/1500/2250/3000.
 - Bristleback: When activated manually, turns Bristleback's back to the targeted location and sprays 3/4/5/6 conical Quill Sprays. Bristleback is slowed and Disarmed for the duration.
 - War Path: Every stack of War Path grants 4/8/12% spell amplification. When activated, Bristleback gains 4/8/12% spell lifesteal.
+-*2.0.0a.* Viscous Nasal Goo: Units affected by Goo have a 4/8/12/16% chance to slip and become disarmed for 0.4 seconds. Duration increases by 0.1/0.2/0.3/0.4 seconds per stack.
 
 ### Bristleback - Mettlehead
 - Prickly: After taking enough damage, Bristleback gains a stack of Warpath.
@@ -236,6 +257,8 @@
 - Quill Spray: Enemies damaged by Quill Spray receive a stacking debuff with independent durations. When Bristleback attacks a unit affected by Quill Spray's debuff, all the stacks are consumed to deal 100/200/300/400 additional physical damage per stack.
 - Bristleback: When activated manually, Bristleback's minimum and maximum damage reduction is increased by 4/8/12/16%
 - War Path: Also grants 10/15/20/25 attack speed per stack. When activated, Bristleback gains 20/30/40% lifesteal.
+-*2.0.0a.* Viscous Nasal Goo: Units affected by Goo deal 2/4/6/8% less attack damage, increases by 1/2/3/4% for each stack.
+-*2.0.0a.* War Path: Maximum stacks increased from 8/10/12 to 10/14/18.
 
 ### Centaur
 - Removed Aghanim's Scepter and Shard effects.
