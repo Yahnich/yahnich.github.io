@@ -311,6 +311,37 @@
 - Gains Horn Toss: Tosses all enemies in front of Magnus into the air for 0.6. Upon landing, they take 1500/3000/4500/6000 damage and are stunned for 1.75s.
 - Reverse Polarity: Affected units lose 5/10/15 armor and 30/60/90 attack speed for 15 seconds.  Can be alt-cast to push enemies away instead of pulling them in.
 
+## Void Spirit
+- Removed DOTA 2 Aghanim's Shard and Scepter effects
+- Replaced DOTA 2 facets with Immortal and Incomprehensible.
+- Replaced DOTA 2 talents. Each facet has unique talents.
+- Intrinsic Edge: No longer grants 25% bonus health regen, armor, magic resistance and mana regeneration from strength, agility and intelligence. Instead, Void Spirit gains 6% increased attributes.
+- Aether Remnant: No longer pulls enemies one at a time. Instead all units within the beam are Hypnotized by the Remnant, taking damage every 0.2 seconds until the max duration is reached. Total damage unchanged.
+- Resonant Pulse: Buff duration no longer ticks down while Banished or Invulnerable.
+- Astral Step: You can now detonate the Void Mark early by dealing damage with your abilities. When the Void Mark is detonated this way, the slow debuff is refreshed and its duration is increased by 60/100/140% (2/2.5/3 seconds, for a maximum total of up to 3.25/3.75/4.25 seconds). The Void Mark is applied before the attack's damage is dealt.
+
+## Void Spirit - Immortal
+- Intrinsic Edge: Void Spirit gains +4% increased strength.
+- Aether Remnant: When an enemy is no longer Hypnotized by Aether Remnant, they take an additional 500/1000/1500/2000 damage and are stunned for the time they were Hypnotized.
+- Dissimilate: Dissimilate Disarms enemies for 1.5/2/2.5/3 seconds upon phasing in.
+- Resonant Pulse: Resonant Pulse grants Universal Barrier instead of Physical Barrier
+- Astral Step: Astral Step's Void Mark mini-stuns when detonated and slows attack speed by 80/120/160.
+- Lv10 talents are: Resonant Pulse 1.5s Silence / Dissimilate Phased 10% Max Health Regeration (You regenerate up to 10% of your maximum health while Phased Out)
+- Lv15 talents are: Aether Remnant Cross-Watch (You send out 4 Aether Remnants, each being oriented orthoganally from the original.) / 2 Resonant Pulse Charges
+- Lv20 talents are: 25% Astral Step Lifesteal / Dissimilate Stuns
+- Lv25 talents are: Aether Remnants Dissimilate On Expire / Astral Step Activates Resonant Pulse
+
+## Void Spirit - Incomprehensible
+- Intrinsic Edge: Void Spirit gains +4% bonus agility and intelligence.
+- Aether Remnant: Aether Remnants attack targets with bonus damage tick instead.
+- Dissimilate: Dissimilate phase duration increased to 2/3/4/5, whenever you Phase Out, creates an Aether Remnant that lasts as long as you are Phased Out.
+- Resonant Pulse: Resonant Pulse's cooldown is reduced by 6 each time you cast another spell.
+- Astral Step: Void Mark debuff applies -2/4/6 armor.
+- Lv10 talents are: Resonant Pulse Attacks Enemies / Additional Aether Remnants Created By Dissimilate
+- Lv15 talents are: Aether Remnant 5s Target Reset (Enemies previously targeted by an Aether Remnant can be targeted again after 5 seconds) / +100 Attack Speed While Resonant Pulse Active
+- Lv20 talents are: 140% Astral Step Crit / Dissimilate Outer Ring
+- Lv25 talents are: First Aether Remnant Attack Applies Void Mark / Casting Astral Step Refreshes Dissimilate
+
 <div align="center">
   <h1>Bosses</h1>
 </div>
