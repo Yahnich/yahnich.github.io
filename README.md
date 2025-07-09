@@ -1,4 +1,4 @@
-> EBF 2.0.0a - 11/06/2025
+> EBF 2.0.1 - 09/07/2025
 <style>
   body {
   background-color: #151618;
@@ -51,265 +51,223 @@
   <h1>Items</h1>
 </div>
 
-## Items
-- Various neutral artifacts are now purchasable items. Their cost depends on their Tier, Tier 1 being basic and Tier 5 being Bahamut.
-- All items and their recipes and costs have been drastically simplified. All base items now cost 1000g and require no components. You upgrade any item by combining two items of the same rarity.
-- This means all basic items, such as Voodoo Mask, Claymore, etc have been removed.
-- Attribute bonuses adapted to compensate. As a rule of thumb, every tier increase increases all passive bonuses by 75%, as if you had both items in your inventory slot, with a minor reduction for inventory efficiency. Auras and active effects scale linearly.
-- Simplified item designs as follows:
-- Removed Mask of Madness and its effects from Armlet upgrades
-- Removed Battlefury and Talisman of Evasion and their effects from Sange and Yasha upgrades.
-- Removed Battlefury, Talisman of Evasion and their effects from Sange and Yasha upgrades
-- Removed Aeon Disk and Voodoo Mask and their effects from Kaya and Sange upgrades
-- Removed Mask of Madness, Void's Reach and Mjollnir and their effects from Yasha and Kaya upgrades
-- Removed Yasha and Morbid Mask from Butterfly upgrades.
-- Removed Skadi and its effects from Radiance upgrades.
-- Removed Shiva's Guard and Radiance and their effects from Eternal Shroud upgrades.
-- Removed Shiva's Guard and its effects from Assault Cuirass upgrades.
-- Removed cooldown reduction from Dagon upgrades.
-
-## Neutral Items
-- All current Artifacts and Enchantments have been removed. Renamed Neutral Artifacts and Enchantments to Role Artifacts and Enchantments. You get 5 Madstone to purchase your first at game start and have access to all artifacts and enchantments each time.
-- Artifacts grant you PERMANENT bonuses. Switching Artifacts does not reset the bonuses gained. The bonuses scale retroactively with hero power where applicable (damage, health, bonus stats, etc)
-- Added Artifact of Shields: Every 500 damage you take, gain 1 health.
-- Added Artifact of Blades: Every time you attack, gain 1 damage.
-- Added Artifact of Wands : Each time you Cast a Spell, gain 0.1% spell amplification.
-- Added Artifact of Balance: You gain +1 all stats every 10 seconds.
-- Added Deadly enchantment: Grants 15/20/25/30/35% bonus damage and 10/20/30/40/50 attack speed.
-- Added Brawny enchantment: Grants 10/15/20/25/30% increased healing received and 10/12/14/16/18% bonus health.
-- Added Mystical enchantment: Reduces ability costs by 10/15/20/25/30% and increases spell amplification by 15/25/35/45/55%.
-- Added Tough enchantment: Grants 10/15/20/25/30% magic resistance and 4/6/8/10/12 armor.
-
-## Ethereal Blade
-- Removed status resistance and evasion bonuses.
-
-## Spear of Justice
-- Removed Hurricane Thrust active
-- Removed attack range bonus, bonus health, bonus attack speed and bonus intelligence and bonus agility from the item
-- Added bonus health regeneration and increased bonus damage.
-- Buffed Echo Strike from 6/5/4/3/2 (9/8/7/6/5) to 5/4/3/2/1 (7/6/5/4)
-
-## Hurricane Pike
-- Hurricane Thrust now pulls melee heroes and their target closer together, instead of pushing them apart.
-- Attack range bonus now work for melee heroes at half value (75/100/125/150/175).
-
-## Signet of Destiny
-- Removed bonus intelligence, agility and strength, removed bonus health, removed bonus armor
-- Energy Burst no longer uses charges and no longer instantly heals or damages based on charges.
-
-## Cloak of the Protector
-- Removed bonus all stats, bonus health, bonus mana, bonus health regeneration (still exists in the aura)
-- Whenever units affected by Aura of Protection lose more than 10% of their maximum health, this item's cooldown is reduced by 2/4/6/8/10
-
-## Fallen Sky
-- Removed mana regeneration amplification bonus, spell lifesteal amplification bonus and spell amplification bonus.
-
-## Duelists Gloves
-- Now grants an additional 10/20/30/40/50% bonus for each additional Hero within range.
-
-## Specialist's Array
-- Now works for melee heroes as well, attack range bonus for additional target is halved.
-
-## Iron Talon
-- Added Passive effect: Ruthless - When you kill a unit, a random ability has its cooldown reduced by 0.5/1/1.5/2 seconds. This is increased to 4/6/8/10 seconds when killing a Hero.
-
-## Cloak of Flames
-- Reworked Immolate: When you are attacked, all enemies with 375 radius of you take 450/900/1350/1800/2250 damage every second for 2 seconds. Does not stack.
-
-## Vindicator's Axe
-- Reworked Vengeance: Now gives the damage bonus when debuffed, grants the armor bonus when Attack Disabled (Disarm, Stun, Fear, etc...)
-
-## Occult Bracelet
-- Rites of Eloshar: Now also increases the damage dealt to units within 500 units of you by 2/2.5/3/3.5/4% per stack
-
-## Nexus of Vigor
-- New Vanguard item.
-- Grants 5/8.75/15.25/26.5/47% incoming healing amplification and 20/35/60/105/185 strength.
-- Passive effect: Vital Surge - When you are Overhealed, you deal 25/40/65/80/95% of the excess healing as damage to all enemies within 375 radius.## Nexus of Vigor
-- *2.0.0a.* Nexus of Vigor now deals Pure damage equal to the amount Healed (rather than Overhealed) equal to 60/70/80/90/100%
-- *2.0.0a.* Overhealing increases the damage dealt by 30/35/40/45/50% (total damage equal to 78/94.5/112/130.5/150%)
-- *2.0.0a.* Nexus of Vigor now uses Restoration Amplification instead of Incoming Healing Amplification (affects health regeneration, lifesteal and spell lifesteal as well, although these do not interact with its passive)
-
-## Drum of Chorus
-- New Commander item
-- Grants 5/8.75/15.25/26.5/47% spell amplification and 10/18/31/54/94 Primary attribute.
-- Each time another allied unit within 900 units of you Casts a Basic Spell, you gain 10/15/20/25/30% bonus movement speed and your Spells cooldown 10/15/20/25/30% faster for 5 seconds. If no other unit is within 900 radius, triggers on self and if you are already affected by this bonus, another random allied unit in radius gains the buff.
-
-# Assassin's Dagger
-- New Assassin item
-- Grants 20/35/61/107/188 attack speed.
-- Active effect (15/14/13/12/11/10 CD): Assassin's Gambit - You Blink towards the targeted location up to 1200 units away, the first attack made within 3 seconds is a guaranteed critical hit that deals 200/250/300/350/450% critical damage.
-- Passive effect: Blood Revelery - When you critically hit, you gain 25/50/75/100/125 bonus attack speed and 5/10/15/20/25% attack lifesteal for 3 seconds.
-## Archmage's Naginata
-- New Evoker item
-- Grants mana regeneration, attack damage and intelligence.
-- Passive effect: Spellblade - Your attacks have an 18% chance to reduce all current cooldowns by 1/2/3/4/5%.
-
-## Lunar Sigil
-- New Evoker item
-- Places a debuff on a unit, doubles all spell damage they receive, up to a maximum of 1500/3000/4500/6000/7500.
-
-## Refresher Orb
-- Reworked Evoker item
-- Active ability cooldown from 185 to 185/165/145/125/105
-- New passive effect: Refreshing - You r 100/200/300/400/500 health and 10/20/30/40/50 mana whenever you Cast a Spell
-
-## Unhallowed Icon
-- New Commander item
-- Passive aura: Bloodbond Aura - All Allies within the 1200 AoE are Bloodbound. 2/4/6/8/10% of all damage dealt by a Bloodbound unit and any amount of healing over their current health maximum is distributed amongst all other Bloodbound units.
-
-## Glimmer Cape
-- Returning Commander Item
-- Reworked Active: Glimmer - 10% of the Spell Damage absorbed by the barrier is converted into mana.
-
-## Lucky Femur
-- New Evoker item
-- When you cast an ability, it has a 15/20/25/30/35% to be immediately refreshed, but you receive a debuff that increases its mana cost by 10% for each second of its cooldown. Debuff strength reduces linearly over time and stacks independently each time its triggered.
-- *2.0.0a.* Bonus mana from 450/785/1375/2405/4210 to 250/438/767/1340/2345
-- *2.0.0a.* Bonus intelligence replaced with bonus strength at the same values.
-- *2.0.0a.* Instant refresh chance from 20/25/30/35/40% to 15/24.5/38.3/56/74.5%
-- *2.0.0a.* Mana cost penalty changed from 10% per second of cooldown refreshed to 100% + 5% per second of cooldown refreshed. Still ticks down over time.
-- *2.0.0a.* Modifier is now a buff, meaning it no longer interacts with debuff immunity
-
-## Wand of Brine
-- New Commander Item
-- Active effect: Brinefoam - Turns the target invulnerable, stunned and hidden for 3 seconds. They Heal 500/1000/1500/2000/2500 every second.
-
-## Soul Ring
-- New Commander item
-- Toggle effect: Consumption - You lose 10% of your maximum health every second. For every 1000 health lost this way, you and all allies within 1200 units regain 1/2/3/4/5 mana.
-
-## Angelic Crown
-- New Commander item
-- Passive effect: Bless - Buffs you apply last 10/15/20/25/30% longer.
-
-## Samaritan's Cloak
-- New Commander Item
-- Passive effect: Share the Spoils - When a buff is applied to you, another allied unit within 1200 units of you that does not already have it, gains that buff with a 40/50/60/70/80% duration.
-
-## Watcher's Gaze
-- New Tactician item.
-- Active effect (45s cd): Enemies within your frontal cone are turned to stone and take 12/18/24/30/36% additional physical damage for 4 seconds.
-
-## Sea-Cursed Trident
-- New Tactician item.
-- Passive effect: Creatures debuffed by you are Cursed, taking 4/6/8/10/12% additional damage from all sources.
+## Blood Gem
+- Reworked active: "Crystallize Blood - For 8 seconds, this item Lifesteals from damage you take, instantly turning it into False Barrier"
+- Duration and cooldown unchanged.
 
 <div align="center">
   <h1>Heroes</h1>
 </div>
 
-## Anti-Mage
-- Removed Aghanim's Shard and Aghanim's Scepter
-- Replaced vanilla facets.
-- Persecutor innate reworked: Any time any unit within 900 units of Anti-Mage, including Anti-Mage, expends mana, the next instance of damage dealt by Anti-Mage has its damage increased by 150/200/250/300% of the mana spent as magical spell damage. Scales with ability power and Mana Void. Becomes Pure damage against units with less than 25% of their maximum mana.
-- Mana Burn reworked into Mana Feedback: For 4 seconds, increases the mana cost of spells cast by 20/40/60/80 and upon Casting a Spell, slows the enemy by up to 40/60/80/100% for 4 seconds, scaling linearly with missing mana percentage.
-- Counterspell reworked: Reduces spell damage of any damage type. Does not affect attack damage. No longer passively provides magic resistance. Cooldown from 8 to 3, no longer stacks with itself and no longer degrades. Recasting removes the previous Counterspell
-- Mana Void: Does not consume Persecutor's stored damage when applying its damage.
+## Alchemist
+- Greevil's Greed (Opus of Panacea): Bonus spell amplification from 1% per 1000 gold to 1.5% per 100 gold
+- Greevil's Greed (Opus of Azoth): Bonus attack speed from 1 per 1000 gold to 2 per 100 gold
+- Acid Spray: Damage per second from 250/300/350/400 to 300/500/700/900
+- Acid Spray (Opus of Panacea): Now increases armor reduction by +1
+- Acid Spray (Opus of Chrysopoeia): Linger duration from 5 to 5/10/15/20
+- Acid Spray (Opus of Azoth): Now increases damage by +25%
+- Unstable Concoction (Opus of Panacea): Barrier granted increased from 750/1250/1750/2250 to 1500/3000/4500/6000
+- Corrosive Weaponry (Opus of Chrysopoeia): Stacks per second from 2 to 3.
+- Berserk Potion (Opus of Panacea): Cooldown reduced from 35 to 25  
+- Berserk Potion (Opus of Panacea): Duration from 8/10/12/14 to 14
+- Berserk Potion (Opus of Panacea): Attack speed bonus from 30/40/50/60 to 60/100/140/180
+- Chemical Rage (Opus of Panacea): Now increases duration by 10/15/20 (to 40/45/50).
+- Chemical Rage (Opus of Azoth): Now lowers base attack time by 0.1
+- Chemical Rage (Opus of Azoth): Bonus damage per second from +2.5% to +2.5/3.0/3.5%
+- Chemical Rage (Opus of Chrysopoeia): Aoe bonus from 25/75/125 to 75/125/175 
+- Chemical Rage (Opus of Chrysopoeia): Health bonus from 2000/3500/5000 to 3000/5500/8000
 
-## Ascetic's Path
-- Persecutor: Anti-Mage gains a stacking barrier with no duration against all damage types and categories equal to the mana spent, up to 50% of his maximum health.
-- Mana Burn: Initial debuff also reduces enemy outgoing spell damage by 15/20/25/30%.
-- Blink: Restores 6/9/12/15% of your maximum health.
-- Counterspell: When an enemy damages Counterspell's barrier, they take damage equal to the barrier lost of the same damage type.
-- Mana Void: Expends 30% of the enemy and all of its allied units in range's maximum mana before calculating damage dealt.
+## Bloodseeker
+- Sanguivore (Ocelotl): Reduced damage per missing health from 10/12/14/16% to 7/9/11/13%
+- Bloodrage: Attack Speed Talent bonus from +25 to +50
+- Bloodrage (Cuauhtli): No hero multiplier from +50% to +150%.
+- Bloodrage (Cuauhtli): No hero radius from 500 to 150
+- Bloodrage (Ocelotl): Maximum barrier from 80/100/120/140% to 60/80/100/120% of missing health.
+- Bloodrage (Ocelotl): Barrier decay duration from 1.5 to 5
+- Blood Rite (Ocelotl): Ritual radius from 1200 to 900.
+- Thirst: Movement speed bonus from 40/70/100/130% to 20/40/60/80%
+- Thirst: Movement Speed Talent bonus from +18 to +100%
+- Thirst (Cuauhtli): Linger duration from 1.5 to 3/4/5/6
+- Rupture (Cuauhtli): Attacked damage multiplier from +100% to +200%
 
-## Pragmatic's Path
-- Persecutor: Persecutor's base damage from 0 to 100/200/300/400 and becomes Pure damage against units with less than 50% of their maximum mana.
-- Mana Burn: Initial debuff also causes units to take 8/10/12/14% more spell damage.
-- Blink: Blinking causes an Illusion to appear where Anti-Mage was that deals 0/20/40/60% damage and takes 300/250/200/150% damage. Can be alt-cast to instead blink the Illusion to the location and not move Anti-Mage.
-- Counterspell: After Counterspell ends, whether that is through expiring or taking damage, Anti-Mage gains a 60/80/100/120 attack speed bonus for 4 seconds and 10% of the total barrier is added to Persecutor's damage stored.
-- Mana Void: Damage is increased by Anti-Mage's remaining mana, using the same multiplier as the targeted unit's missing mana.
+## Bounty Hunter
+- Removed DOTA 2 Aghanim's Shard and Scepter effects
+- Replaced DOTA 2 facets with Expert Tracker and Takedown Specialist.
+- Jinada: Gold steal can only proc once on each enemy. Hero reward increased from 12/20/28/36 to 24/40/56/72.
+- Track: No longer grants bonus gold on kill. Track grants the following benefits: Target takes increased damage, Shuriken Toss bounces to all Tracked units, Jinada grants gold to all allies when Bounty Hunter gains gold from it against a Tracked unit, Shadow Walk stun duration is increased by 0.1/0.2/0.3s.
 
-### Bristleback
-- Removed DOTA2 Aghanim's Scepter+Shard and Facets.
-- Moved Bristleback's passive cast trigger to Prickly.
-- Snot base armor reduction from 2/2/3/3 to 2/3/4/5.
-- Snot armor reduction per stack from 1.5/2.0/2.5/3.0 to 1.0. The first stack no longer applies this bonus.
-- Quill Spray no longer applies a debuff that increases the damage dealt by Quill Spray.
-- Bristleback no longer releases a Quill Spray when hurt by default.
-- Bristleback can now be activated by default. Has a 24 second cooldown.
-- Warpath can now be activated by default, has a 60/50/40 second cooldown and increases War Path's bonuses by 50% for 10 seconds.
-- War Path attack damage bonus from 150/200/250 to 150.
-- *2.0.0a.* War Path: Attack damage bonus increased from 150 to 150/200/250
--*2.0.0a.* War Path: No longer gains stacks from Prickly passive casts (Mettlehead still gains a stack)
+## Bounty Hunter - Expert Tracker
+- Big Game Hunter: Neutrals killed by Bounty Hunter have a 10% reward increase.
+- Shuriken Toss: Slow duration increased to 1/2/3/4 seconds and also decreased attack speed by 200.
+- Jinada: Jinada randomly Silences, Disarms or Breaks units affected by Jinada for 3 seconds.
+- Shadow Walk: Shadow Walk gains a sub-ability called Friendly Shadow, which can be cast on allies to grant the benefits of Shadow Walk to them.
+- Track: Allied units lifesteal 10/20/30% against Tracked units and benefit from the bonus movement speed.
+- Lv10 Talents: Shadow Walk 15% Damage Reduction / Silenced/Disarmed/Broken +50% Shuriken Toss Damage
+- Lv15 Talents: +1 Jinada Status / Shadow Walk/Friendly Shadow 2 Charges
+- Lv20 Talents: Track Bonus Attack Speed Equal To Movespeed / Shuriken Toss Root and Disarm
+- Lv25 Talents: Tracked Units Suffer Jinada When Targeted / Shadow Walk 500 AOE Shuriken Toss
 
-### Bristleback - Boogerman
-- Prickly: After taking enough damage, casts Viscous Nasal Goo.
-- Viscous Nasal Goo: Affects all units in a 500 AoE, max stacks increased to 8.
-- Quill Spray: Applies an independently stacking debuff that lasts 14 seconds. Each stack increases the physical damage taken by that unit by 20/40/60/80. Damage dealt by Bristleback is increased by double the bonus.
-- Bristleback: When activated manually, sends out a spiky glob of snot to the targeted location and releases 2/3/4/5 Viscous Nasal Goos and 1/1/2/2 Quill Sprays.
-- War Path: Every stack of War Path causes Viscous Nasal Goo to deal 50/100/150 Physical spell damage. When activated, Bristleback gains 40/70/100 cast speed.
--*2.0.0a.* War Path: War Path stacks Viscous Nasal Good damage per stack from 50/100/150 to 40/60/80.
--*2.0.0a.* War Path: Activating War Path no longer grants cast speed. Instead grants 15/30/45% debuff duration increase.
+## Bounty Hunter: Takedown Specialist
+- Big Game Hunter: Each Hero unit kill grants Bounty Hunter a stack of Headhunter. Big Game Hunter grants Bounty Hunter a 20% chance to deal 120% + 5% x Headhunter stacks critical damage. Tracked Heroes always grant Headhunter stacks even if Bounty Hunter didn't kill them.
+- Shuriken Toss: Shuriken Toss splits into two Lesser Shurikens that each deal 50% of the damage to two random units.
+- Jinada: Units affected by Jinada lose 0.5/0.75/1.0/1.25% of their maximum health every second for 3 seconds.
+- Shadow Walk: Total stun duration is doubled and units have their armor reduced by 6 for the duration.
+- Track: The incoming damage is increased to 16/24/32% for Bounty Hunter
+- Lv10 Talents: Shadow Walk Armor Debuff Lingers 3s / +20% Lesser Shuriken Toss Damage
+- Lv15 Talents: +50% Jinada Damage / Shadow Walk Gain And Guarantee Headhunter
+- Lv20 Talents: +8/16% Track Damage Amp / Shuriken Toss +1 Split
+- Lv25 Talents: Tracked Units No Jinada CD / Shadow Walk Refreshes All CDs
 
-### Bristleback - Prick
-- Prickly: After taking enough damage, casts Quill Spray.
-- Viscous Nasal Goo: Every 5th time you are attacked, a Viscous Nasal Goo is automatically launched to your attacker.
-- Quill Spray: Base damage increased to 750/1500/2250/3000.
-- Bristleback: When activated manually, turns Bristleback's back to the targeted location and sprays 3/4/5/6 conical Quill Sprays. Bristleback is slowed and Disarmed for the duration.
-- War Path: Every stack of War Path grants 4/8/12% spell amplification. When activated, Bristleback gains 4/8/12% spell lifesteal.
--*2.0.0a.* Viscous Nasal Goo: Units affected by Goo have a 4/8/12/16% chance to slip and become disarmed for 0.4 seconds. Duration increases by 0.1/0.2/0.3/0.4 seconds per stack.
+## Dark Seer
+- Wall of Replica: Duration from 6/8/10 to 9/12/15
+- Wall of Replica: Illusion damage no longer scales with Hero Power.
 
-### Bristleback - Mettlehead
-- Prickly: After taking enough damage, Bristleback gains a stack of Warpath.
-- Viscous Nasal Goo: Every 5th time you attack, a Viscous Nasal Goo is automatically launched to your target.
-- Quill Spray: Enemies damaged by Quill Spray receive a stacking debuff with independent durations. When Bristleback attacks a unit affected by Quill Spray's debuff, all the stacks are consumed to deal 100/200/300/400 additional physical damage per stack.
-- Bristleback: When activated manually, Bristleback's minimum and maximum damage reduction is increased by 4/8/12/16%
-- War Path: Also grants 10/15/20/25 attack speed per stack. When activated, Bristleback gains 20/30/40% lifesteal.
--*2.0.0a.* Viscous Nasal Goo: Units affected by Goo deal 2/4/6/8% less attack damage, increases by 1/2/3/4% for each stack.
--*2.0.0a.* War Path: Maximum stacks increased from 8/10/12 to 10/14/18.
+## Doom
+- Lvl? Pain (Gluttony and Sloth): Current cooldown reduction from 25% to 15%
+- Devour (Pride and Envy): Bonus armor increased from 3/4/5/6 to 6/9/12/15
+- Devour (Pride and Envy): Bonus magic resistance increased from 8/10/12/14% to 12/15/18/21%
+- Devour (Wrath and Greed): Bonus attack damage increased from 100/200/300/400 to 200/400/600/800
+- Devour (Wrath and Greed): Cleave damage rescaled from 50% to 20/30/40/50%
+- Devour (Gluttony and Sloth): Bonus mana regeneration increased from 3/6/9/12 to 6/10/14/18
+- Scorched Earth: Damage per second increased from 200/350/500/650 to 400/700/1000/1300
+- Scorched Earth: Bonus movement speed increased from 7/8/9/10% to 7/10/13/16%
+- Scorched Earth: Duration rescaled from 10/12/14/16 to 16
+- Scorched Earth: Cooldown rescaled from 41/39/37/35 to 35
+- Scorched Earth (Pride and Envy): Incoming healing bonus increased from 7/8/9/10 to 7/9/11/13%
+- Scorched Earth (Wrath and Greed): Bonus attack speed increased from 35/65/95/125 to 35/70/105/140
+- Scorched Earth (Gluttony and Sloth): Attack speed slow increased from 40/50/60/70 to 40/60/80/100
+- Infernal Blade: Cooldown reduced from 13/10/7/4 to 7/6/5/4
+- Infernal Blade: Base damage increased from 200/300/400/500 to 400/600/800/1000
+- Infernal Blade: Max health damage increased from 1/2/3/4% to 4%
+- Infernal Blade: Stun duration reduced from 0.6 to 0.2
+- Infernal Blade: Stun duration Talent bonus rescaled from +0.6 to +100%
+- Infernal Blade (Pride and Envy): Now increases stun duration by 0.8s
+- Infernal Blade (Pride and Envy): Now increases base damage by 50%
+- Infernal Blade (Pride and Envy): Now increases max health damage by +4
+- Infernal Blade (Gluttony and Sloth): Reduces cooldown to 4.5/3/1.5/0
+- Doom: Cooldown reduced from 140/130/120 to 80/70/60
+- Doom: Damage increased from 300/500/700 to 1200/1800/2400
+- Doom (Gluttony and Sloth): Now reduces cooldown by 15.
 
-### Centaur
-- Removed Aghanim's Scepter and Shard effects.
-- Removed all DOTA 2 facets.
-- Replaced Retaliate Aura with +100% Stampede damage.
+## Enchantress
+- Sproink: Attack targets increased from 3 to 4
+- Impetus: Cooldown reduced from 6/4/2/0 to 2/1.25/0.75/0
+- Impetus: Mana cost reduced from 50 to 35
+- Impetus: Damage increased from 50/100/150/200 to 200/325/450/575%
+- Impetus: Distance Damage Talent bonus from +50 to +25%
 
-### Centaur - Chieftain
-- Centaur's Heart: Health per strength increased from 5 to 10.
-- Hoof Stomp: Grants all allied units within 900 radius 30/50/70/90 attack speed for 5 seconds.
-- Double Edge: Increases Centaur's Strength by 2/4/6/8% for each unit hit with Double Edge. Stack durations are independent.
-- Retaliate: Retaliate is a 300/600/900/1200 radius aura that affects all allied Heroes.
-- Stampede: Stampeding units gain 25% damage resistance.
+## Huskar
+- Burning Spears: Burn damage from 50/100/150/200 to 75/150/
 
-### Centaur - Thunderhoof
-- Centaur's Heart: Centaur has no movement speed cap, cannot be slowed and gains 2 base movement speed for each 100 Strength he has.
-- Hoof Stomp: Slows affected enemies' attack speed by 60/100/140/180 for 5 seconds.
-- Double Edge: Allies within 900 radius of Centaur Lifesteal for 70/80/90/100% of the damage taken by Centaur and 20/40/60/80% of the damage dealt to enemy units.
-- Retaliate: Retaliate automatically activates on a random enemy unit within Centaur's attack range + 150 every 3.0/2.5/2.0/1.5 seconds. Additionally, units that take Retaliate damage have their attack damage reduced by 20% for 3 seconds.
-- Stampede: Slow duration increased to 4 seconds and units Slowed by Stampede are Disarmed and Silenced. Stampeding units gain unobstructed movement.
+## Lich
+- Frost Shield: Cooldown from 30/25/20/15 to 15
+- Ice Spire: Cooldown from 25 to 20
+- Chain Frost: Cooldown from 100/80/60 to 60
+- Chain Frost: Total bounces from 10 to 10/15/20
 
-### Centaur - Stepperazer
-- Centaur's Heart: Centaur gains 1.5 bonus base damage per Strength.
-- Hoof Stomp: Centaur is no longer Disarmed and has 50% damage resistance during Hoof Stomp.
-- Double Edge: Each time Centaur is damaged, the damage dealt by Double-Edge is increased by the 1/2/3/4x percentage of health he lost, up to a maximum of +80% bonus damage. Centaur does not take this bonus damage.
-- Retaliate: Centaur deals 50% of Retaliate's damage to each creature that attacked him in the last 2/3/4/5 seconds within his attack range + 150 each time he attacks.
-- Stampede: Gains the Work Horse sub-ability, which grants Centaur the effects of Stampede and has a 40/35/30 second cooldown. Stampede damage increased from 2000/3000/4000 to 2500/5000/7500.
+## Lina
+- Disabled
 
-### Magnus
-- Removed Aghanim's Scepter and Aghanim's Shard upgrades.
-- Intelligence base and gain to 90/6.7.
-- Solid Core: Magnus is immune to being slowed and has 25% status resistance.
-- Empower: No longer grants increased bonuses to Magnus.
-- Skewer is no longer the default ability.
+## Luna
+- Lunar Blessing: Night multiplier reduced from 2 to 1.5
+- Lunar Blessing: Self multiplier reduced from 2 to 1.5
+- Lunar Blessing (Wrathbearer): Damage stacking duration reduced from 10 to 7
+- Lunar Blessing (Spiteshield): Bonus armor increased from 1/2/3/4 to 2/4/6/8
+- Lucent Beam (Spiteshield): Healing increased from 250/500/750/1000 to 500/1500/2500/3500 and now affects all allies.
+- Lunar Orbit: Collision damage reduced from 22/28/34/40% to 16/20/24/28%
+- Lunar Orbit (Wrathbearer): Rotation speed bonus from +50% to +25%
+- Eclipse: Cooldown from 110 to 70 (from 70 to 50 with talent)
+- Eclipse: Damage interval from 0.6 to 1.0 (from 0.4 to 0.5 for Wrathbearer)
+- Eclipse (Spiteshield): Now increases night duration from +10 to +10/15/20
 
-### Magnus - Avenger
-- Magnus is a Universal hero.
-- Strength base and gain to 90/6.7, Agility base and gain to 90/6.7.
-- Solid Core: Magnus gains 1% bonus attack damage for each point of Armor he has.
-- Shockwave: Shockwave returns to Magnus's location upon reaching the maximum length, hitting enemies a second time for 75% of the damage.
-- Empower: Permanent and more powerful on Magnus. Each attack provides a stacking bonus to damage and cleave of 2.5%, up to a max of 8/12/16/20 stacks. Stacks are refreshed on hit, and last 5 seconds.
-- Gains Skewer: Magnus runs through all enemy units, attacking them once with bonus damage based on how far he has traveled.
-- Reverse Polarity: Magnus gains 5/10/15 armor and 30/60/90 attack speed for 15 seconds.
+## Night Stalker
+- Void (Void Bringer): Max level damage increased from 4000 to 5600
+- Crippling Fear: Mana cost per second reduced from 90 to 50
+- Crippling Fear: Mana cost per second (night) reduced from 60 to 25
+- Crippling Fear: Cooldown reduced from 30/25/20/15 to 10
+- Darkness: Duration increased from 30 to 60
+- Darkness: Duration Talent bonus increased from +8 to +15
+- Darkness: Bonus damage increased from 500/1000/1500 to 1000/2000/3000
 
-### Magnus - Guardian
-- Magnus is a Strength hero.
-- Strength base and gain to 115/7.7, Agility base and gain to 65/5.7.
-- Solid Core: Magnus gains 4 armor, increasing by 0.5 each level. Status resistance increases by 1% each level.
-- Shockwave: Shockwave Disarms enemies during the slow duration and the slow duration is increased to 1.4 seconds.
-- Empower: On cast, applies to all units within 800 units of Magnus.
-- Gains Horn Toss: Tosses all enemies in front of Magnus into the air for 0.6. Upon landing, they take 1500/3000/4500/6000 damage and are stunned for 1.75s.
-- Reverse Polarity: Affected units lose 5/10/15 armor and 30/60/90 attack speed for 15 seconds.  Can be alt-cast to push enemies away instead of pulling them in.
+## Nyx Assassin
+- Impale (Libellumorph): Attack damage bonus increased from 200/300/400/500 to 600/900/1200/1500
+- Impale (Aulacimorph): Damage per second per scarab from 40/80/120/160 to 120/240/360/480
+
+## Outworld Destroyer
+- Obnoxious Deconstructer: Increased bonus mana per intelligence from 0.1 to 0.5
+- Arcane Orb cooldown from 6/4/2/0 to 3/2/1/0
+- Essence Flux scepter barrier from 65% to 130%, scaling with hero power.
+- Sanity's Eclipse cooldown from 150/135/120 to 80/70/60
+
+## Phantom Assassin
+- Immaterial: Stack loss delay from 1.5 to 3
+- Stifling Dagger: Base damage increased from 650/700/750/800 to 650/900/1150/1400
+- Stifling Dagger (Lanceuse): Additional strike damage multiplier increased from 50% to 150%
+- Stifling Dagger (Femme Fatale): Stun duration increased from 1.0 to 1.5/2.0/2.5/3.0
+- Stifling Dagger (Femme Fatale): Root duration increased from 2 to 3/4/5/6
+- Phantom Strike (Femmet Fatale): Counterstrike bonus damage from 200/250/300/350 to 200/300/400/500
+- Phantom Strike (Femmet Fatale): Counterstrike Damage Talent bonus from +100 to +200
+- Coup de Grace: Critical damage from 200/300/400 to 300/375/450%
+- Coup de Grace (Lanceuse): Break duration from 3 to 1/2/3
+- Coup de Grace (Femme Fatale): Current health damage from 1.0/1.5/2.0% to 0.8/1.2/1.6%
+
+## Phoenix
+- Dying Light: Missing health to damage rescaled from 6% to 3%, but scales with hero power.
+- Sun Ray: Max health heal from 0.5/1.0/1.5/2.0% to 2.5/4.0/5.5/7.0%
+- Supernova: Cooldown reduced from 120/90/60 to 80/70/60
+
+## Pudge
+- Replaced all old talents.
+
+## Pudge - Rotten Giant
+- Lv10 Talents: Meat Hook Storm (Pudge launches a total of 8 hooks towards every direction) / Rot 2s Area Linger (Rot Aura lingers even after Pudge moves)
+- Lv15 Talents: Meat Shield 50% Status Resistance / Meat Hook Debuff Lifesteals Pudge
+- Lv20 Talents: Rot Fears 2s Delay/Duration / Dismember No-Target Feast (Dismember becomes a no-target instant-cast ability affecting all enemy units in range.
+- Lv25 Talents: Dismember Bites Launch Hooks / Meat Shield Empowers Rot (Rot damage and radius is doubled while Meat Shield is active)
+
+## Pudge - Flesh Carver
+- Lv10 Talents: Meat Hook Debuff 0.5% Max HP Bleed / Improved Rot Control (Rot base damage increase rate doubled, base damage loss rate halved.)
+- Lv15 Talents: Meat Shield 1.5s Invulnerability / Mobile Meat Hook (Pudge gains 20% increased phased movement speed, is no longer stunned while Hook extends and Meat Hook is 50% faster)
+- Lv20 Talents: Rot Softens Up Enemies For Pudge (Enemies take additional physical damage when attacked by Pudge equal to the Rot damage) / Dismember Debuff Immunity
+- Lv25 Talents: Dismember Damage Amp Aura / Meat Shield Colossus (Pudge gains +50% strength and size while Meat Shield is active)
+
+## Razor
+- Static Link: Cooldown reduced from 35/30/25/20 to 20.
+- Static Link: Drain duration increased from 12/14/16/18 to 16/18/20/22
+
+## Silencer
+- Brain Drain: Permanent intelligence gain increased from 1 to 3
+- Glaives of Wisdom: Intelligence gain duration increased from 15 to 15/20/25/30
+- Glaives of Wisdom: Int Gain Duration Talent bonus increased from +15 to +20
+- Global Silence: Cooldown reduced from 120 to 60
+- Global Silence: Cooldown Talent bonus reduced from -20 to -15
+
+## Slark
+- Essence Shift: Permanent agility bonus from +1 to +4
+- Essence Shift: Temporary agility duration from 20 to 15/20/25/30
+
+## Spirit Breaker
+- Herd Mentality: Movement speed bonus per unit increased from 4 to 8
+- Herd Mentality: Unlocks Spirit Breaker's movement speed.
+- Charge of Darkness: Cooldown reduced from 22/19/16/13 to 15/13/11/9
+- Charge of Darkness (Bull Rush): Linger duration from 0.5 to 3.
+- Bulldoze: Barrier from 1000/2000/3000/4000 to 2000/4000/6000/8000
+- Nether Strike: Cooldown reduced from 75/55/35 to 25/20/15
+
+## Tinker
+- March of the Machines: Damage per robot from 170/260/350/440 to 350/500/650/800
+- March of the Machines (Repair Bots): Heal per robot from 140/210/280/350 to 350/700/1050/1400
+
+## Treant Protector
+- Nature's Grasp: Cooldown reduced from 20/19/18/17 to 15
+- Nature's Grasp: Damage per second increased from 300/400/500/600 to 600/800/1000/1200
+- Leech Seed: Damage/heal from 150/300/450/600 to 250/500/750/1000
+- Living Armor: Heal per second from 30/40/50/60 to 30/60/90/120
+- Living Armor: Duration increased from 15/20/25/30 to 30
+- Overgrowth: Duration increased from 3/4/5 to 4/6/8
+- Overgrowth: Damage per second increased from 850 to 850/1250/1650
+- Overgrowth: Cooldown reduced from 120/110/100 to 80/70/60
+- Overgrowth: Cooldown Talent bonus reduced from -35 to -15
 
 ## Void Spirit
 - Removed DOTA 2 Aghanim's Shard and Scepter effects
@@ -341,6 +299,20 @@
 - Lv15 talents are: Aether Remnant 5s Target Reset (Enemies previously targeted by an Aether Remnant can be targeted again after 5 seconds) / +100 Attack Speed While Resonant Pulse Active
 - Lv20 talents are: 140% Astral Step Crit / Dissimilate Outer Ring
 - Lv25 talents are: First Aether Remnant Attack Applies Void Mark / Casting Astral Step Refreshes Dissimilate
+
+## Zeus
+- Static Field: Bonus spell damage increased from 200/400/600/800 to 300/600/900/1200
+- Static Field: Bonus attack damage increased from 90/180/270/360 to 120/240/360/480
+- Static Field (Epithet of Areios): Damage to barrier increased from 30% to 60%
+- Arc Lightning (Aspect of Olympios): Bonus spell damage per stack increased from 9/10/11/12% to 9/12/15/18%.
+- Thunderbolt: Ministun duration reduced from 0.35 to 0.15 
+- Thunderbolt (Epithet of Brontaios): Bonus attack speed increased from 30/45/60/75 to 30/60/90/120
+- Thunderbolt (Epithet of Olympios): Lightning Cloud damage increased from 15% to 25%
+- Heavenly Jump: Damage targets increased from 1 to 3.
+- Heavenly Jump: Cooldown reduced from 26/22/18/14 to 20/18/16/14
+- Heavenly Jump (Epithet of Brontaios): Cooldown reduction increased from -2 to -4
+- Thundergod's Wrath: Cooldown reduced from 120 to 90/80/70
+- Thundergod's Wrath (Aspect of Areios): Damage to barrier from 75/80/85 to 75/100/125%
 
 <div align="center">
   <h1>Bosses</h1>
