@@ -1,4 +1,4 @@
-> EBF 2.1.1 - 03/10/2025
+> EBF 2.1.1b - 15/11/2025
 <style>
   body {
   background-color: #151618;
@@ -15,9 +15,48 @@
   <h1>Items</h1>
 </div>
 
+## Fairy's Trinket
+- Fae Escalation is now a Unique passive.
+
 <div align="center">
   <h1>Heroes</h1>
 </div>
+
+## Axe
+- Blood Forged Axe: Damage amplification per stack from 1% to 1.5%.
+- Blood Forged Axe: Stack duration from 3.5/5/6.5/8 to 8.
+- Blood Forged Axe: No longer scales with Culling Blade.
+- Blood Forged Axe (Berserker): Attack speed per stack from 8/10/12/14 to 2
+- Blood Forged Axe (Skald): Healing and debuff duration amplification per stack from 0.75/1/1.25/1.5% to 1.5%.
+- Battle Hunger (Skald): Base armor reduction increased from 2 to 4. Armor reduction per stack increased from 0.5 to 1.
+- Counterhelix: Radius from 400 to 275
+- Counterhelix (Jofurr): Now also increases radius to 400.
+- Counterhelix (Berserker): Damage rescaled from 1000/1500/2000/2500 to 1200/1500/1800/2100
+- Culling Blade: No longer restores Rage on Refresh.
+- Culling Blade (Jofurr): Now also restores 40 Rage on Refresh.
+
+## Bristleback
+- Prickly: Current health threshold from 35% to 12%.
+- Prickly (Boogerman): Now only fires one Viscous Nasal Goo towards the unit that triggered Prickly.
+- Prickly  (Prick): Now only affects the triggering unit with Quill Spray. No longer considered reflection damage.
+- Prickly (Mettlehead): Damage and debuff duration amp is always active, regardless of angle.
+- Viscous Nasal Goo: Now deals 250 base damage + 50 per stack and can always be auto-cast. Auto-cast fires Goo on targeting Bristleback's attacker
+- Viscous Nasal Goo (Prick): No longer automatically fires Nasal Goo when attacked. Base slip chance rescaled from 4/8/12/16% to 16%
+- Viscous Nasal Goo (Mettlehead): No longer automatically fires Nasal Goo when attacking. Base attack damage reduction rescaled from 2/4/6/8 to 8%. Stack attack damage reduction increased from 1/2/3/4% to 3/4/5/6%
+- Quill Spray (Boogerman): Debuff no longer increases physical damage taken. Instead applies a debuff increasing the strength of Viscous Nasal Goo's debuff values by 20/30/40/50% per stack. Debuff lasts 3 seconds.
+- Quill Spray (Mettlehead): Adds a Strike trigger to Quill Spray: "When Bristleback hits an enemy unit, he gains a stacking buff that decreases Quill Spray's current cooldown by 0.1 second."
+- Bristleback (Mettlehead): Rescaled Mettlehead's Bristleback damage reduction from 6/8/10/12% to 12%
+- Warpath (Boogerman): No longer grants Goo bonus physical damage. Now increases debuff durations by 2/3/4% per stack without activating the ability. Activating Warpath grants Bristleback 20/30/40 Cast Speed.
+
+## Faceless Void
+- Time Lock is now his innate ability, granting him a 24% chance to Stun his attack target and attacking them again with bonus damage.
+- Removed Distortion Field
+- Time Dilation cooldown reduced to 16
+- Chronosphere is now Faceless Void's third ability. Cooldown is 30/26/22/18. Duration is 2.0.
+- Time Zone is now Faceless Void's ultimate ability.
+- Deprecated Chronosphere and Time Zone facets. Replaced by Time Lord and Time Keeper.
+- Time Lord increases Time Lock damage from 200 to 800 and increases all of Faceless Void's ability durations by 50%.
+- Time Keeper reduces all of Faceless Void's cooldowns by 20%
 
 ## Lycan
 - Removed Aghanim's Shard and Aghanim's Scepter
@@ -59,6 +98,35 @@
 - Leap (Full Moon): Buff duration increased from 8 to 10.
 - Moonlight Shadow (Full Moon): Attack speed gained per second increased from 10/15/20 to 15/25/35.
 - Moonlight Shadow (Full Moon): Bonus damage from base damage gained per second increased from 10/15/20 to 15/25/35.
+
+## Phantom Assassin
+- Stifling Dagger: Bonus attack damage from 650/900/1150/1400 to 1000/1500/2000/2500
+- Stifling Dagger: +25% Attack Damage talent increased to 50%.
+- Stifling Dagger: Attack factor from -30/45/60/75% to 75%
+- Stifling Dagger: Movement slow from 50% to 70%
+- Stifling Dagger: Movement slow duration from 2.1/2.4/2.7/3.0 to 1.5/2.5/3.5/4.5
+- Phantom Strike: Cooldown from 11/9/7/5 to 8/7/6/5
+- Phantom Strike: Bonus attack speed from 100/130/160/190 to 100/150/200/250
+- Phantom Strike (Femme Fatale): Bonus attack speed from 60 to 60/80/100/120
+- Blur: Cooldown from 60/55/50/45 to 45/40/35/30.
+
+## Pudge
+- Graft Flesh (Rotten Giant): Bonus maximum health per stack from 5/7/9/11 to 10.
+- Graft Flesh (Flesh Carver): Bonus base damage per stack from 1/2/3/4 to 4.
+- Rot (Rotten Giant): No longer takes reduced damage from Rot. Maximum bonus damage and radius from 20/40/60/80% to 20/30/40/50%.
+- Rot Talents (Rotten Giant): Rot Linger Duration talent from 2s to 1s. Meat Shield Rot Bonus from 100% to 50%.
+- Rot (Flesh Carver): Maximum bonus damage from 20/40/60/80% to 50/60/70/80%.
+- Meat Shield: Damage block from 40/70/100/130 to 80/140/200/260, duration from 8 to 4/5/6/7
+- Meat Shield (Flesh Carver): Bonus movement speed from 10/15/20/25% to 20/25/30/35%
+- Dismember (Flesh Carver): Outgoing damage amp per stack from 2.5/5/7.5 to 5/6.5/8%
+
+## Shadow Fiend
+- Necromastery: Bonus damage per soul from 5/15/25/35 to 10/20/30/40
+- Necromastery: +25% Values talent increased to +50%
+- Shadowraze: Damage from 500/1000/1500/2000 to 750/1500/2250/3000
+- Shadowraze (Id): Damage from 900/1600/2300/3000 to 1200/2100/3000/3900
+- Feast of Souls: +30% Effect Values talent increased to +50%
+- Feast of Souls (Id): Heal from 1600/2800/4000/5200 to 3000/6000/9000/12000
 
 ## Tiny
 - Removed DOTA 2 Aghanim's Shard and Scepter effects
@@ -120,9 +188,12 @@
 </div>
 
 ## Kobold Round
-- Kobold Warrior no longer has Howl, instead has Rally Troops. This is a 3/2/1/0.5s channeled ability, once activated, 2 Kobold Serfs are summoned for each Player.
-- Kobold Overseer no longer has Speed Aura, Swiftness Aura and Packleader's Aura.
-- Kobold Overseer now has Ripper's Lash as an item and has a new ability: "Herald's Banner - Kobold Overseer plants down a Banner with 1/1/2/2 Health per active Hero. This Banner grants all units +20/30/40/50% damage, 10/15/20/25 armor and 10/15/20/25% magic resistance. Lasts 20/30/30/40 seconds. 40s cooldown"
+- Rally Troops cooldown from 15 to 60.
+- Rally Troops now has a 15 second global cooldown.
+- Rally: Bonus damage reduced from 75/100/125/150 to 25/30/35/40
+- Herald's Banner: Reworked health scaling from 1/1/2/2 health per active hero to 1 + 0/1/2/3 base health.
+- Herald's Banner: Now provides permanent vision over itself
+- Added audio and visual cues for Rally Troops and Herald's Banner
 
 ## Troll Warlord Round
 - No longer has Switch Stance, Berserker's Blood or Berserker's Rage.
