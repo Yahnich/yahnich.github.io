@@ -1,4 +1,4 @@
-> EBF 2.1.1b - 15/11/2025
+> EBF 2.1.3 - 06/12/2025
 <style>
   body {
   background-color: #151618;
@@ -11,12 +11,32 @@
   <h1>General</h1>
 </div>
 
+## Burn
+- Added a new mechanic to hero abilities and items, called Burn. Burn is handled by a primary non-stackable debuff.
+- Burn stacks infinitely, dealing 50 magical damage for each stack every 0.25 seconds. Each time Burn deals damage, it loses 20% of its stacks.
+- When a Burning unit is Dispelled, half of the Burn is removed.
+- Burn has a default minimum value of 0, but some items increase this minimum, increasing the current stack appropriately. For example, an item that deals +25 Minimum Burn increases a unit's current and minimum burn by 25.
+- Burn is shared among all heroes, stacks are removed chronologically. Damage dealt to a unit by Burn is based on the proportions of Burn applied. For example, a unit with 10 Burn, 2 applied by Batrider and 8 applied by Jakiro will take 1000 damage every 0.5 second, 200 of which will be attributed to Batrider and 800 of which will be attributed to Jakiro. Hero Power and Spell Amplification scales these accordingly.
+
+## Poison
+- Added a new mechanic to hero abilities and items, called Poison. Poison is handled by a primary debuff.
+- Poison stacks infinitely, dealing 50 Pure damage for each stack every 3 seconds. This damage is considered health-loss and does not trigger on-damage effects.
+- When a Poisoned unit is Dispelled, half of the Poison is removed. Any time a Poisoned Unit is healed, they lose 1 Poison for every 300 Healed and 2 Poison for every 300 Overhealed.
+- Poison has a default minimum value of 0, but some items increase this minimum, increasing the current stack appropriately. For example, an item that deals +25 Minimum Poison increases a unit's current and minimum Poison by 25.
+- Spell Amplification and Hero Power increases the amount of Poison applied and minimum Poison applied, rather than how much damage each stack deals.
+- Poison is shared among all heroes, stacks are removed chronologically. Damage dealt to a unit by Poison is based on the proportions of Poison applied. For example, a unit with 10 Poison, 2 applied by Viper and 8 applied by Venomancer will take 3000 damage every 3 seconds, 600 of which will be attributed to Viper and 2400 of which will be attributed to Venomancer.
+
 <div align="center">
   <h1>Items</h1>
 </div>
 
 ## Fairy's Trinket
 - Fae Escalation is now a Unique passive.
+
+## Unhallowed Icon
+- No longer heals the damaging unit, only the other Bloodbound units.
+- Allied lifesteal from 2/4/6/8/10% to 6/7/8/9/10%
+- Overheal sharing from 100% to 60/70/80/90/100%
 
 <div align="center">
   <h1>Heroes</h1>
@@ -58,142 +78,112 @@
 - Time Lord increases Time Lock damage from 200 to 800 and increases all of Faceless Void's ability durations by 50%.
 - Time Keeper reduces all of Faceless Void's cooldowns by 20%
 
-## Lycan
+## Huskar
+- Removed Aghanim's Shard and Scepter effects.
+- Removed DOTA 2 Facets.
+- Uses Rage as a cast mechanic now.
+- Blood Magic: Reworked and renamed into Burn Magic - Huskar can cast his abilities even without sufficient Rage, Burning himself for the Rage cost after Casting. Additionally, Huskar takes 50% Burn damage.
+- Inner Fire: Removes all Burn from Huskar. Rage cost is 25.
+- Burning Spear: Applies 6/7/8/9 Burn on Huskar and the target instead. No longer costs health.
+- Berserker's Blood: Huskar cannot be killed by Burn damage.
+- Life Break: The target gains Burn equal to the Burn on Huskar. Rage cost is 50.
+
+## Huskar - Cauterizer
+- Blood Magic: Huskar gains 0.5% spell amplification for each Burn applied to him.
+- Inner Fire: Inner Fire deals 100/200/300/400 increased damage for each Burn removed from Huskar.
+- Burning Spear: Burn increased to 7/9/11/13
+- Berserker's Blood: Max magic resistance increased to 60/70/80/90%. Burn cannot reduce Huskar to less than 12% of his maximum health.
+- Life Break: Units affected by Life Break's slow explode on death, spreading their remaining burn to all units within 600 units.
+
+## Huskar - Fire-Hardened
+- Blood Magic: Huskar gains 1% restoration amplification for each Burn applied to him.
+- Inner Fire: Heals Huskar for the damage value, this healing is increased by 100/200/300/400 for each Burn removed.
+- Burning Spear: Added Retribution trigger - Huskar deals 100 damage for each Burn applied to him to all units with 325 radius each time he is attacked. Has a 1 second internal cooldown.
+- Berserker's Blood: Can be activated for 40 Rage with a 25/20/15/10 second cooldown. On activation, applies a Basic Dispel to Huskar and Huskar gains 100 health regeneration for each Burn on him for 3 seconds.
+- Life Break: Huskar becomes immune to Burn damage and Burn does not tick down for the Debuff Immunity duration. The target is taunted to Huskar for the slow duration.
+
+## Mars
+- Removed Aghanim's Scepter and Aghanim's Shard upgrades.
+- Dauntless: Reworked - Mars gains +40% Restoration Amp for each Hero within 700 range. Enemy Creeps grant +5%.
+- Bulwark: While not toggled on, Mars can only benefit from the side reduction.
+- Arena of Blood: Now also improves Mars' abilities: Spear of Mars is Replicated up to 1/2/3 times, firing out from a random Arena Soldier towards the nearest enemy unit. God's Rebuke is Replicated on every Arena Soldier. Mars is flanked by 5 Arena Soldiers while Bulwark is toggled on within the Arena.
+
+## Mars - Epithet of Adamastos
+- Dauntless: Mars gains 10% Spell and Attack Lifesteal.
+- Spear of Mars: Spear of Mars now pins to the ground at the end of its range and the distance thrown can be chosen. Pinning the ground has the same behavior as pinning against a tree or another unit. Additionally, there is no upper maximum to the amount of units Skewered.
+- God's Rebuke: Now has 50% lifesteal.
+- Bulwark: When toggled, all enemies have a 70% chance to attack Mars if they weren't already and increases Front reduction by 10% and side reduction by 5%
+- Arena of Blood: Mars gains 4% maximum health regeneration while in Arena of Blood.
+
+## Mars - Epithet of Hoplochares
+- Dauntless: Allies gain half the benefits of Dauntless and Dauntless grants 4 armor and 8% magic resistance for each Creep-Hero within range. Creeps grants 0.5 armor and 1% magic resistance.
+- Spear of Mars: Leaves behind a trail of fire that slows enemy movement speed by 20/30/40/50% and deals 400/600/800/1000 damage per second.
+- God's Rebuke: Slow duration increased from 2.5s to 6 seconds. Movement slow increased to 40/60/80/100% and reduces enemy attack slow by twice that amount.
+- Bulwark: While toggled on, Bulwark becomes a 600 radius aura that grants allies the side reduction to any attack received.
+- Arena of Blood: Damage resistance and amplification while within Arena of Mars increased to 16/20/24%
+
+## Mars - Epithet of Vrotochtonos
+- Dauntless: Mars gains bonus attack damage equal to its Restoration Amp.
+- Spear of Mars: Damage increased by 50%
+- God's Rebuke: Each time you are attacked by a Creep-Hero, the next God's Rebuke's critical damage is increased by 5%. Creeps increase this by 1%.
+- Bulwark: Getting hit gives you a 100% attack boost for your next attack. The damage is reduced to 40% when getting hit from the front and 60% when getting hit from the sides. Highest buff has priority. Lingers for 0.8 seconds.
+- Arena of Blood: Every second Mars stays in Arena of Mars, his attack speed increases by 10/20/30.
+
+## Venomancer 
+- Removed Aghanim's Shard and Scepter effects.
+- Removed DOTA 2 Facets.
+- Septic Shock: Venomancer deals bonus magic attack damage to Poisoned Units equal to 10x their Poison.
+- Venomous Gale: Debuff no longer deals damage over time, Venomous Gale now applies 5/10/15/20 Poison immediately. Reapplying Venomous Gale purges the previous debuff.
+- Poison Sting: Debuff no longer deals damage over time, the debuff now applies 1 Poison every second. Is now an Aura that affects all of Venomancer's summoned units, granting them Poison Sting's effects. Summons apply the debuff for half the duration.
+- Noxious Plague: Reworked - No longer deals maximum health damage to the affected units. Instead, applies 5/7/9 Poison on impact and every second. Still slows enemy movement speed based on proximity to an infected unit. When Noxious Plague ends, the initial unit explodes, immediately taking their Poison damage and dealing it to all units within the aura. Units damaged by this are infected by a non-contagious version of Noxious Plague.
+- Lv20 Left Talent from +150 All Stats to +100 Venomous Gale Impact Damage Per Poison
+
+## Venomancer - Toxicologist
+- Septic Shock: Every 4th attack, Venomancer Lifesteals for 50% of the damage dealt, sharing it with all allies within 900 radius.
+- Venomous Gale: When Venomous Gale ends for any reason, the affected unit takes their Poison damage immediately and are stunned for 1.5/2/2.5/3.0 seconds
+- Poison Sting: Poison Sting now also slows attack speed by an amount equal to the movement speed slow, additionally, movement speed and attack speed are slowed by +X%, where X is their Poison.
+- Plague Ward: Plague Ward can be cast on allies, granting barrier equal to Plague Ward's health. Plague Ward is Invulnerable while attached to an allied unit, only dying when the barrier gained from Plague Ward is lost.
+- Noxious Plague: When Noxious Plague ends, all allies in the radius are healed for the damage dealt.
+
+## Venomancer - Plaguebringer
+- Septic Shock: Every 4th attack, Septic Shock's damage is increased to 40x their Poison.
+- Venomous Gale: The first time an enemy Hero is hit by Venomous Gale, create 1/2/3/4 Plague Wards.
+- Poison Sting: Summoned units apply the full duration and if an enemy Champion dies while affected by Poison Sting, all of Venomancer's abilities are Refreshed.
+- Plague Ward: Plague Wards explode on death, dealing 50% of their maximum health as physical damage.
+- Noxious Plague: Noxious Plague can spread one additional time.
+
+## Winter Wyvern
 - Removed Aghanim's Shard and Aghanim's Scepter
 - Replaced vanilla facets.
-- Apex Predator now deals 30% bonus damage to all Creeps, not just Neutral Creeps. Doubled for Shapeshifted units. No longer scales with level.
-- Howl no longer fears summoned units.
-- Feral Impulse no longer affects Lycan's controlled units by default.
-- Summon Wolves is no longer a default ability.
-- Shapeshift now provides 16/18/20% lifesteal by default.
-- Shapeshift no longer affects Lycan's controlled units by default.
+- Eldwyrm Scholar: Reworked, now grants Winter Wyvern +0.3% Spell Amplification per 100 Intelligence.
+- Arctic Burn: Damage is now 200/400/600/800 damage per second. Deals an extra 4%/5%/6%/7% of the target's current HP every second. 
+- Winter's Curse: Spell damage amplification from Wyvern reduced from 30% to 15%
+- +700 Base Damage talent replaced with +100% Arctic Burn Base Damage Per Second
 
-## Lone Wolf
-- Apex Predator: Provides half the bonus damage against Hero-Units if no other Hero Unit is within 400 units of them.
-- Thrill of the Hunt: Passive ability. Increases Lycan's health by 3000/6000/9000/12000 and base attack damage by 160/320/480/640.
-- Howl: Fears all enemy units for 1.5 seconds when activated. Increased to 2.5 seconds during nighttime.
-- Feral Impulse: Feral Impulse's benefits increase by 2% for each missing health percentage Lycan has. (1 hp = +200% bonus)
-- Shapeshift: Lifesteal, critical damage and hasted movement speed provided doubled. During Shapeshift the benefits of Thrill of the Hunt and Feral Impulse are doubled for Lycan.
-- +1.5/-0.4 Feral Impulse Missing HP Bonus/Missing HP Threshold | 2x Thrill of the Hunt Bonuses
-- +4 Howl Armor Reduction | -15s Shapeshift Cooldown
-- +20% Apex Predator Creep Dmg | +8 Shapeshift Duration
-- Thrill gives 75 ASPD | +2/+0.5 Howl Debuff/Fear Duration
+## Winter Wyvern - Glacierheart
+- Eldwyrm Scholar: Winter Wyvern gains 0.4% Outgoing Heal Amp per 100 Intelligence
+- Arctic Burn: Winter Wyvern releases a healing aura during the duration that heals allies for 4%/5%/6%/7% of their missing hp every second.
+- Splinter Blast: When an ally is targeted by Splinter Blast's primary projectile, they benefit from 1.5 second Cold Embrace.
+- Cold Embrace: Allies affected by Cold Embrace are not stunned. Refreshing the modifier increases the duration.
+- Winter's Curse: All allied units benefit from the spell damage amplification and gain the bonus attack speed when attacking.
 
-## Pack Leader
-- Apex Predator: Apex Predator is a 900 aura radius.
-- Summon Wolves: Unchanged, uses Alpha Wolves leveling
-- Howl: Provides a 2000/4000/6000/8000 Barrier to all allied units in the radius.
-- Feral Impulse: Affects all of Lycan's controlled units fully and grants allied Heroes 50% of the benefits.
-- Shapeshift: While Shapeshifted, Lycan gains a new ability called Wolf Bite. The target of Wolf Bite gains all the benefits of Shapeshift for its remaining duration. Shapeshift's lifesteal heals the other unit in addition. Additionally, all of Lycan's summoned units gain the benefits of the hasted movement and critical strike.
-- +50% Feral Impulse Ally Hero/Creep Bonus | +100% Wolf HP and Damage
-- +200% Howl Barrier | -15s Shapeshift/Wolf Bite Cooldown
-- +20% Apex Predator Creep Dmg | +8 Shapeshift Duration
-- +2 Summon Wolf | Howl gives 50 ASPD to all allies
+## Winter Wyvern - Blizzardborne
+- Eldwyrm Scholar: Winter Wyvern gains 0.2% Debuff Duration Amp per 100 Intelligence
+- Arctic Burn: Movement slow is increased to 100% at all levels and also slows attack speed by 60/80/100/120.
+- Splinter Blast: Splinter Blast radius increased to 1000. Units hit by Splinter Blast's secondary projectile also take an additional 500/1000/1500/2000 damage when damaged while debuffed, this can only trigger once every second.
+- Cold Embrace: Can target enemy units, lasting 50% of the duration, does not heal them, instead deals damage equal to the base healing per second. Does not turn the enemy immune to physical damage.
+- Winter's Curse: Winter's Curse duration is increased for each affected unit and does not end if there are no attacking units.
 
-## Mirana
-- Selemene's Faithful: All-attribute bonus from 5% to 4%
-- Selemene's Faithful (Full Moon): Bonus base attack speed per stack from 10% to 12%.
-- Starfall (Full Moon): Cooldown reduced from 12 to 8.
-- Moonlight Arrow (Full Moon): Cooldown reduced from 19/18/17/18 to 18/16/14/12
-- Leap (Full Moon): Buff duration increased from 8 to 10.
-- Moonlight Shadow (Full Moon): Attack speed gained per second increased from 10/15/20 to 15/25/35.
-- Moonlight Shadow (Full Moon): Bonus damage from base damage gained per second increased from 10/15/20 to 15/25/35.
-
-## Phantom Assassin
-- Stifling Dagger: Bonus attack damage from 650/900/1150/1400 to 1000/1500/2000/2500
-- Stifling Dagger: +25% Attack Damage talent increased to 50%.
-- Stifling Dagger: Attack factor from -30/45/60/75% to 75%
-- Stifling Dagger: Movement slow from 50% to 70%
-- Stifling Dagger: Movement slow duration from 2.1/2.4/2.7/3.0 to 1.5/2.5/3.5/4.5
-- Phantom Strike: Cooldown from 11/9/7/5 to 8/7/6/5
-- Phantom Strike: Bonus attack speed from 100/130/160/190 to 100/150/200/250
-- Phantom Strike (Femme Fatale): Bonus attack speed from 60 to 60/80/100/120
-- Blur: Cooldown from 60/55/50/45 to 45/40/35/30.
-
-## Pudge
-- Graft Flesh (Rotten Giant): Bonus maximum health per stack from 5/7/9/11 to 10.
-- Graft Flesh (Flesh Carver): Bonus base damage per stack from 1/2/3/4 to 4.
-- Rot (Rotten Giant): No longer takes reduced damage from Rot. Maximum bonus damage and radius from 20/40/60/80% to 20/30/40/50%.
-- Rot Talents (Rotten Giant): Rot Linger Duration talent from 2s to 1s. Meat Shield Rot Bonus from 100% to 50%.
-- Rot (Flesh Carver): Maximum bonus damage from 20/40/60/80% to 50/60/70/80%.
-- Meat Shield: Damage block from 40/70/100/130 to 80/140/200/260, duration from 8 to 4/5/6/7
-- Meat Shield (Flesh Carver): Bonus movement speed from 10/15/20/25% to 20/25/30/35%
-- Dismember (Flesh Carver): Outgoing damage amp per stack from 2.5/5/7.5 to 5/6.5/8%
-
-## Shadow Fiend
-- Necromastery: Bonus damage per soul from 5/15/25/35 to 10/20/30/40
-- Necromastery: +25% Values talent increased to +50%
-- Shadowraze: Damage from 500/1000/1500/2000 to 750/1500/2250/3000
-- Shadowraze (Id): Damage from 900/1600/2300/3000 to 1200/2100/3000/3900
-- Feast of Souls: +30% Effect Values talent increased to +50%
-- Feast of Souls (Id): Heal from 1600/2800/4000/5200 to 3000/6000/9000/12000
-
-## Tiny
-- Removed DOTA 2 Aghanim's Shard and Scepter effects
-- Replaced DOTA 2 facets with Rockslide and Mountain
-- Tree Grab: No longer has a fixed number of attacks. Instead lasts 10 seconds.
-
-## Tiny - Rockslide
-- Craggy Exterior: Grants 15/20/25/30% Status Resistance and 30/40/50/60% Slow Resistance
-- Avalanche: Avalance's projectile now moves forward 450 units every second, up to a maximum of 900 units. The entire path is affected by Avalanche's effect.
-- Toss: Tossed units deal 25% bonus damage to other targets at the Toss destination and Slow them by 20/25/30/35%, also slows attack speed by 40/50/60/70.
-- Tree Grab: Becomes a 2.5s Channeled Ability. Throws the held tree immediately at the targeted unit or position, then throws additional trees within 700 units of Tiny every 0.5 seconds.
-- Grow: Attack speed slow reduced from 35% to 35/30/25% and movement speed bonus from 15 to 20/40/60.
-
-## Tiny - Mountain
-- Craggy Exterior: Craggy Exterior has an 2/3/4/5% increasing chance per stack to stun units that hit Tiny for 0.8 seconds.
-- Avalanche: Is now a no-target ability affecting all enemy Units within 500/520/540/560
-- Toss: Units no longer deal damage to adjacent enemy units on landing. Instead, Tiny tosses all enemy units within 300 radius to the targeted point.
-- Tree Grab: Tiny can grab Creeps, stunning them until let go. All damage dealt by Tiny to his attack target is also taken by the Creep. If the Creep dies from this, Tree Grab is instantly refreshed. When Thrown, the Creep instantly dies and deals its remaining current health as physical damage to all units in range.
-- Grow: Now grants +10/20/30% bonus Strength and increases the bonus damage from Tree Grab by 50/100/150%.
-
-## Tidehunter
-- Removed Aghanim's Shard and Aghanim's Scepter.
-- Replaced vanilla facets.
-- Anchor Smash is no longer the default 'E' ability.
-- Ravage pierces spell immunity.
-
-## Talents
-- Level 25: +100% Anchor Smash Radius/Duration || +100% Ravage Bonus Damage
-- Level 20: Kraken Shell Ravages Attackers || -2s Blubber Damage Interval
-- Level 15: +10% Anchor Smash Damage Reduction || +40% Gush Damage
-- Level 10: +2 Gush Armor Reduction || +50% Anchor Smash Damage
-
-## Leviathan
-- Strength gain increased to 9.6.
-- Blubber: Activation threshold reduced to 10%. Tidehunter gains 5 attack range and 0.03 model size each level. 
-- Gush: is a Unit Targeted ability and has an increased Armor Reduction. Pulls enemy units in a 250 radius around the main target 250/350/450/550 units closer to Tidehunter. Pull can be disabled with Autocast.
-- Gush: Armor Reduction increased from 3/4/5/6 to 5/6/7/8.
-- Kraken Shell: Restores 1000/3000/5000/7000 Health on activation. Lv20 Talent now also attacks.
-- Anchor Smash: As vanilla, but ability radius is Tidehunter's attack range + 100.
-- Ravage: Tidehunter gains 250/500/750 Bonus Attack Damage per unit hit for 20 seconds. Casting the ability again while the buff is active will only refresh the buff.
-
-## Mawcaller
-- Blubber: When Blubber activates, all cooldowns are reduced by 12. Tidehunter gains 3% spell amplification every level.
-- Gush: Increased base damage and movement slow
-- Kraken Shell: Tidehunter gains 15%/35%/55%/75% Spell Amplification for 3 seconds.
-- Dead in the Water: As vanilla, damage increased
-- Ravage: Cooldown Reduced to 60/50/40 seconds, base damage increased to 5500/7500/9500 and Stun Duration increased to 3/3.3/3.6. Additionally, reduces magic resistance by 15%/20%/25% for 10 seconds.
-
-## Void Spirit
-- Aether Remnant (Immortal): Expire damage increased from 500/1000/1500/2000 to 1000/1800/2600/3400
-- Dissimilate (Immortal): Damage increased from 1000/1800/2600/3400 to 1500/2500/3500/4500, portal radius increased from 275 to 425.
-- Resonant Pulse: Now always provides Universal Barrier. Base amount increased from 500/1000/1500/2000 to 1500/3000/4500/6000, amount per hero increased from 700/1000/1300/1600 to 1400/2000/2600/3200.
-- Resonant Pulse: Damage from 600/950/1300/1650 to 1000/1500/2000/2500
-- Resonant Pulse: Now behaves as vanilla, casting it twice applies a second, independently stacking barrier.
-- Resonant Pulse (Immortal): Base barrier from 1500/3000/4500/6000 to 4500/9000/13500/18000. Radius from 500 to 1000
+## Winter Wyvern - Avalanchian
+- Eldwyrm Scholar: Spell Amp gained increased to 0.5%.
+- Arctic Burn: Becomes a toggleable ability, consuming 13/17/21/25 mana per second. Debuff can now be refreshed.
+- Splinter Blast: Splinter Blast's primary target takes 150% of the secondary projectile's damage. If a unit dies while under Splinter Blast's debuff, they release secondary projectiles.
+- Cold Embrace: Releases a Splinter Blast when the buff ends.
+- Winter's Curse: Winter Wyvern gains double the bonus attack speed when attacking the Cursed unit and spell damage amplification increased to 30%.
 
 <div align="center">
   <h1>Bosses</h1>
 </div>
-
-## Kobold Round
-- Rally Troops cooldown from 15 to 60.
-- Rally Troops now has a 15 second global cooldown.
-- Rally: Bonus damage reduced from 75/100/125/150 to 25/30/35/40
-- Herald's Banner: Reworked health scaling from 1/1/2/2 health per active hero to 1 + 0/1/2/3 base health.
-- Herald's Banner: Now provides permanent vision over itself
-- Added audio and visual cues for Rally Troops and Herald's Banner
 
 ## Troll Warlord Round
 - No longer has Switch Stance, Berserker's Blood or Berserker's Rage.
@@ -203,3 +193,4 @@
 - Fervor no longer creates an additional ranged attack thrown at a random unit in range.
 - Added Flexible Warrior: When attacking a unit within 300 units of Troll Warlord, Troll Warlord gains bonus armor and magic resistance and a 16% chance to create one Dance of Axes axe. Whenattacking a unit beyond 300 units of Troll Warlord, he has a 16% chance to create a Hurl Axe axe. When not attacking any unit, Troll Warlord gains +15/18/21/24% bonus movement speed. Chances are increased by 2% for each stack of Fervor.
 - Added Battle Trance: Troll Warlord Silences himself for 5.0/5.5/6.0/6.5 seconds. During this, he gains 140/170/200/230 bonus attack speed, 40/50/60/80% lifesteal and cannot Die.
+
